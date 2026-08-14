@@ -1,0 +1,37 @@
+name: Weekly AI4AI citation refresh
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # every Monday 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-ai4ai-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify papers and refresh citation counts
+        run: python scripts/verify_papers.py --update
+      - name: Rebuild catalog, rankings, and audit exports
+        run: |
+          python scripts/build_evidence.py
+          python scripts/build_readme.py
+          python scripts/archive_weekly.py --check
+          python scripts/check_repo.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/papers.json data/catalog_meta.json README.md EVIDENCE.md data/closure_audit.csv data/closure_audit_summary.json
+          git diff --cached --quiet || git commit -m "chore: refresh weekly AI4AI citations and rankings"
+          git push

@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If this catalog or evidence audit helps your work, please cite the companion survey."
+title: "Awesome AI4AI: From Long-Horizon Agents to Recursive Self-Improvement"
+type: dataset
+authors:
+  - family-names: Wu
+    given-names: Kai
+  - family-names: Lyu
+    given-names: Hao
+  - family-names: Luo
+    given-names: Zhen
+repository-code: "https://github.com/KaiWU5/Awesome-AI4AI"
+url: "https://github.com/KaiWU5/Awesome-AI4AI"
+license: MIT
+date-released: 2026-08-14
+preferred-citation:
+  type: generic
+  title: "On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement"
+  authors:
+    - family-names: Wu
+      given-names: Kai
+    - family-names: Lyu
+      given-names: Hao
+    - family-names: Luo
+      given-names: Zhen
+    - family-names: Wang
+      given-names: Chaofan
+    - family-names: Ye
+      given-names: Siyu
+    - family-names: Lin
+      given-names: Jinghao
+    - family-names: Ji
+      given-names: Xiaozhong
+    - family-names: Jiang
+      given-names: Boyuan
+    - family-names: Wang
+      given-names: Shengzhi
+    - family-names: Wang
+      given-names: Zihan
+    - family-names: Ye
+      given-names: Yiwen
+    - family-names: Wang
+      given-names: Hao
+    - family-names: Wang
+      given-names: Zimu
+    - family-names: Liu
+      given-names: Wenzhe
+    - family-names: Wang
+      given-names: Ruobing
+    - family-names: Cai
+      given-names: Kai
+    - family-names: Zhang
+      given-names: Yifan
+    - family-names: Yang
+      given-names: Lei
+    - family-names: Hu
+      given-names: Xiaobin
+    - family-names: Liu
+      given-names: Qingwen
+  year: 2026
+  url: "https://github.com/KaiWU5/LongHorizonLLMAgents"

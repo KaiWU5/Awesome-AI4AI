@@ -1,0 +1,3973 @@
+{
+ "10778628": {
+  "title": "JARVIS-1: Open-World Multi-Task Agents With Memory-Augmented Multimodal Language Models",
+  "venue": "IEEE Transactions on Pattern Analysis & Machine Intelligence",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://doi.ieeecomputersociety.org/10.1109/TPAMI.2024.3511593",
+  "citations": 205,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "11334583": {
+  "title": "LongCodeZip: Compress Long Context for Code Language Models",
+  "venue": "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://doi.org/10.1109/ase63991.2025.00020",
+  "citations": 40,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "anokhin2025herobench": {
+  "title": "HeroBench: A Benchmark for Long-Horizon Planning and Structured Reasoning in Virtual Worlds",
+  "venue": "arXiv preprint arXiv:2508.12782",
+  "date": "2025-08",
+  "arxiv_id": "2508.12782",
+  "url": "https://arxiv.org/abs/2508.12782",
+  "citations": 6,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "bfcl2025": {
+  "title": "The Berkeley Function Calling Leaderboard (BFCL): From tool use to agentic evaluation of large language models",
+  "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://proceedings.mlr.press/v267/patil25a.html",
+  "citations": 433,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "bonatti2025windows": {
+  "title": "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale",
+  "venue": "International Conference on Machine Learning",
+  "date": "2024-09",
+  "arxiv_id": "2409.08264",
+  "url": "https://arxiv.org/abs/2409.08264",
+  "citations": 191,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "buildbench2025": {
+  "title": "BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software",
+  "venue": "arXiv",
+  "date": "2025-09",
+  "arxiv_id": "2509.25248",
+  "url": "https://arxiv.org/abs/2509.25248",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "cai2026mossselfevolutionsourcelevelrewriting": {
+  "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.22794",
+  "url": "https://arxiv.org/abs/2605.22794",
+  "citations": 4,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "cemri2026multi": {
+  "title": "Why Do Multi-Agent LLM Systems Fail?",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html",
+  "citations": 512,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks",
+   "targets/harness"
+  ],
+  "collections": [
+   "benchmarks",
+   "harness-design"
+  ]
+ },
+ "chan2025mlebench": {
+  "title": "MLE-bench: Evaluating machine learning agents on machine learning engineering",
+  "venue": "ICLR 2025",
+  "date": "2024-10",
+  "arxiv_id": "2410.07095",
+  "url": "https://arxiv.org/abs/2410.07095",
+  "citations": 340,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "chen2024spin": {
+  "title": "SPIN: Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
+  "venue": "Proceedings of the 41st International Conference on Machine Learning",
+  "date": "2024",
+  "arxiv_id": "",
+  "url": "https://proceedings.mlr.press/v235/chen24j.html",
+  "citations": 621,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "audit": {
+   "target": "weights",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "medium"
+  },
+  "collections": []
+ },
+ "chen2025iterresearch": {
+  "title": "IterResearch: Rethinking Long-Horizon Agents with Interaction Scaling",
+  "venue": "arXiv preprint arXiv:2511.07327",
+  "date": "2025-11",
+  "arxiv_id": "2511.07327",
+  "url": "https://arxiv.org/abs/2511.07327",
+  "citations": 16,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "chen2025loop": {
+  "title": "Reinforcement Learning for Long-Horizon Interactive LLM Agents",
+  "venue": "arXiv preprint arXiv:2502.01600",
+  "date": "2025-02",
+  "arxiv_id": "2502.01600",
+  "url": "https://arxiv.org/abs/2502.01600",
+  "citations": 97,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "chen2025mlrbench": {
+  "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+  "venue": "arXiv preprint arXiv:2505.19955",
+  "date": "2025-05",
+  "arxiv_id": "2505.19955",
+  "url": "https://arxiv.org/abs/2505.19955",
+  "citations": 48,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "chen2026agent": {
+  "title": "Agent^2 RL-Bench: Can LLM Agents Engineer Agentic RL Post-Training?",
+  "venue": "arXiv preprint arXiv:2604.10547",
+  "date": "2026-04",
+  "arxiv_id": "2604.10547",
+  "url": "https://arxiv.org/abs/2604.10547",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "chen2026aiscientist": {
+  "title": "Toward autonomous long-horizon engineering for ML research",
+  "venue": "arXiv",
+  "date": "2026-04",
+  "arxiv_id": "2604.13018",
+  "url": "https://arxiv.org/abs/2604.13018",
+  "citations": 7,
+  "code": null,
+  "sections": [
+   "targets/substrate"
+  ],
+  "audit": {
+   "target": "program/substrate",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "benchmarks",
+   "harness-design"
+  ]
+ },
+ "chen2026harnessxcomposableadaptiveevolvable": {
+  "title": "HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.14249",
+  "url": "https://arxiv.org/abs/2606.14249",
+  "citations": 10,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "chen2026knowu": {
+  "title": "KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation",
+  "venue": "arXiv preprint arXiv:2604.08455",
+  "date": "2026-04",
+  "arxiv_id": "2604.08455",
+  "url": "https://arxiv.org/abs/2604.08455",
+  "citations": 15,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "chen2026pastprologueplugincontroller": {
+  "title": "The Past Is Prologue: A Plug-in Controller for Selective Updates in Sequentially Evolving LLM Memory",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.31121",
+  "url": "https://arxiv.org/abs/2606.31121",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "chen2026recursiveselfimprovementaibounded": {
+  "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+  "venue": "—",
+  "date": "2026-07",
+  "arxiv_id": "2607.07663",
+  "url": "https://arxiv.org/abs/2607.07663",
+  "citations": 4,
+  "code": null,
+  "sections": [
+   "analyses"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "chhikara2025mem0": {
+  "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+  "venue": "European Conference on Artificial Intelligence (ECAI)",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://doi.org/10.3233/faia251160",
+  "citations": 546,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "choudhury2025processrewardmodelsllm": {
+  "title": "Process Reward Models for LLM Agents: Practical Framework and Directions",
+  "venue": "arXiv",
+  "date": "2025-02",
+  "arxiv_id": "2502.10325",
+  "url": "https://arxiv.org/abs/2502.10325",
+  "citations": 76,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "cirepairbench2026": {
+  "title": "CI-Repair-Bench: A Repository-Aware Benchmark for Automated Patch Validation via CI Workflows",
+  "venue": "arXiv",
+  "date": "2026-04",
+  "arxiv_id": "2604.27148",
+  "url": "https://arxiv.org/abs/2604.27148",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "clitoolbench2026": {
+  "title": "Evaluating LLM-Based 0-to-1 Software Generation in End-to-End CLI Tool Scenarios",
+  "venue": "arXiv",
+  "date": "2026-04",
+  "arxiv_id": "2604.06742",
+  "url": "https://arxiv.org/abs/2604.06742",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "dataenvgym2025": {
+  "title": "DataEnvGym: Data Generation Agents in Teacher Environments with Student Feedback",
+  "venue": "International Conference on Learning Representations",
+  "date": "2024-10",
+  "arxiv_id": "2410.06215",
+  "url": "https://arxiv.org/abs/2410.06215",
+  "citations": 19,
+  "code": null,
+  "sections": [
+   "targets/data"
+  ],
+  "audit": {
+   "target": "data/tasks",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": []
+ },
+ "deepswe2026": {
+  "title": "DeepSWE: Measuring Frontier Coding Agents on Original, Long-Horizon Engineering Tasks",
+  "venue": "arXiv preprint arXiv:2607.07946",
+  "date": "2026-07",
+  "arxiv_id": "2607.07946",
+  "url": "https://arxiv.org/abs/2607.07946",
+  "citations": 13,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "deng2023mind2web": {
+  "title": "Mind2Web: Towards a Generalist Agent for the Web",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2023-06",
+  "arxiv_id": "2306.06070",
+  "url": "https://arxiv.org/abs/2306.06070",
+  "citations": 1346,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "deng2026swemilestone": {
+  "title": "SWE-Milestone: Evaluating AI Agents on Continuous Software Evolution",
+  "venue": "International Conference on Machine Learning",
+  "date": "2026-03",
+  "arxiv_id": "2603.13428",
+  "url": "https://arxiv.org/abs/2603.13428",
+  "citations": 6,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "dong2026longhorizon": {
+  "title": "Towards Long-Horizon Agents: A Survey",
+  "venue": "Preprints",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://doi.org/10.20944/preprints202607.1328.v1",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "analyses"
+  ],
+  "collections": []
+ },
+ "du2025deepresearch": {
+  "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+  "venue": "arXiv preprint arXiv:2506.11763",
+  "date": "2025-06",
+  "arxiv_id": "2506.11763",
+  "url": "https://arxiv.org/abs/2506.11763",
+  "citations": 205,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "erdogan2025planandact": {
+  "title": "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks",
+  "venue": "International Conference on Machine Learning",
+  "date": "2025-03",
+  "arxiv_id": "2503.09572",
+  "url": "https://arxiv.org/abs/2503.09572",
+  "citations": 191,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "fang-etal-2026-memp": {
+  "title": "Memp: Exploring Agent Procedural Memory",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2026.findings-acl.866/",
+  "citations": 61,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "featurebench2026": {
+  "title": "FeatureBench: Benchmarking Agentic Coding for Complex Feature Development",
+  "venue": "arXiv",
+  "date": "2026-02",
+  "arxiv_id": "2602.10975",
+  "url": "https://arxiv.org/abs/2602.10975",
+  "citations": 26,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "feng2025gigpo": {
+  "title": "Group-in-Group Policy Optimization for LLM Agent Training",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2025-05",
+  "arxiv_id": "2505.10978",
+  "url": "https://arxiv.org/abs/2505.10978",
+  "citations": 366,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "frontierswe2026": {
+  "title": "FrontierSWE",
+  "venue": "Proximal Blog",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://frontierswe.com/blog",
+  "citations": null,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "gaosurvey": {
+  "title": "A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",
+  "venue": "TMLR 2026",
+  "date": "2025-07",
+  "arxiv_id": "2507.21046",
+  "url": "https://arxiv.org/abs/2507.21046",
+  "citations": 92,
+  "code": null,
+  "sections": [
+   "analyses"
+  ],
+  "collections": []
+ },
+ "gonzalezpumariega2025robotouille": {
+  "title": "Robotouille: An Asynchronous Planning Benchmark for LLM Agents",
+  "venue": "International Conference on Learning Representations",
+  "date": "2025-02",
+  "arxiv_id": "2502.05227",
+  "url": "https://arxiv.org/abs/2502.05227",
+  "citations": 36,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "gou2024critic": {
+  "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+  "venue": "International Conference on Learning Representations",
+  "date": "2023-05",
+  "arxiv_id": "2305.11738",
+  "url": "https://arxiv.org/abs/2305.11738",
+  "citations": 852,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "gou2025mind2web": {
+  "title": "Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge",
+  "venue": "arXiv preprint arXiv:2506.21506",
+  "date": "2025-06",
+  "arxiv_id": "2506.21506",
+  "url": "https://arxiv.org/abs/2506.21506",
+  "citations": 65,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "gulati2026askearlyasklate": {
+  "title": "Ask Early, Ask Late, Ask Right: When Does Clarification Timing Matter for Long-Horizon Agents?",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.07937",
+  "url": "https://arxiv.org/abs/2605.07937",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "guo2026questionansweringtaskcompletion": {
+  "title": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.20683",
+  "url": "https://arxiv.org/abs/2606.20683",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "gutierrez2024hipporag": {
+  "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2024-05",
+  "arxiv_id": "2405.14831",
+  "url": "https://arxiv.org/abs/2405.14831",
+  "citations": 315,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "han2026robocerebra": {
+  "title": "RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2025-06",
+  "arxiv_id": "2506.06677",
+  "url": "https://arxiv.org/abs/2506.06677",
+  "citations": 29,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "he2024webvoyager": {
+  "title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "date": "2024-01",
+  "arxiv_id": "2401.13919",
+  "url": "https://arxiv.org/abs/2401.13919",
+  "citations": 426,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "hill2023mineplanner": {
+  "title": "MinePlanner: A Benchmark for Long-Horizon Planning in Large Minecraft Worlds",
+  "venue": "Proceedings of the 6th ICAPS Workshop on the International Planning Competition (WIPC)",
+  "date": "2023-12",
+  "arxiv_id": "2312.12891",
+  "url": "https://arxiv.org/abs/2312.12891",
+  "citations": 7,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "hou2026single": {
+  "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+  "venue": "arXiv preprint arXiv:2607.07508",
+  "date": "2026-07",
+  "arxiv_id": "2607.07508",
+  "url": "https://arxiv.org/abs/2607.07508",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "hu2025adas": {
+  "title": "Automated design of agentic systems",
+  "venue": "ICLR 2025",
+  "date": "2024-08",
+  "arxiv_id": "2408.08435",
+  "url": "https://arxiv.org/abs/2408.08435",
+  "citations": 272,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "medium"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "hu2025memory": {
+  "title": "Memory in the Age of AI Agents",
+  "venue": "arXiv preprint arXiv:2512.13564",
+  "date": "2025-12",
+  "arxiv_id": "2512.13564",
+  "url": "https://arxiv.org/abs/2512.13564",
+  "citations": 238,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "hu2025step": {
+  "title": "Step-DeepResearch Technical Report",
+  "venue": "arXiv preprint arXiv:2512.20491",
+  "date": "2025-12",
+  "arxiv_id": "2512.20491",
+  "url": "https://arxiv.org/abs/2512.20491",
+  "citations": 11,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "huang2024selfcorrect": {
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "venue": "International Conference on Learning Representations",
+  "date": "2023-10",
+  "arxiv_id": "2310.01798",
+  "url": "https://arxiv.org/abs/2310.01798",
+  "citations": 1114,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "huang2026rawexperienceskillconsumption": {
+  "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.23899",
+  "url": "https://arxiv.org/abs/2605.23899",
+  "citations": 11,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "imajuku2025alebench": {
+  "title": "ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2025-06",
+  "arxiv_id": "2506.09050",
+  "url": "https://arxiv.org/abs/2506.09050",
+  "citations": 28,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "jansen2025codescientist": {
+  "title": "CodeScientist: End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2025.findings-acl.692/",
+  "citations": 54,
+  "code": null,
+  "sections": [
+   "targets/substrate"
+  ],
+  "audit": {
+   "target": "program/substrate",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "medium"
+  },
+  "collections": []
+ },
+ "jiang2025aide": {
+  "title": "AIDE: AI-driven exploration in the space of code",
+  "venue": "arXiv",
+  "date": "2025-02",
+  "arxiv_id": "2502.13138",
+  "url": "https://arxiv.org/abs/2502.13138",
+  "citations": 167,
+  "code": null,
+  "sections": [
+   "targets/data"
+  ],
+  "audit": {
+   "target": "data/tasks",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "y",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "medium"
+  },
+  "collections": []
+ },
+ "jiang2026darwindynamicagenticallyrewriting": {
+  "title": "DARWIN: Dynamic Agentically Rewriting Self-Improving Network",
+  "venue": "arXiv",
+  "date": "2026-02",
+  "arxiv_id": "2602.05848",
+  "url": "https://arxiv.org/abs/2602.05848",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "jimenez2024swe": {
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "venue": "ICLR 2024",
+  "date": "2023-10",
+  "arxiv_id": "2310.06770",
+  "url": "https://arxiv.org/abs/2310.06770",
+  "citations": 3348,
+  "code": "https://github.com/SWE-bench/SWE-bench",
+  "sections": [
+   "foundations/long-horizon"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "jin2026chainswe": {
+  "title": "ChainSWE: Benchmarking Coding Agents on Multi-Bug Software Maintenance",
+  "venue": "arXiv preprint arXiv:2607.02606",
+  "date": "2026-07",
+  "arxiv_id": "2607.02606",
+  "url": "https://arxiv.org/abs/2607.02606",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "jin2026reveal": {
+  "title": "ReVeal: Self-Evolving Code Agents via Reliable Self-Verification",
+  "venue": "The Fourteenth International Conference on Learning Representations",
+  "date": "2025-06",
+  "arxiv_id": "2506.11442",
+  "url": "https://arxiv.org/abs/2506.11442",
+  "citations": 12,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "kamoi2024can": {
+  "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+  "venue": "Transactions of the Association for Computational Linguistics",
+  "date": "2024-06",
+  "arxiv_id": "2406.01297",
+  "url": "https://arxiv.org/abs/2406.01297",
+  "citations": 317,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "kang2025acon": {
+  "title": "ACON: Optimizing Context Compression for Long-horizon LLM Agents",
+  "venue": "arXiv preprint arXiv:2510.00615",
+  "date": "2025-10",
+  "arxiv_id": "2510.00615",
+  "url": "https://arxiv.org/abs/2510.00615",
+  "citations": 80,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "kapoor2024omniact": {
+  "title": "OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web",
+  "venue": "Computer Vision -- ECCV 2024",
+  "date": "2024-02",
+  "arxiv_id": "2402.17553",
+  "url": "https://arxiv.org/abs/2402.17553",
+  "citations": 167,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "kapoor2025holistic": {
+  "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+  "venue": "arXiv preprint arXiv:2510.11977",
+  "date": "2025-10",
+  "arxiv_id": "2510.11977",
+  "url": "https://arxiv.org/abs/2510.11977",
+  "citations": 52,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "khalifa2026process": {
+  "title": "Process Reward Models That Think",
+  "venue": "Transactions on Machine Learning Research",
+  "date": "2025-04",
+  "arxiv_id": "2504.16828",
+  "url": "https://arxiv.org/abs/2504.16828",
+  "citations": 103,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "khanal2026beyond": {
+  "title": "Beyond pass@1: A Reliability Science Framework for Long-Horizon LLM Agents",
+  "venue": "arXiv preprint arXiv:2603.29231",
+  "date": "2026-03",
+  "arxiv_id": "2603.29231",
+  "url": "https://arxiv.org/abs/2603.29231",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "kim2026sciencescalingagentsystems": {
+  "title": "Towards a Science of Scaling Agent Systems",
+  "venue": "arXiv",
+  "date": "2025-12",
+  "arxiv_id": "2512.08296",
+  "url": "https://arxiv.org/abs/2512.08296",
+  "citations": 108,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks",
+   "targets/harness"
+  ],
+  "collections": [
+   "benchmarks",
+   "harness-design"
+  ]
+ },
+ "kimi2026k3": {
+  "title": "Kimi K3: Open Frontier Intelligence",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.24653",
+  "url": "https://arxiv.org/abs/2607.24653",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks",
+   "targets/weights",
+   "targets/harness"
+  ],
+  "collections": [
+   "benchmarks",
+   "model-design",
+   "harness-design"
+  ]
+ },
+ "kirgis2026shadow": {
+  "title": "Can AI Agents Conduct Open-Ended AI Research? Early Evidence from Two Case Studies",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.27191",
+  "url": "https://arxiv.org/abs/2607.27191",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "koh2024visualwebarena": {
+  "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "date": "2024-01",
+  "arxiv_id": "2401.13649",
+  "url": "https://arxiv.org/abs/2401.13649",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "kovacs2026squeez": {
+  "title": "Squeez: Task-Conditioned Tool-Output Pruning for Coding Agents",
+  "venue": "arXiv preprint arXiv:2604.04979",
+  "date": "2026-04",
+  "arxiv_id": "2604.04979",
+  "url": "https://arxiv.org/abs/2604.04979",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "kulikov2026autodata": {
+  "title": "Autodata: An Agentic Data Scientist to Create High Quality Synthetic Data",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.25996",
+  "url": "https://arxiv.org/abs/2606.25996",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "targets/data"
+  ],
+  "audit": {
+   "target": "data/tasks",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "model-design"
+  ]
+ },
+ "kwa2026measuring": {
+  "title": "Measuring AI Ability to Complete Long Software Tasks",
+  "venue": "NeurIPS 2025",
+  "date": "2025-03",
+  "arxiv_id": "2503.14499",
+  "url": "https://arxiv.org/abs/2503.14499",
+  "citations": 131,
+  "code": "https://github.com/METR/eval-analysis-public",
+  "sections": [
+   "evidence/measurement"
+  ],
+  "collections": []
+ },
+ "laban2026llms": {
+  "title": "LLMs Get Lost In Multi-Turn Conversation",
+  "venue": "International Conference on Learning Representations",
+  "date": "2025-05",
+  "arxiv_id": "2505.06120",
+  "url": "https://arxiv.org/abs/2505.06120",
+  "citations": 386,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "lange2025shinkaevolve": {
+  "title": "ShinkaEvolve: Towards open-ended and sample-efficient program evolution",
+  "venue": "arXiv",
+  "date": "2025-09",
+  "arxiv_id": "2509.19349",
+  "url": "https://openreview.net/forum?id=lKEdGCoDNC",
+  "citations": 133,
+  "code": null,
+  "sections": [
+   "targets/substrate"
+  ],
+  "audit": {
+   "target": "program/substrate",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": []
+ },
+ "lee2024benchmarking": {
+  "title": "Benchmarking Mobile Device Control Agents across Diverse Configurations",
+  "venue": "arXiv preprint arXiv:2404.16660",
+  "date": "2024-04",
+  "arxiv_id": "2404.16660",
+  "url": "https://arxiv.org/abs/2404.16660",
+  "citations": 46,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "lee2025learning": {
+  "title": "Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents",
+  "venue": "The Thirteenth International Conference on Learning Representations",
+  "date": "2025-03",
+  "arxiv_id": "2503.10689",
+  "url": "https://arxiv.org/abs/2503.10689",
+  "citations": 20,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "lee2026metaharness": {
+  "title": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+  "venue": "arXiv",
+  "date": "2026-03",
+  "arxiv_id": "2603.28052",
+  "url": "https://arxiv.org/abs/2603.28052",
+  "citations": 129,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "lee2026rhi": {
+  "title": "Recursive harness self-improvement",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.15524",
+  "url": "https://arxiv.org/abs/2607.15524",
+  "citations": 4,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "li2023behavior": {
+  "title": "BEHAVIOR-1K: A benchmark for embodied AI with 1,000 everyday activities and realistic simulation",
+  "venue": "Proceedings of The 6th Conference on Robot Learning",
+  "date": "2023",
+  "arxiv_id": "",
+  "url": "https://proceedings.mlr.press/v205/li23a.html",
+  "citations": 382,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "li2025salt": {
+  "title": "SALT: Step-level Advantage Assignment for Long-horizon Agents via Trajectory Graph",
+  "venue": "Findings of the Association for Computational Linguistics: EACL 2026",
+  "date": "2025-10",
+  "arxiv_id": "2510.20022",
+  "url": "https://arxiv.org/abs/2510.20022",
+  "citations": 16,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "li2025sorl": {
+  "title": "Stabilizing Off-Policy Training for Long-Horizon LLM Agent via Turn-Level Importance Sampling and Clipping-Triggered Normalization",
+  "venue": "arXiv preprint arXiv:2511.20718",
+  "date": "2025-11",
+  "arxiv_id": "2511.20718",
+  "url": "https://arxiv.org/abs/2511.20718",
+  "citations": 4,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "li2025webweaver": {
+  "title": "WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research",
+  "venue": "arXiv preprint arXiv:2509.13312",
+  "date": "2025-09",
+  "arxiv_id": "2509.13312",
+  "url": "https://arxiv.org/abs/2509.13312",
+  "citations": 39,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "li2026acmagenticcontextmanagement": {
+  "title": "ACM: Agentic Context Management for Long Horizon Tasks",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.23809",
+  "url": "https://arxiv.org/abs/2607.23809",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "li2026autosota": {
+  "title": "AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery",
+  "venue": "arXiv",
+  "date": "2026-04",
+  "arxiv_id": "2604.05550",
+  "url": "https://arxiv.org/abs/2604.05550",
+  "citations": 14,
+  "code": null,
+  "sections": [
+   "targets/substrate"
+  ],
+  "audit": {
+   "target": "program/substrate",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "li2026compactionrlreinforcementlearningcontext": {
+  "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.05378",
+  "url": "https://arxiv.org/abs/2607.05378",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "li2026harness": {
+  "title": "Agent Harness Engineering: A Survey",
+  "venue": "—",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://picrew.github.io/LLM-Harness/",
+  "citations": null,
+  "code": null,
+  "sections": [
+   "analyses"
+  ],
+  "collections": []
+ },
+ "li2026weavebench": {
+  "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+  "venue": "arXiv preprint arXiv:2606.09426",
+  "date": "2026-06",
+  "arxiv_id": "2606.09426",
+  "url": "https://arxiv.org/abs/2606.09426",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "liao2026kernelevolve": {
+  "title": "KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta",
+  "venue": "arXiv",
+  "date": "2025-12",
+  "arxiv_id": "2512.23236",
+  "url": "https://doi.org/10.1109/ISCA66397.2026.00063",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "targets/substrate"
+  ],
+  "audit": {
+   "target": "program/substrate",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "n"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "medium"
+  },
+  "collections": []
+ },
+ "lindenbauer2025complexity": {
+  "title": "The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management",
+  "venue": "arXiv preprint arXiv:2508.21433",
+  "date": "2025-08",
+  "arxiv_id": "2508.21433",
+  "url": "https://arxiv.org/abs/2508.21433",
+  "citations": 21,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "liu2024agentbench": {
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "venue": "International Conference on Learning Representations",
+  "date": "2023-08",
+  "arxiv_id": "2308.03688",
+  "url": "https://arxiv.org/abs/2308.03688",
+  "citations": 1153,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "liu2025mlmaster": {
+  "title": "ML-Master: Towards AI-for-AI via integration of exploration and reasoning",
+  "venue": "arXiv",
+  "date": "2025-06",
+  "arxiv_id": "2506.16499",
+  "url": "https://arxiv.org/abs/2506.16499",
+  "citations": 51,
+  "code": null,
+  "sections": [
+   "targets/data"
+  ],
+  "audit": {
+   "target": "data/tasks",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "medium"
+  },
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "liu2026diveclaudecodedesign": {
+  "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+  "venue": "arXiv",
+  "date": "2026-04",
+  "arxiv_id": "2604.14228",
+  "url": "https://arxiv.org/abs/2604.14228",
+  "citations": 25,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "liu2026escherloopmutualevolutionclosedloop": {
+  "title": "Escher-Loop: Mutual Evolution by Closed-Loop Self-Referential Optimization",
+  "venue": "arXiv",
+  "date": "2026-04",
+  "arxiv_id": "2604.23472",
+  "url": "https://arxiv.org/abs/2604.23472",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "liu2026llms": {
+  "title": "Do LLMs Catch Their Own Mistakes? A Comprehensive Benchmark for Reflective Tool Use LLMs",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2026.findings-acl.86/",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "longclibench2026": {
+  "title": "LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces",
+  "venue": "arXiv",
+  "date": "2026-02",
+  "arxiv_id": "2602.14337",
+  "url": "https://arxiv.org/abs/2602.14337",
+  "citations": 21,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "lu-etal-2025-runaway": {
+  "title": "Runaway is Ashamed, But Helpful: On the Early-Exit Behavior of Large Language Model-based Agents in Embodied Environments",
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2025.findings-emnlp.1304/",
+  "citations": 7,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "lu2024aiscientist": {
+  "title": "The AI Scientist: Towards fully automated open-ended scientific discovery",
+  "venue": "arXiv",
+  "date": "2024-08",
+  "arxiv_id": "2408.06292",
+  "url": "https://arxiv.org/abs/2408.06292",
+  "citations": 1034,
+  "code": null,
+  "sections": [
+   "targets/research"
+  ],
+  "audit": {
+   "target": "research process",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "medium"
+  },
+  "collections": []
+ },
+ "lu2026endtoendautomation": {
+  "title": "Towards End-to-End Automation of AI Research",
+  "venue": "Nature 2026",
+  "date": "2026-03",
+  "arxiv_id": "",
+  "url": "https://doi.org/10.1038/s41586-026-10265-5",
+  "citations": 192,
+  "code": "https://github.com/SakanaAI/AI-Scientist-v2",
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "lu2026meta": {
+  "title": "The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?",
+  "venue": "arXiv preprint arXiv:2606.04455",
+  "date": "2026-06",
+  "arxiv_id": "2606.04455",
+  "url": "https://arxiv.org/abs/2606.04455",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "lu2402weblinx": {
+  "title": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+  "venue": "International Conference on Machine Learning",
+  "date": "2024-02",
+  "arxiv_id": "2402.05930",
+  "url": "https://arxiv.org/abs/2402.05930",
+  "citations": 180,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "lu2408toolsandbox": {
+  "title": "ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities",
+  "venue": "Findings of the Association for Computational Linguistics: NAACL 2025",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2025.findings-naacl.65/",
+  "citations": 213,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "lupidi2026airsbench": {
+  "title": "AIRS-Bench: A Suite of Tasks for Frontier AI Research Science Agents",
+  "venue": "arXiv",
+  "date": "2026-02",
+  "arxiv_id": "2602.06855",
+  "url": "https://arxiv.org/abs/2602.06855",
+  "citations": 15,
+  "code": "https://github.com/facebookresearch/airs-bench",
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "lyu2026mls": {
+  "title": "MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI",
+  "venue": "arXiv preprint arXiv:2605.08678",
+  "date": "2026-05",
+  "arxiv_id": "2605.08678",
+  "url": "https://arxiv.org/abs/2605.08678",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "ma2026trex": {
+  "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+  "venue": "arXiv preprint arXiv:2604.14116",
+  "date": "2026-04",
+  "arxiv_id": "2604.14116",
+  "url": "https://arxiv.org/abs/2604.14116",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "ma2512dover": {
+  "title": "DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems",
+  "venue": "International Conference on Learning Representations",
+  "date": "2025-12",
+  "arxiv_id": "2512.06749",
+  "url": "https://arxiv.org/abs/2512.06749",
+  "citations": 10,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks",
+   "targets/harness"
+  ],
+  "collections": [
+   "benchmarks",
+   "harness-design"
+  ]
+ },
+ "madaan2023selfrefine": {
+  "title": "Self-Refine: Iterative refinement with self-feedback",
+  "venue": "NeurIPS 2023",
+  "date": "2023-03",
+  "arxiv_id": "2303.17651",
+  "url": "https://arxiv.org/abs/2303.17651",
+  "citations": 4325,
+  "code": null,
+  "sections": [
+   "foundations/self-improvement"
+  ],
+  "audit": {
+   "target": "task output (adjacent)",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "mcaleese2024llm": {
+  "title": "LLM Critics Help Catch LLM Bugs",
+  "venue": "arXiv preprint arXiv:2407.00215",
+  "date": "2024-07",
+  "arxiv_id": "2407.00215",
+  "url": "https://arxiv.org/abs/2407.00215",
+  "citations": 161,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "meng2026agent": {
+  "title": "Agent Harness for Large Language Model Agents: A Survey",
+  "venue": "Preprints",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://doi.org/10.20944/preprints202604.0428.v3",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "meng2026rsibenchdata": {
+  "title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.25886",
+  "url": "https://arxiv.org/abs/2607.25886",
+  "citations": 3,
+  "code": "https://github.com/evolvent-ai/RSIBench-Data",
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "meyerson2025solving": {
+  "title": "Solving a Million-Step LLM Task with Zero Errors",
+  "venue": "arXiv preprint arXiv:2511.09030",
+  "date": "2025-11",
+  "arxiv_id": "2511.09030",
+  "url": "https://arxiv.org/abs/2511.09030",
+  "citations": 21,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "mohammadi2025evaluation": {
+  "title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+  "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+  "date": "2025-07",
+  "arxiv_id": "2507.21504",
+  "url": "https://arxiv.org/abs/2507.21504",
+  "citations": 185,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "mozannar2025magenticuihumanintheloopagenticsystems": {
+  "title": "Magentic-UI: Towards Human-in-the-loop Agentic Systems",
+  "venue": "arXiv",
+  "date": "2025-07",
+  "arxiv_id": "2507.22358",
+  "url": "https://arxiv.org/abs/2507.22358",
+  "citations": 47,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "nakano2022webgpt": {
+  "title": "WebGPT: Browser-assisted question-answering with human feedback",
+  "venue": "arXiv preprint arXiv:2112.09332",
+  "date": "2021-12",
+  "arxiv_id": "2112.09332",
+  "url": "https://arxiv.org/abs/2112.09332",
+  "citations": 2012,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "ning2026codeagentharness": {
+  "title": "Code as Agent Harness",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.18747",
+  "url": "https://arxiv.org/abs/2605.18747",
+  "citations": 17,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "nl2repo2025": {
+  "title": "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents",
+  "venue": "arXiv",
+  "date": "2025-12",
+  "arxiv_id": "2512.12730",
+  "url": "https://arxiv.org/abs/2512.12730",
+  "citations": 37,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "novikov2025alphaevolve": {
+  "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+  "venue": "arXiv",
+  "date": "2025-06",
+  "arxiv_id": "2506.13131",
+  "url": "https://arxiv.org/abs/2506.13131",
+  "citations": 745,
+  "code": null,
+  "sections": [
+   "targets/substrate"
+  ],
+  "audit": {
+   "target": "program/substrate",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "technical report",
+   "confidence": "high"
+  },
+  "collections": [
+   "model-design"
+  ]
+ },
+ "officebench2024": {
+  "title": "OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation",
+  "venue": "arXiv preprint arXiv:2407.19056",
+  "date": "2024-07",
+  "arxiv_id": "2407.19056",
+  "url": "https://arxiv.org/abs/2407.19056",
+  "citations": 42,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "openai2024introducing": {
+  "title": "Introducing SWE-bench Verified",
+  "venue": "—",
+  "date": "2024",
+  "arxiv_id": "",
+  "url": "https://openai.com/index/introducing-swe-bench-verified/",
+  "citations": null,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "ord2025there": {
+  "title": "Is there a half-life for the success rates of AI agents?",
+  "venue": "arXiv preprint arXiv:2505.05115",
+  "date": "2025-05",
+  "arxiv_id": "2505.05115",
+  "url": "https://arxiv.org/abs/2505.05115",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "orimo2025parcautonomousselfreflectivecoding": {
+  "title": "PARC: An Autonomous Self-Reflective Coding Agent for Robust Execution of Long-Horizon Tasks",
+  "venue": "arXiv",
+  "date": "2025-12",
+  "arxiv_id": "2512.03549",
+  "url": "https://arxiv.org/abs/2512.03549",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "ouyang2026skilloslearningskillcuration": {
+  "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.06614",
+  "url": "https://arxiv.org/abs/2605.06614",
+  "citations": 23,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "packer2023memgpt": {
+  "title": "MemGPT: Towards LLMs as Operating Systems",
+  "venue": "arXiv preprint arXiv:2310.08560",
+  "date": "2023-10",
+  "arxiv_id": "2310.08560",
+  "url": "https://arxiv.org/abs/2310.08560",
+  "citations": 1112,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "pan2026naturallanguageagentharnesses": {
+  "title": "Natural-Language Agent Harnesses",
+  "venue": "arXiv",
+  "date": "2026-03",
+  "arxiv_id": "2603.25723",
+  "url": "https://arxiv.org/abs/2603.25723",
+  "citations": 32,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "pan2406webcanvas": {
+  "title": "WebCanvas: Benchmarking Web Agents in Online Environments",
+  "venue": "ICML 2024 Workshop on Agentic Markets",
+  "date": "2024-06",
+  "arxiv_id": "2406.12373",
+  "url": "https://arxiv.org/abs/2406.12373",
+  "citations": 119,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "park2023generative": {
+  "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+  "venue": "Proceedings of the 36th annual acm symposium on user interface software and technology",
+  "date": "2023-04",
+  "arxiv_id": "2304.03442",
+  "url": "https://arxiv.org/abs/2304.03442",
+  "citations": 5139,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "patil2023gorilla": {
+  "title": "Gorilla: Large Language Model Connected with Massive APIs",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2023-05",
+  "arxiv_id": "2305.15334",
+  "url": "https://arxiv.org/abs/2305.15334",
+  "citations": 1499,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "posttrainbench2026": {
+  "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+  "venue": "arXiv",
+  "date": "2026-03",
+  "arxiv_id": "2603.08640",
+  "url": "https://arxiv.org/abs/2603.08640",
+  "citations": 24,
+  "code": "https://github.com/aisa-group/PostTrainBench",
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks",
+   "model-design"
+  ]
+ },
+ "programbench2026": {
+  "title": "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.03546",
+  "url": "https://arxiv.org/abs/2605.03546",
+  "citations": 22,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "qu2026bilevel": {
+  "title": "Bilevel Autoresearch: Meta-Autoresearching Itself",
+  "venue": "arXiv",
+  "date": "2026-03",
+  "arxiv_id": "2603.23420",
+  "url": "https://arxiv.org/abs/2603.23420",
+  "citations": 4,
+  "code": null,
+  "sections": [
+   "targets/research"
+  ],
+  "audit": {
+   "target": "research process",
+   "evidence": {
+    "G": "y",
+    "R": "nr",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "rakhsha2026lumina": {
+  "title": "LUMINA: Long-horizon Understanding for Multi-turn Interactive Agents",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2026.findings-acl.190/",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "rawles2025androidworld": {
+  "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+  "venue": "International Conference on Learning Representations",
+  "date": "2024-05",
+  "arxiv_id": "2405.14573",
+  "url": "https://arxiv.org/abs/2405.14573",
+  "citations": 395,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "ray2026structuredfeedbackimprovesrepair": {
+  "title": "Structured Feedback Improves Repair in an LLM Agent Loop",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.14167",
+  "url": "https://arxiv.org/abs/2607.14167",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "recube2026": {
+  "title": "ReCUBE: Evaluating Repository-Level Context Utilization in Code Generation",
+  "venue": "arXiv",
+  "date": "2026-03",
+  "arxiv_id": "2603.25770",
+  "url": "https://arxiv.org/abs/2603.25770",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "ren2026selfimprovementsmodernagenticsystems": {
+  "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+  "venue": "—",
+  "date": "2026-07",
+  "arxiv_id": "2607.13104",
+  "url": "https://arxiv.org/abs/2607.13104",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "analyses"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "repogenesis2026": {
+  "title": "RepoGenesis: Benchmarking End-to-End Microservice Generation from Readme to Repository",
+  "venue": "arXiv",
+  "date": "2026-01",
+  "arxiv_id": "2601.13943",
+  "url": "https://arxiv.org/abs/2601.13943",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "roadmapbench2026": {
+  "title": "RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.15846",
+  "url": "https://arxiv.org/abs/2605.15846",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "schick2023toolformer": {
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2023-02",
+  "arxiv_id": "2302.04761",
+  "url": "https://arxiv.org/abs/2302.04761",
+  "citations": 5122,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "schmidgall2025agentrxiv": {
+  "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+  "venue": "arXiv",
+  "date": "2025-03",
+  "arxiv_id": "2503.18102",
+  "url": "https://arxiv.org/abs/2503.18102",
+  "citations": 58,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "medium"
+  },
+  "collections": []
+ },
+ "seal2025": {
+  "title": "Self-Adapting Language Models",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2025-06",
+  "arxiv_id": "2506.10943",
+  "url": "https://arxiv.org/abs/2506.10943",
+  "citations": 53,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "audit": {
+   "target": "weights",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "medium"
+  },
+  "collections": []
+ },
+ "shao2026agent": {
+  "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+  "venue": "arXiv preprint arXiv:2607.22368",
+  "date": "2026-07",
+  "arxiv_id": "2607.22368",
+  "url": "https://arxiv.org/abs/2607.22368",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "shi2026swebenchpromaxbenchmarkingagents": {
+  "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+  "venue": "arXiv",
+  "date": "2026-08",
+  "arxiv_id": "2608.09802",
+  "url": "https://arxiv.org/abs/2608.09802",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "shinn2023reflexion": {
+  "title": "Reflexion: language agents with verbal reinforcement learning",
+  "venue": "NeurIPS 2023",
+  "date": "2023-03",
+  "arxiv_id": "2303.11366",
+  "url": "https://arxiv.org/abs/2303.11366",
+  "citations": 4795,
+  "code": "https://github.com/noahshinn/reflexion",
+  "sections": [
+   "foundations/self-improvement"
+  ],
+  "audit": {
+   "target": "agent memory (adjacent)",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "shridhar2020alfred": {
+  "title": "ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks",
+  "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+  "date": "2020",
+  "arxiv_id": "",
+  "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Shridhar_ALFRED_A_Benchmark_for_Interpreting_Grounded_Instructions_for_Everyday_Tasks_CVPR_2020_paper.html",
+  "citations": 1171,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "si2026executiongrounded": {
+  "title": "Towards Execution-Grounded Automated AI Research",
+  "venue": "arXiv",
+  "date": "2026-01",
+  "arxiv_id": "2601.14525",
+  "url": "https://arxiv.org/abs/2601.14525",
+  "citations": 11,
+  "code": null,
+  "sections": [
+   "evidence/measurement"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "sigdel2026schematoolapisllm": {
+  "title": "Schema First Tool APIs for LLM Agents: A Controlled Study of Tool Misuse, Recovery, and Budgeted Performance",
+  "venue": "arXiv",
+  "date": "2026-03",
+  "arxiv_id": "2603.13404",
+  "url": "https://arxiv.org/abs/2603.13404",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "starace2025paperbench": {
+  "title": "PaperBench: Evaluating AI's ability to replicate AI research",
+  "venue": "arXiv",
+  "date": "2025-04",
+  "arxiv_id": "2504.01848",
+  "url": "https://arxiv.org/abs/2504.01848",
+  "citations": 239,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "starace2026scaffoldeffectsgaiacontrolled": {
+  "title": "Scaffold Effects on GAIA: A Controlled Comparison",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.08529",
+  "url": "https://arxiv.org/abs/2606.08529",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "sumers2024coala": {
+  "title": "Cognitive Architectures for Language Agents",
+  "venue": "Transactions on Machine Learning Research",
+  "date": "2023-09",
+  "arxiv_id": "2309.02427",
+  "url": "https://arxiv.org/abs/2309.02427",
+  "citations": 473,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "sun2023adaplanner": {
+  "title": "AdaPlanner: Adaptive Planning from Feedback with Language Models",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2023-05",
+  "arxiv_id": "2305.16653",
+  "url": "https://arxiv.org/abs/2305.16653",
+  "citations": 239,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "sun2025scaling": {
+  "title": "Scaling Long-Horizon LLM Agent via Context-Folding",
+  "venue": "arXiv preprint arXiv:2510.11967",
+  "date": "2025-10",
+  "arxiv_id": "2510.11967",
+  "url": "https://arxiv.org/abs/2510.11967",
+  "citations": 101,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "sweatlas2026": {
+  "title": "SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.08366",
+  "url": "https://arxiv.org/abs/2605.08366",
+  "citations": 4,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "swebenchlive2025": {
+  "title": "SWE-bench Goes Live!",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2025-05",
+  "arxiv_id": "2505.23419",
+  "url": "https://arxiv.org/abs/2505.23419",
+  "citations": 52,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "swebenchpro2025": {
+  "title": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?",
+  "venue": "arXiv",
+  "date": "2025-09",
+  "arxiv_id": "2509.16941",
+  "url": "https://arxiv.org/abs/2509.16941",
+  "citations": 192,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "swechain2026": {
+  "title": "SWE-Chain: Benchmarking Coding Agents on Chained Release-Level Package Upgrades",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.14415",
+  "url": "https://arxiv.org/abs/2605.14415",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "sweci2026": {
+  "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+  "venue": "arXiv",
+  "date": "2026-03",
+  "arxiv_id": "2603.03823",
+  "url": "https://arxiv.org/abs/2603.03823",
+  "citations": 13,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "swecycle2026": {
+  "title": "SWE-Cycle: Benchmarking Code Agents across the Complete Issue Resolution Cycle",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.13139",
+  "url": "https://arxiv.org/abs/2605.13139",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "sweevo2025": {
+  "title": "SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios",
+  "venue": "arXiv",
+  "date": "2025-12",
+  "arxiv_id": "2512.18470",
+  "url": "https://arxiv.org/abs/2512.18470",
+  "citations": 36,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "sweexplore2026": {
+  "title": "SWE-Explore: Benchmarking How Coding Agents Explore Repositories",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.07297",
+  "url": "https://arxiv.org/abs/2606.07297",
+  "citations": 10,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "sweinfrabench2026": {
+  "title": "SWE-InfraBench: Evaluating Language Models on Cloud Infrastructure Code",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.05249",
+  "url": "https://arxiv.org/abs/2606.05249",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "swemarathon2026": {
+  "title": "SWE-Marathon: Can Agents Autonomously Complete Ultra-Long-Horizon Software Work?",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.07682",
+  "url": "https://arxiv.org/abs/2606.07682",
+  "citations": 6,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "swemera2025": {
+  "title": "SWE-MERA: A Dynamic Benchmark for Agenticly Evaluating Large Language Models on Software Engineering Tasks",
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+  "date": "2025-07",
+  "arxiv_id": "2507.11059",
+  "url": "https://arxiv.org/abs/2507.11059",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "swerebenchv22026": {
+  "title": "SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale",
+  "venue": "arXiv preprint arXiv:2602.23866",
+  "date": "2026-02",
+  "arxiv_id": "2602.23866",
+  "url": "https://arxiv.org/abs/2602.23866",
+  "citations": 12,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "sypherd2024practicalconsiderationsagenticllm": {
+  "title": "Practical Considerations for Agentic LLM Systems",
+  "venue": "arXiv",
+  "date": "2024-12",
+  "arxiv_id": "2412.04093",
+  "url": "https://arxiv.org/abs/2412.04093",
+  "citations": 15,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "ta-etal-2026-reinforced": {
+  "title": "Reinforced Agent: Inference-Time Feedback for Tool-Calling Agents",
+  "venue": "Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2026.gem-main.13/",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "tan2026hcapo": {
+  "title": "Hindsight Credit Assignment for Long-Horizon LLM Agents",
+  "venue": "arXiv preprint arXiv:2603.08754",
+  "date": "2026-03",
+  "arxiv_id": "2603.08754",
+  "url": "https://arxiv.org/abs/2603.08754",
+  "citations": 34,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "tang2025airesearcher": {
+  "title": "AI-Researcher: Autonomous Scientific Innovation",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2025-05",
+  "arxiv_id": "2505.18705",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d904d300a105809a2114d727851e759-Abstract-Conference.html",
+  "citations": 75,
+  "code": null,
+  "sections": [
+   "targets/research"
+  ],
+  "audit": {
+   "target": "research process",
+   "evidence": {
+    "G": "nr",
+    "R": "nr",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": []
+ },
+ "tang2026fars": {
+  "title": "FARS: A Fully Automated Research System Deployed at Scale",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.31651",
+  "url": "https://arxiv.org/abs/2606.31651",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "targets/research"
+  ],
+  "audit": {
+   "target": "research process",
+   "evidence": {
+    "G": "y",
+    "R": "n",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "preprint",
+   "confidence": "medium"
+  },
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "tebench2026": {
+  "title": "Breaking, Stale, or Missing? Benchmarking Coding Agents on Project-Level Test Evolution",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.06125",
+  "url": "https://arxiv.org/abs/2605.06125",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "terminalbench2026": {
+  "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+  "venue": "arXiv",
+  "date": "2026-01",
+  "arxiv_id": "2601.11868",
+  "url": "https://arxiv.org/abs/2601.11868",
+  "citations": 323,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "toolllm2023": {
+  "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+  "venue": "International Conference on Learning Representations",
+  "date": "2023-07",
+  "arxiv_id": "2307.16789",
+  "url": "https://arxiv.org/abs/2307.16789",
+  "citations": 2041,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "trivedi2024appworld": {
+  "title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+  "venue": "ACL 2024",
+  "date": "2024-07",
+  "arxiv_id": "2407.18901",
+  "url": "https://arxiv.org/abs/2407.18901",
+  "citations": 276,
+  "code": "https://github.com/stonybrooknlp/appworld",
+  "sections": [
+   "foundations/long-horizon"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "ursekar2026harnessopt": {
+  "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+  "venue": "arXiv preprint arXiv:2608.06301",
+  "date": "2026-08",
+  "arxiv_id": "2608.06301",
+  "url": "https://arxiv.org/abs/2608.06301",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "wang-etal-2025-swe": {
+  "title": "SWE-Dev: Building Software Engineering Agents with Training and Inference Scaling",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2025.findings-acl.193/",
+  "citations": 24,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wang2024voyager": {
+  "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+  "venue": "Transactions on Machine Learning Research",
+  "date": "2023-05",
+  "arxiv_id": "2305.16291",
+  "url": "https://arxiv.org/abs/2305.16291",
+  "citations": 2126,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wang2025agent": {
+  "title": "Agent Workflow Memory",
+  "venue": "Forty-second International Conference on Machine Learning",
+  "date": "2024-09",
+  "arxiv_id": "2409.07429",
+  "url": "https://arxiv.org/abs/2409.07429",
+  "citations": 232,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wang2025hell": {
+  "title": "Hell or High Water: Evaluating Agentic Recovery from External Failures",
+  "venue": "Second Conference on Language Modeling",
+  "date": "2025-08",
+  "arxiv_id": "2508.11027",
+  "url": "https://arxiv.org/abs/2508.11027",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "wang2025odysseybench": {
+  "title": "OdysseyBench: Evaluating LLM Agents on Long-Horizon Complex Office Application Workflows",
+  "venue": "arXiv preprint arXiv:2508.09124",
+  "date": "2025-08",
+  "arxiv_id": "2508.09124",
+  "url": "https://arxiv.org/abs/2508.09124",
+  "citations": 42,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "wang2026agent": {
+  "title": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0",
+  "venue": "arXiv preprint arXiv:2607.14004",
+  "date": "2026-07",
+  "arxiv_id": "2607.14004",
+  "url": "https://arxiv.org/abs/2607.14004",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "wang2026context": {
+  "title": "Context Compression for LLM Agents: A Survey of Methods, Failure Modes, and Evaluation",
+  "venue": "Preprints",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://doi.org/10.20944/preprints202605.2065.v1",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wang2026deskcraft": {
+  "title": "DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration",
+  "venue": "arXiv preprint arXiv:2606.03103",
+  "date": "2026-06",
+  "arxiv_id": "2606.03103",
+  "url": "https://arxiv.org/abs/2606.03103",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "wang2026long": {
+  "title": "The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break",
+  "venue": "arXiv preprint arXiv:2604.11978",
+  "date": "2026-04",
+  "arxiv_id": "2604.11978",
+  "url": "https://arxiv.org/abs/2604.11978",
+  "citations": 16,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "wang2026metaskillevolverecursiveselfimprovementllm": {
+  "title": "MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.05297",
+  "url": "https://arxiv.org/abs/2607.05297",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wang2026naturebench": {
+  "title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.24530",
+  "url": "https://arxiv.org/abs/2606.24530",
+  "citations": 1,
+  "code": "https://github.com/FrontisAI/NatureBench",
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "wang2026rethinking": {
+  "title": "Rethinking the Evaluation of Harness Evolution for Agents",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.12227",
+  "url": "https://arxiv.org/abs/2607.12227",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "evidence/measurement"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wang2026steppo": {
+  "title": "CAPO: Critic-Guided Action-Aligned Policy Optimization for Advancing LLM Agent Capabilities",
+  "venue": "arXiv preprint arXiv:2604.18401",
+  "date": "2026-04",
+  "arxiv_id": "2604.18401",
+  "url": "https://arxiv.org/abs/2604.18401",
+  "citations": 8,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "wang2026swe": {
+  "title": "SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents",
+  "venue": "arXiv preprint arXiv:2601.16746",
+  "date": "2026-01",
+  "arxiv_id": "2601.16746",
+  "url": "https://arxiv.org/abs/2601.16746",
+  "citations": 29,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wang2026verificationhorizonsilverbullet": {
+  "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.26300",
+  "url": "https://arxiv.org/abs/2606.26300",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "weco2026aide2": {
+  "title": "First Evidence of Recursive Self-Improvement",
+  "venue": "—",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement",
+  "citations": null,
+  "code": null,
+  "sections": [
+   "targets/research"
+  ],
+  "audit": {
+   "target": "research process",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "first-party report (unrefereed)",
+   "confidence": "low"
+  },
+  "collections": []
+ },
+ "wei2022chain": {
+  "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2022-01",
+  "arxiv_id": "2201.11903",
+  "url": "https://arxiv.org/abs/2201.11903",
+  "citations": 21016,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "wei2026agentloopsstructuredgraphsa": {
+  "title": "From Agent Loops to Structured Graphs:A Scheduler-Theoretic Framework for LLM Agent Execution",
+  "venue": "arXiv",
+  "date": "2026-04",
+  "arxiv_id": "2604.11378",
+  "url": "https://arxiv.org/abs/2604.11378",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "weng2026deepscientist": {
+  "title": "DeepScientist: Advancing Frontier-Pushing Scientific Findings Progressively",
+  "venue": "International Conference on Learning Representations",
+  "date": "2025-09",
+  "arxiv_id": "2509.26603",
+  "url": "https://openreview.net/forum?id=cZFgsLq8Gs",
+  "citations": 46,
+  "code": null,
+  "sections": [
+   "targets/substrate"
+  ],
+  "audit": {
+   "target": "program/substrate",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": []
+ },
+ "wijk2024re": {
+  "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
+  "venue": "arXiv",
+  "date": "2024-11",
+  "arxiv_id": "2411.15114",
+  "url": "https://arxiv.org/abs/2411.15114",
+  "citations": 124,
+  "code": "https://github.com/METR/ai-rd-tasks",
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "workarena2024": {
+  "title": "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?",
+  "venue": "Proceedings of the 41st International Conference on Machine Learning",
+  "date": "2024",
+  "arxiv_id": "",
+  "url": "https://proceedings.mlr.press/v235/drouin24a.html",
+  "citations": 308,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "worldofbits": {
+  "title": "World of Bits: An Open-Domain Platform for Web-Based Agents",
+  "venue": "Proceedings of the 34th International Conference on Machine Learning",
+  "date": "2017",
+  "arxiv_id": "",
+  "url": "https://proceedings.mlr.press/v70/shi17a.html",
+  "citations": 352,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "wu2025resum": {
+  "title": "ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization",
+  "venue": "arXiv preprint arXiv:2509.13313",
+  "date": "2025-09",
+  "arxiv_id": "2509.13313",
+  "url": "https://arxiv.org/abs/2509.13313",
+  "citations": 98,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wu2026contextbudget": {
+  "title": "ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents",
+  "venue": "arXiv preprint arXiv:2604.01664",
+  "date": "2026-04",
+  "arxiv_id": "2604.01664",
+  "url": "https://arxiv.org/abs/2604.01664",
+  "citations": 9,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wu2026contextweaver": {
+  "title": "ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents",
+  "venue": "arXiv preprint arXiv:2604.23069",
+  "date": "2026-04",
+  "arxiv_id": "2604.23069",
+  "url": "https://arxiv.org/abs/2604.23069",
+  "citations": 2,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "wu2026history": {
+  "title": "When History Lies: Evaluating and Improving Tool Use under Misleading Multi-Turn Histories",
+  "venue": "arXiv preprint arXiv:2608.06057",
+  "date": "2026-08",
+  "arxiv_id": "2608.06057",
+  "url": "https://arxiv.org/abs/2608.06057",
+  "citations": 0,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "xi2025agentgymrl": {
+  "title": "AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning",
+  "venue": "arXiv preprint arXiv:2509.08755",
+  "date": "2025-09",
+  "arxiv_id": "2509.08755",
+  "url": "https://arxiv.org/abs/2509.08755",
+  "citations": 62,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "xia2024agentless": {
+  "title": "Demystifying LLM-Based Software Engineering Agents",
+  "venue": "Proceedings of the ACM on Software Engineering",
+  "date": "2025",
+  "arxiv_id": "",
+  "url": "https://doi.org/10.1145/3715754",
+  "citations": 224,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "xiao2026reducing": {
+  "title": "Reducing Cost of LLM Agents with Trajectory Reduction",
+  "venue": "Proceedings of the ACM on Software Engineering",
+  "date": "2025-09",
+  "arxiv_id": "2509.23586",
+  "url": "https://arxiv.org/abs/2509.23586",
+  "citations": 33,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "xie2024osworld": {
+  "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+  "venue": "NeurIPS 2024",
+  "date": "2024-04",
+  "arxiv_id": "2404.07972",
+  "url": "https://arxiv.org/abs/2404.07972",
+  "citations": 1024,
+  "code": "https://github.com/xlang-ai/OSWorld",
+  "sections": [
+   "foundations/long-horizon"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "xie2024travelplanner": {
+  "title": "TravelPlanner: A Benchmark for Real-World Planning with Language Agents",
+  "venue": "International Conference on Machine Learning",
+  "date": "2024-02",
+  "arxiv_id": "2402.01622",
+  "url": "https://arxiv.org/abs/2402.01622",
+  "citations": 450,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "xu2026adaptinginterfacemodelruntime": {
+  "title": "Adapting the Interface, Not the Model: Runtime Harness Adaptation for Deterministic LLM Agents",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.22166",
+  "url": "https://arxiv.org/abs/2605.22166",
+  "citations": 12,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "xu2026asievolve": {
+  "title": "ASI-Evolve: AI Accelerates AI",
+  "venue": "arXiv",
+  "date": "2026-03",
+  "arxiv_id": "2603.29640",
+  "url": "https://arxiv.org/abs/2603.29640",
+  "citations": 3,
+  "code": "https://github.com/GAIR-NLP/ASI-Evolve",
+  "sections": [
+   "targets/research"
+  ],
+  "audit": {
+   "target": "research process",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "model-design"
+  ]
+ },
+ "xu2026looptrapterminationpoisoningattacks": {
+  "title": "LoopTrap: Termination Poisoning Attacks on LLM Agents",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.05846",
+  "url": "https://arxiv.org/abs/2605.05846",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "xu2026mem": {
+  "title": "A-MEM: Agentic Memory for LLM Agents",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2025-02",
+  "arxiv_id": "2502.12110",
+  "url": "https://arxiv.org/abs/2502.12110",
+  "citations": 872,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "xu2026theagentcompany": {
+  "title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+  "venue": "Advances in Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track",
+  "date": "2024-12",
+  "arxiv_id": "2412.14161",
+  "url": "https://arxiv.org/abs/2412.14161",
+  "citations": 271,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "yamada2025aiscientistv2": {
+  "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "venue": "arXiv",
+  "date": "2025-04",
+  "arxiv_id": "2504.08066",
+  "url": "https://arxiv.org/abs/2504.08066",
+  "citations": 344,
+  "code": null,
+  "sections": [
+   "targets/research"
+  ],
+  "audit": {
+   "target": "research process",
+   "evidence": {
+    "G": "n",
+    "R": "nr",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "medium"
+  },
+  "collections": []
+ },
+ "yang2026beyond": {
+  "title": "Beyond Static Summarization: Proactive Memory Extraction for LLM Agents",
+  "venue": "arXiv preprint arXiv:2601.04463",
+  "date": "2026-01",
+  "arxiv_id": "2601.04463",
+  "url": "https://arxiv.org/abs/2601.04463",
+  "citations": 14,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "yang2026frontisma1": {
+  "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+  "venue": "arXiv",
+  "date": "2026-07",
+  "arxiv_id": "2607.28568",
+  "url": "https://arxiv.org/abs/2607.28568",
+  "citations": 1,
+  "code": null,
+  "sections": [
+   "targets/substrate"
+  ],
+  "audit": {
+   "target": "program/substrate",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "technical report",
+   "confidence": "high"
+  },
+  "collections": [
+   "benchmarks",
+   "model-design",
+   "harness-design"
+  ]
+ },
+ "yao2022webshop": {
+  "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2022-07",
+  "arxiv_id": "2207.01206",
+  "url": "https://arxiv.org/abs/2207.01206",
+  "citations": 1287,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "yao2023react": {
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "venue": "International Conference on Learning Representations (ICLR)",
+  "date": "2022-10",
+  "arxiv_id": "2210.03629",
+  "url": "https://arxiv.org/abs/2210.03629",
+  "citations": 10170,
+  "code": null,
+  "sections": [
+   "targets/weights",
+   "targets/harness"
+  ],
+  "collections": [
+   "model-design",
+   "harness-design"
+  ]
+ },
+ "yao2023tot": {
+  "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+  "venue": "Advances in Neural Information Processing Systems",
+  "date": "2023-05",
+  "arxiv_id": "2305.10601",
+  "url": "https://arxiv.org/abs/2305.10601",
+  "citations": 4668,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "collections": [
+   "model-design"
+  ]
+ },
+ "yao2024tau": {
+  "title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+  "venue": "arXiv",
+  "date": "2024-06",
+  "arxiv_id": "2406.12045",
+  "url": "https://arxiv.org/abs/2406.12045",
+  "citations": 955,
+  "code": "https://github.com/sierra-research/tau-bench",
+  "sections": [
+   "foundations/long-horizon"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "yao2026arc": {
+  "title": "ARC: Active and Reflection-driven Context Management for Long-Horizon Information Seeking Agents",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://aclanthology.org/2026.findings-acl.930/",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "ye2025agentfold": {
+  "title": "AgentFold: Long-Horizon Web Agents with Proactive Context Management",
+  "venue": "arXiv preprint arXiv:2510.24699",
+  "date": "2025-10",
+  "arxiv_id": "2510.24699",
+  "url": "https://arxiv.org/abs/2510.24699",
+  "citations": 65,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "yehudai2026survey": {
+  "title": "A Survey on Evaluation of LLM-based Agents",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "date": "2025-03",
+  "arxiv_id": "2503.16416",
+  "url": "https://arxiv.org/abs/2503.16416",
+  "citations": 207,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "yi2026learningagentcompatiblecontextmanagement": {
+  "title": "Learning Agent-Compatible Context Management for Long-Horizon Tasks",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.30785",
+  "url": "https://arxiv.org/abs/2605.30785",
+  "citations": 3,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "yin2024godelagent": {
+  "title": "Godel Agent: A self-referential agent framework for recursive self-improvement",
+  "venue": "arXiv",
+  "date": "2024-10",
+  "arxiv_id": "2410.04444",
+  "url": "https://aclanthology.org/2025.acl-long.1354/",
+  "citations": 21,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "yuan2024selfreward": {
+  "title": "Self-rewarding language models",
+  "venue": "arXiv",
+  "date": "2024-01",
+  "arxiv_id": "2401.10020",
+  "url": "https://proceedings.mlr.press/v235/yuan24d.html",
+  "citations": 681,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "audit": {
+   "target": "weights",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "medium"
+  },
+  "collections": [
+   "model-design"
+  ]
+ },
+ "yuan2026osworld2": {
+  "title": "OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.29537",
+  "url": "https://arxiv.org/abs/2606.29537",
+  "citations": 8,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "zelikman2022star": {
+  "title": "STaR: Bootstrapping reasoning with reasoning",
+  "venue": "NeurIPS 2022",
+  "date": "2022",
+  "arxiv_id": "",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html",
+  "citations": 1017,
+  "code": null,
+  "sections": [
+   "targets/weights"
+  ],
+  "audit": {
+   "target": "weights",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": [
+   "model-design"
+  ]
+ },
+ "zelikman2024stop": {
+  "title": "Self-Taught Optimizer (STOP): Recursively self-improving code generation",
+  "venue": "Conference on Language Modeling",
+  "date": "2023-10",
+  "arxiv_id": "2310.02304",
+  "url": "https://arxiv.org/abs/2310.02304",
+  "citations": 121,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "high"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhang-etal-2025-di": {
+  "title": "DI-BENCH: Benchmarking Large Language Models on Dependency Inference with Testable Repositories at Scale",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "date": "2025-01",
+  "arxiv_id": "2501.13699",
+  "url": "https://arxiv.org/abs/2501.13699",
+  "citations": 5,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "zhang2025dgm": {
+  "title": "Darwin Godel Machine: Open-ended evolution of self-improving agents",
+  "venue": "arXiv",
+  "date": "2025-05",
+  "arxiv_id": "2505.22954",
+  "url": "https://openreview.net/forum?id=pUpzQZTvGY",
+  "citations": 183,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "medium"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhang2026agenticcontextengineeringevolving": {
+  "title": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+  "venue": "arXiv",
+  "date": "2025-10",
+  "arxiv_id": "2510.04618",
+  "url": "https://arxiv.org/abs/2510.04618",
+  "citations": 254,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhang2026deepplanning": {
+  "title": "DeepPlanning: Benchmarking Long-Horizon Agentic Planning with Verifiable Constraints",
+  "venue": "arXiv preprint arXiv:2601.18137",
+  "date": "2026-01",
+  "arxiv_id": "2601.18137",
+  "url": "https://arxiv.org/abs/2601.18137",
+  "citations": 26,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "zhang2026researcharena": {
+  "title": "How Far Are We From True Auto-Research?",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.19156",
+  "url": "https://arxiv.org/abs/2605.19156",
+  "citations": 6,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "zhang2026selfharness": {
+  "title": "Self-Harness: Harnesses That Improve Themselves",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.09498",
+  "url": "https://arxiv.org/abs/2606.09498",
+  "citations": 16,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "nr"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhang2026stop": {
+  "title": "Stop Comparing LLM Agents Without Disclosing the Harness",
+  "venue": "Second Workshop on Agents in the Wild: Safety, Security, and Beyond",
+  "date": "2026",
+  "arxiv_id": "",
+  "url": "https://openreview.net/forum?id=ffKHSraOIK",
+  "citations": 7,
+  "code": null,
+  "sections": [
+   "evidence/measurement"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhao2024expel": {
+  "title": "ExpeL: LLM Agents Are Experiential Learners",
+  "venue": "AAAI 2024",
+  "date": "2023-08",
+  "arxiv_id": "2308.10144",
+  "url": "https://arxiv.org/abs/2308.10144",
+  "citations": 794,
+  "code": "https://github.com/LeapLabTHU/ExpeL",
+  "sections": [
+   "targets/harness"
+  ],
+  "audit": {
+   "target": "harness",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "peer-reviewed paper",
+   "confidence": "medium"
+  },
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhao2026specbenchmeasuringrewardhacking": {
+  "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+  "venue": "arXiv",
+  "date": "2026-05",
+  "arxiv_id": "2605.21384",
+  "url": "https://arxiv.org/abs/2605.21384",
+  "citations": 11,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zheng2024naturalplan": {
+  "title": "NATURAL PLAN: Benchmarking LLMs on Natural Language Planning",
+  "venue": "arXiv preprint arXiv:2406.04520",
+  "date": "2024-06",
+  "arxiv_id": "2406.04520",
+  "url": "https://arxiv.org/abs/2406.04520",
+  "citations": 136,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "zhou2024lats": {
+  "title": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+  "venue": "International Conference on Machine Learning",
+  "date": "2023-10",
+  "arxiv_id": "2310.04406",
+  "url": "https://arxiv.org/abs/2310.04406",
+  "citations": 596,
+  "code": null,
+  "sections": [
+   "targets/weights",
+   "targets/harness"
+  ],
+  "collections": [
+   "model-design",
+   "harness-design"
+  ]
+ },
+ "zhou2024webarena": {
+  "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+  "venue": "ICLR 2024",
+  "date": "2023-07",
+  "arxiv_id": "2307.13854",
+  "url": "https://arxiv.org/abs/2307.13854",
+  "citations": 1808,
+  "code": "https://github.com/web-arena-x/webarena",
+  "sections": [
+   "foundations/long-horizon"
+  ],
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "zhou2025mem1": {
+  "title": "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents",
+  "venue": "arXiv preprint arXiv:2506.15841",
+  "date": "2025-06",
+  "arxiv_id": "2506.15841",
+  "url": "https://arxiv.org/abs/2506.15841",
+  "citations": 184,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhou2026externalization": {
+  "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+  "venue": "arXiv preprint arXiv:2604.08224",
+  "date": "2026-04",
+  "arxiv_id": "2604.08224",
+  "url": "https://arxiv.org/abs/2604.08224",
+  "citations": 46,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhou2026readyagentnativememorysystem": {
+  "title": "Are We Ready For An Agent-Native Memory System?",
+  "venue": "arXiv",
+  "date": "2026-06",
+  "arxiv_id": "2606.24775",
+  "url": "https://arxiv.org/abs/2606.24775",
+  "citations": 7,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhu2025llmagentsfaillearn": {
+  "title": "Where LLM Agents Fail and How They can Learn From Failures",
+  "venue": "arXiv",
+  "date": "2025-09",
+  "arxiv_id": "2509.25370",
+  "url": "https://arxiv.org/abs/2509.25370",
+  "citations": 97,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
+ "zhu2026toward": {
+  "title": "Toward ultra-long-horizon agentic science: Cognitive accumulation for machine learning engineering",
+  "venue": "arXiv",
+  "date": "2026-01",
+  "arxiv_id": "2601.10402",
+  "url": "https://arxiv.org/abs/2601.10402",
+  "citations": 21,
+  "code": null,
+  "sections": [
+   "targets/data"
+  ],
+  "audit": {
+   "target": "data/tasks",
+   "evidence": {
+    "G": "y",
+    "R": "y",
+    "H": "nr",
+    "T": "y"
+   },
+   "source_tier": "preprint",
+   "confidence": "high"
+  },
+  "collections": [
+   "benchmarks"
+  ]
+ },
+ "zhuge2025agentasajudge": {
+  "title": "Agent-as-a-Judge: Evaluate Agents with Agents",
+  "venue": "Forty-second International Conference on Machine Learning",
+  "date": "2024-10",
+  "arxiv_id": "2410.10934",
+  "url": "https://arxiv.org/abs/2410.10934",
+  "citations": 197,
+  "code": null,
+  "sections": [
+   "evidence/benchmarks",
+   "targets/harness"
+  ],
+  "collections": [
+   "benchmarks",
+   "harness-design"
+  ]
+ }
+}

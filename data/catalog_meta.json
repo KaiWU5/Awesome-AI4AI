@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0.0",
+  "scope": "Survey-grounded AI4AI catalog organized as Benchmarks, Harness Design, and Model Design.",
+  "public_collections": [
+    "benchmarks",
+    "harness-design",
+    "model-design"
+  ],
+  "survey_baseline": {
+    "benchmarks": 111,
+    "harness-design": 98,
+    "model-design": 26,
+    "unique_papers": 223
+  },
+  "overlap_policy": "A paper may appear in multiple public collections but only once within each collection.",
+  "citations_as_of": "2026-08-14",
+  "citation_sources": [
+    "Semantic Scholar",
+    "OpenAlex"
+  ],
+  "year_grouping": "Accepted papers use venue year; otherwise first public appearance year."
+}

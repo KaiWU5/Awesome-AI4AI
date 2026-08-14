@@ -1,0 +1,1011 @@
+{
+  "metadata": {
+    "schema_version": "2.0.0",
+    "frozen_on": "2026-08-04",
+    "last_verified": "2026-08-13",
+    "scope": "Evidence-weighted audit of 35 selected AI4AI, self-improving, automated-research, self-modifying-agent, and adjacent self-adaptation systems. The sample is not a prevalence estimate for the full literature.",
+    "unit_of_analysis": "One published system release at its dominant editable layer.",
+    "year_convention": "The year field records first public release; venue years remain in the bibliography.",
+    "stage_ownership_values": {
+      "human": "A human or design-time artifact supplies the stage's substantive output, and the system only relays or executes it.",
+      "mixed": "A human-authored objective, criterion, template, or acceptance rule supplies part of the stage while the system generates substantive content.",
+      "system": "The system originates and carries out the stage's substantive content from upstream inputs and generic interface constraints; a fixed outer evaluator does not change this label unless its signal is consumed inside the stage."
+    },
+    "evidence_profile": {
+      "coding": "G/R/H/T are independent coordinates, not an ordinal ladder.",
+      "values": {
+        "y": "Explicitly demonstrated in the primary source.",
+        "n": "Explicitly tested in the primary source but not demonstrated.",
+        "nr": "Not reported or not tested under the stated criterion."
+      },
+      "G": "A measured gain caused by a system-generated modification against a fixed predecessor or control.",
+      "R": "Retained or compounded gain across at least two accepted improvement passes, or an explicit capability-preservation test.",
+      "H": "A direct human comparator with matched time, compute, data access, and evaluation conditions.",
+      "T": "A held-out test beyond the optimized metric, task, model, or domain under an explicit controlled budget."
+    },
+    "public_release_claim": false,
+    "coding_note": "All 35 records were recoded from primary full text. Ordinary validation/private-test splits, historical human leaderboard scores, and cross-task reruns of an unchanged framework do not by themselves satisfy T or H."
+  },
+  "records": [
+    {
+      "record_id": 1,
+      "id": "star",
+      "name": "STaR",
+      "year": 2022,
+      "bib_key": "zelikman2022star",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html",
+      "target_layer": "weights",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "human",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Section 3.1; Sections 4.3-4.4; Figures 4-5; Table 1",
+        "confidence": "high",
+        "rationale": "Generated-rationale training beats direct fine-tuning and compounds across 16 iterations. Humans only rate rationales, whereas fixed-count evaluation on unseen 9- and 10-digit problems demonstrates controlled transfer."
+      }
+    },
+    {
+      "record_id": 2,
+      "id": "self-rewarding-language-models",
+      "name": "Self-Rewarding Language Models",
+      "year": 2024,
+      "bib_key": "yuan2024selfreward",
+      "source_url": "https://proceedings.mlr.press/v235/yuan24d.html",
+      "target_layer": "weights",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 3.2.1-3.2.2; Figures 2 and 4; Tables 1 and 4",
+        "confidence": "medium",
+        "rationale": "M2 and M3 beat their fixed predecessors and improve over successive iterations. Human evaluation is not a matched intervention; held-out preference judging improves without additional judge-training data."
+      }
+    },
+    {
+      "record_id": 3,
+      "id": "self-refine",
+      "name": "Self-Refine",
+      "year": 2023,
+      "bib_key": "madaan2023selfrefine",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html",
+      "target_layer": "task output (adjacent)",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "human",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 2-4; Algorithm 1; Table 1; Figure 4",
+        "confidence": "high",
+        "rationale": "Self-feedback and refinement improve fixed base models, with aggregate gains through multiple refinement rounds. Humans only perform output preference evaluation, and no improved artifact transfers to a held-out task or model."
+      }
+    },
+    {
+      "record_id": 4,
+      "id": "reflexion",
+      "name": "Reflexion",
+      "year": 2023,
+      "bib_key": "shinn2023reflexion",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract.html",
+      "target_layer": "agent memory (adjacent)",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Section 3; Section 4.1; Figure 3",
+        "confidence": "high",
+        "rationale": "Reflexion beats ReAct under the same retry setup and cumulative success rises across repeated trials. No matched human arm or transfer of reflective memory between tasks, languages, or models is reported."
+      }
+    },
+    {
+      "record_id": 5,
+      "id": "expel",
+      "name": "ExpeL",
+      "year": 2024,
+      "bib_key": "zhao2024expel",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29936",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 5.2 and 5.4-5.6; Tables 1-3; Figure 5",
+        "confidence": "medium",
+        "rationale": "Generated insights improve source tasks and the ExpeL-plus-Reflexion variant compounds gains across retries. Handcrafted insights lack matched authoring budgets; HotpotQA insights transfer unchanged to FEVER."
+      }
+    },
+    {
+      "record_id": 6,
+      "id": "spin",
+      "name": "SPIN",
+      "year": 2024,
+      "bib_key": "chen2024spin",
+      "source_url": "https://proceedings.mlr.press/v235/chen24j.html",
+      "target_layer": "weights",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "human",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Section 6.2; Figure 2; Appendix B.4, Tables 4 and 6",
+        "confidence": "medium",
+        "rationale": "Self-generated-response training beats the SFT predecessor and compounds across four generations. No matched human preference arm or explicit controlled source-to-target transfer protocol is reported."
+      }
+    },
+    {
+      "record_id": 7,
+      "id": "seal",
+      "name": "SEAL",
+      "year": 2025,
+      "bib_key": "seal2025",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2025/file/6b41e04c41726e2a60e456d0a2b961ab-Paper-Conference.pdf",
+      "target_layer": "weights",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 4.1-4.2 and 5; Table 1; Figures 4 and 6; Appendix A.1",
+        "confidence": "medium",
+        "rationale": "RL-trained self-edits beat untrained and no-adaptation controls, and two ReSTEM rounds compound aggregate gains despite reported prior-task forgetting. Oracle settings are not matched humans; a policy trained on 11 ARC tasks is tested on eight held-out tasks."
+      }
+    },
+    {
+      "record_id": 8,
+      "id": "dataenvgym",
+      "name": "DataEnvGym",
+      "year": 2025,
+      "bib_key": "dataenvgym2025",
+      "source_url": "https://openreview.net/forum?id=00SnKBGTsz",
+      "target_layer": "data/tasks",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 3.1-3.2; Table 2; Figure 5; Appendix F, Table 8",
+        "confidence": "high",
+        "rationale": "Exposure-matched ablations attribute student gains to generated data, and repeated teaching rounds generally compound performance. Comparators are model variants, and same-task held-out examples do not establish cross-task or cross-model transfer."
+      }
+    },
+    {
+      "record_id": 9,
+      "id": "autodata",
+      "name": "Autodata",
+      "year": 2026,
+      "bib_key": "kulikov2026autodata",
+      "source_url": "https://arxiv.org/abs/2606.25996",
+      "target_layer": "data/tasks",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 3.2.2, 3.3.1, and 4; Tables 4-7; Figures 5-6",
+        "confidence": "high",
+        "rationale": "Under an equal prompt budget, agentic-data RL beats CoT-data RL; 126 accepted mutants compound pass-rate gains. No matched human data-scientist arm exists, while the trained model improves on the unoptimized OOD Principia benchmark."
+      }
+    },
+    {
+      "record_id": 10,
+      "id": "asi-evolve",
+      "name": "ASI-Evolve",
+      "year": 2026,
+      "bib_key": "xu2026asievolve",
+      "source_url": "https://arxiv.org/abs/2603.29640",
+      "target_layer": "research process",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 4.1-4.2 and 5.2.1; Tables 1-2; Figure 3",
+        "confidence": "high",
+        "rationale": "Generated curation strategies improve identically trained models, and evolutionary best scores rise across the run. Historical human discoveries are not matched arms; selected architectures improve aggregate results on six held-out OOD benchmarks."
+      }
+    },
+    {
+      "record_id": 11,
+      "id": "frontis-ma1",
+      "name": "Frontis-MA1",
+      "year": 2026,
+      "bib_key": "yang2026frontisma1",
+      "source_url": "https://arxiv.org/abs/2607.28568",
+      "target_layer": "program/substrate",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "technical report",
+        "source_locator": "Sections 6.2, 6.3, and 6.6; Tables 1-2; Figures 10 and 13-14",
+        "confidence": "high",
+        "rationale": "Post-training and generated program milestones improve fixed-budget MLE performance over multiple accepted generations. Kaggle Human Rank is historical, not matched; NatureBench Lite uses fixed hidden evaluators and a common four-hour budget."
+      }
+    },
+    {
+      "record_id": 12,
+      "id": "stop",
+      "name": "STOP",
+      "year": 2023,
+      "bib_key": "zelikman2024stop",
+      "source_url": "https://openreview.net/forum?id=VMvLRFP5R4",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 4 and 5.1-5.2; Figure 4; Table 1",
+        "confidence": "high",
+        "rationale": "Generated improvers beat the seed on held-out LPN instances and GPT-4 improves over one to three recursive rounds. No matched expert arm exists; the LPN-optimized improver transfers unchanged to five budget-controlled tasks."
+      }
+    },
+    {
+      "record_id": 13,
+      "id": "godel-agent",
+      "name": "Gödel Agent",
+      "year": 2024,
+      "bib_key": "yin2024godelagent",
+      "source_url": "https://aclanthology.org/2025.acl-long.1354/",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 5.2-6.2; Table 1; Appendix F, Figure 6",
+        "confidence": "high",
+        "rationale": "Self-modified policies beat fixed CoT and repeated updates recover from regressions while improving. Hand-designed agents have unmatched search costs, and optimization is rerun separately for each task rather than transferring one policy."
+      }
+    },
+    {
+      "record_id": 14,
+      "id": "adas",
+      "name": "Automated Design of Agentic Systems",
+      "year": 2024,
+      "bib_key": "hu2025adas",
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/36b7acf6f6010652b3f2a433774a66fe-Abstract-Conference.html",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 4.1-4.3; Tables 1-3; Figure 3; Appendices F-G",
+        "confidence": "medium",
+        "rationale": "Generated agent programs beat fixed designs and best-agent performance rises at multiple search iterations. Neither human design effort nor cross-domain/model transfer is reported under a common call, token, or time budget."
+      }
+    },
+    {
+      "record_id": 15,
+      "id": "dgm",
+      "name": "Darwin Gödel Machine",
+      "year": 2025,
+      "bib_key": "zhang2025dgm",
+      "source_url": "https://openreview.net/forum?id=pUpzQZTvGY",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 4.2-4.5; Figures 2-4; Appendix E.1",
+        "confidence": "medium",
+        "rationale": "Evolved lineages improve on SWE-bench and Polyglot, while an edit-capability gate preserves self-modification across iterations. Human baselines are unmatched, and stronger transferred agents use greater inference cost, so controlled T is unreported."
+      }
+    },
+    {
+      "record_id": 16,
+      "id": "alphaevolve",
+      "name": "AlphaEvolve",
+      "year": 2025,
+      "bib_key": "novikov2025alphaevolve",
+      "source_url": "https://arxiv.org/abs/2506.13131",
+      "target_layer": "program/substrate",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "technical report",
+        "source_locator": "Sections 3.2 and 3.3.1-3.3.4",
+        "confidence": "high",
+        "rationale": "Generated programs improve production heuristics and pass randomized or proof-based preservation checks through multi-stage evolution. Retrospective human-effort claims are unmatched; unseen workloads and a separate kernel-shape split demonstrate controlled transfer."
+      }
+    },
+    {
+      "record_id": 17,
+      "id": "shinkaevolve",
+      "name": "ShinkaEvolve",
+      "year": 2025,
+      "bib_key": "lange2025shinkaevolve",
+      "source_url": "https://openreview.net/forum?id=lKEdGCoDNC",
+      "target_layer": "program/substrate",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 4.1-4.3; Figures 4-6",
+        "confidence": "high",
+        "rationale": "Evolved programs beat their initial solutions and optimization traces contain sustained accepted gains. Hand-designed prompts lack matched development budgets; an AIME-2024 artifact is tested on unseen years and models under a ten-query cap."
+      }
+    },
+    {
+      "record_id": 18,
+      "id": "rhi",
+      "name": "Recursive Harness Self-Improvement",
+      "year": 2026,
+      "bib_key": "lee2026rhi",
+      "source_url": "https://arxiv.org/abs/2607.15524",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 5.1 and 5.3-5.4; Figures 5 and 7",
+        "confidence": "high",
+        "rationale": "Harness revisions beat a fixed maximum-effort baseline and improve consistently across H0-H2. No matched human engineer is tested, and a separate harness sequence is optimized for each task and model."
+      }
+    },
+    {
+      "record_id": 19,
+      "id": "meta-harness",
+      "name": "Meta-Harness",
+      "year": 2026,
+      "bib_key": "lee2026metaharness",
+      "source_url": "https://arxiv.org/abs/2603.28052",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Section 4.1; Tables 2 and 5; Appendix A, Figure 4",
+        "confidence": "high",
+        "rationale": "Generated harnesses beat fixed ACE and the best-so-far curve improves across generations. Human-designed baselines lack matched engineering budgets; one learned harness improves on nine unseen datasets and transfers across models under the same protocol."
+      }
+    },
+    {
+      "record_id": 20,
+      "id": "self-harness",
+      "name": "Self-Harness",
+      "year": 2026,
+      "bib_key": "zhang2026selfharness",
+      "source_url": "https://arxiv.org/abs/2606.09498",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Algorithm 1; Section 3.4; Section 4.1; Table 1",
+        "confidence": "high",
+        "rationale": "Every final generated harness improves over its initial harness, and promotion gates preserve accepted improvements. No human arm is matched; the nominal held-out split controls promotion and is therefore not an independent transfer test."
+      }
+    },
+    {
+      "record_id": 21,
+      "id": "kernelevolve",
+      "name": "KernelEvolve",
+      "year": 2025,
+      "bib_key": "liao2026kernelevolve",
+      "source_url": "https://doi.org/10.1109/ISCA66397.2026.00063",
+      "target_layer": "program/substrate",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "n"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Accepted Section III and Table III; extended Sections 4-5.1 and Table 3",
+        "confidence": "medium",
+        "rationale": "The generated production kernel beats fixed baselines and passes correctness regression suites before acceptance. Historical effort estimates are unmatched; explicitly tested OOD shapes underperform baselines, so controlled transfer fails."
+      }
+    },
+    {
+      "record_id": 22,
+      "id": "bilevel-autoresearch",
+      "name": "Bilevel Autoresearch",
+      "year": 2026,
+      "bib_key": "qu2026bilevel",
+      "source_url": "https://arxiv.org/abs/2603.23420",
+      "target_layer": "research process",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "nr",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 3.3, 3.6, 4.1-4.2, and 5.2-5.4; Tables 1-3",
+        "confidence": "high",
+        "rationale": "Holding other variables fixed, generated outer-loop mechanisms improve mean validation loss. Import success rather than performance gates successive harness sessions, and no matched human or held-out task/model transfer is reported."
+      }
+    },
+    {
+      "record_id": 23,
+      "id": "aide2",
+      "name": "AIDE²",
+      "year": 2026,
+      "bib_key": "weco2026aide2",
+      "source_url": "https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement",
+      "target_layer": "research process",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "first-party report (unrefereed)",
+        "source_locator": "Sections 'Recursive Self-Improvement' and 2.1-2.2; performance figures",
+        "confidence": "low",
+        "rationale": "The report claims AIDE5 beats AIDE4 and traces accepted successors through AIDE72. A human-tuned harness has no matched labor budget; AIDE72 reportedly improves on 175 held-out tasks absent from development, but no technical appendix was available."
+      }
+    },
+    {
+      "record_id": 24,
+      "id": "aide",
+      "name": "AIDE",
+      "year": 2025,
+      "bib_key": "jiang2025aide",
+      "source_url": "https://arxiv.org/abs/2502.13138",
+      "target_layer": "data/tasks",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "y",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 3.1 and 4.2-4.3; Algorithm 1; Figures 3-4",
+        "confidence": "medium",
+        "rationale": "AIDE improves fixed-model task success and validation-gated search records repeated best-so-far gains. RE-Bench supplies an elapsed-time and GPU-accounted human comparison at short horizons; private tests remain within optimized tasks, so T is unreported."
+      }
+    },
+    {
+      "record_id": 25,
+      "id": "ml-master",
+      "name": "ML-Master",
+      "year": 2025,
+      "bib_key": "liu2025mlmaster",
+      "source_url": "https://arxiv.org/abs/2506.16499",
+      "target_layer": "data/tasks",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "human",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 4.1-4.3; Tables 2-3; Figure 7",
+        "confidence": "medium",
+        "rationale": "A worked search trajectory contains several generated revisions that improve validation loss and become retained checkpoints. Historical Kaggle ranks are not matched human trials, and each task solution is optimized and tested independently."
+      }
+    },
+    {
+      "record_id": 26,
+      "id": "ml-master-2",
+      "name": "ML-Master 2.0",
+      "year": 2026,
+      "bib_key": "zhu2026toward",
+      "source_url": "https://arxiv.org/abs/2601.10402",
+      "target_layer": "data/tasks",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 3.3.3 and 4.1-4.3; Tables 1-2; Figure 5",
+        "confidence": "high",
+        "rationale": "Accumulated procedural knowledge improves the full system and best scores rise over 20 exploration rounds. Historical Kaggle humans are unmatched; knowledge distilled from 407 non-evaluation competitions improves 22 excluded tasks under the same budget."
+      }
+    },
+    {
+      "record_id": 27,
+      "id": "ai-scientist-v1",
+      "name": "The AI Scientist v1",
+      "year": 2024,
+      "bib_key": "lu2024aiscientist",
+      "source_url": "https://arxiv.org/abs/2408.06292",
+      "target_layer": "research process",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Main Sections 4-6; generated-paper Appendix D.1, Tables and Sections 6.4",
+        "confidence": "medium",
+        "rationale": "A generated diffusion modification beats fixed predecessors on three datasets, and a later generated weighting network preserves further gains on a subset. Human papers and reviewer scores are unmatched; all datasets are part of the optimized plan."
+      }
+    },
+    {
+      "record_id": 28,
+      "id": "ai-scientist-v2",
+      "name": "The AI Scientist-v2",
+      "year": 2025,
+      "bib_key": "yamada2025aiscientistv2",
+      "source_url": "https://arxiv.org/abs/2504.08066",
+      "target_layer": "research process",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "n",
+        "R": "nr",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 3.2.1 and 4.1-4.2; Figures 2-3",
+        "confidence": "medium",
+        "rationale": "The flagship generated compositional-regularization intervention is explicitly tested against an unregularized control but shows no significant gain and sometimes harms performance. Tree search lacks a measured multi-gain trajectory, matched humans, or controlled transfer."
+      }
+    },
+    {
+      "record_id": 29,
+      "id": "aiscientist-file-bus",
+      "name": "AiScientist",
+      "year": 2026,
+      "bib_key": "chen2026aiscientist",
+      "source_url": "https://arxiv.org/abs/2604.13018",
+      "target_layer": "program/substrate",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Figure 1; Section 4.1; Section 4.4 and Figure 3; Tables 1-2",
+        "confidence": "high",
+        "rationale": "Generated revisions raise validation AUC through 18 best-so-far updates and aggregate trajectories keep improving. The inherited human reference has a different resource budget, and separate benchmark tasks do not transfer one improved artifact."
+      }
+    },
+    {
+      "record_id": 30,
+      "id": "fars",
+      "name": "FARS",
+      "year": 2026,
+      "bib_key": "tang2026fars",
+      "source_url": "https://arxiv.org/abs/2606.31651",
+      "target_layer": "research process",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "n",
+        "H": "nr",
+        "T": "y"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "FARS Sections 5-6 and Table 5; linked output FA0029 Sections 2.2-3.5 and Tables 1-2",
+        "confidence": "medium",
+        "rationale": "A linked primary FARS output reports a generated allocation change that improves average accuracy. Retention explicitly fails because WikiText perplexity worsens 16%; no like-for-like human study exists, while eight zero-shot downstream tests improve under the same compression budget."
+      }
+    },
+    {
+      "record_id": 31,
+      "id": "autosota",
+      "name": "AutoSOTA",
+      "year": 2026,
+      "bib_key": "li2026autosota",
+      "source_url": "https://arxiv.org/abs/2604.05550",
+      "target_layer": "program/substrate",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 3.8.1, 4.2, and 4.3.2; Table 1; Figures 8 and 10",
+        "confidence": "high",
+        "rationale": "Unmodified baselines are recorded as iteration zero and 105 repositories contain validated improvements; a worked method shows multiple accepted gains. Published methods are unmatched humans, and each repository optimizes its own monitored metric."
+      }
+    },
+    {
+      "record_id": 32,
+      "id": "agentrxiv",
+      "name": "AgentRxiv",
+      "year": 2025,
+      "bib_key": "schmidgall2025agentrxiv",
+      "source_url": "https://arxiv.org/abs/2503.18102",
+      "target_layer": "harness",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "preprint",
+        "source_locator": "Sections 3.1-3.2; Figures 4-5; Appendix A",
+        "confidence": "medium",
+        "rationale": "Agent-generated prompting methods beat the fixed baseline and successive research generations raise MATH-500 accuracy. There is no human arm; apparent cross-benchmark/model gains use unmatched call counts, so controlled transfer is unreported."
+      }
+    },
+    {
+      "record_id": 33,
+      "id": "deepscientist",
+      "name": "DeepScientist",
+      "year": 2026,
+      "bib_key": "weng2026deepscientist",
+      "source_url": "https://openreview.net/forum?id=cZFgsLq8Gs",
+      "target_layer": "program/substrate",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "system",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "mixed"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 3.2 and 4.1; Figures 1 and 3; Appendix C",
+        "confidence": "high",
+        "rationale": "Generated methods exceed reproduced predecessors and three progressively superior accepted methods are reported over two weeks. Historical human years are not resource matched, and no explicit held-out artifact-transfer result is shown."
+      }
+    },
+    {
+      "record_id": 34,
+      "id": "ai-researcher",
+      "name": "AI-Researcher",
+      "year": 2025,
+      "bib_key": "tang2025airesearcher",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d904d300a105809a2114d727851e759-Abstract-Conference.html",
+      "target_layer": "research process",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "nr",
+        "R": "nr",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 3.2 and 4.1-4.3; Table 1; Appendix A.10, Figure 9",
+        "confidence": "high",
+        "rationale": "Reported evaluations measure implementation completeness, correctness, and judged paper quality rather than gain against a fixed artifact predecessor. Refinement cycles lack a measured accepted-gain sequence, matched humans, or transfer of one improved artifact."
+      }
+    },
+    {
+      "record_id": 35,
+      "id": "codescientist",
+      "name": "CodeScientist",
+      "year": 2025,
+      "bib_key": "jansen2025codescientist",
+      "source_url": "https://aclanthology.org/2025.findings-acl.692/",
+      "target_layer": "program/substrate",
+      "stage_ownership": {
+        "goal": "human",
+        "plan": "mixed",
+        "execute": "system",
+        "feedback": "mixed",
+        "repair": "system"
+      },
+      "evidence_profile": {
+        "G": "y",
+        "R": "y",
+        "H": "nr",
+        "T": "nr"
+      },
+      "verification": {
+        "source_tier": "peer-reviewed paper",
+        "source_locator": "Sections 3-5; Tables 3-4; Appendix H.4",
+        "confidence": "medium",
+        "rationale": "A generated two-stage procedure improves mechanics completion over the single-stage control while preserving 100% execution success. Humans select and review ideas rather than compete under a matched budget, and only one game format and model are tested."
+      }
+    }
+  ]
+}

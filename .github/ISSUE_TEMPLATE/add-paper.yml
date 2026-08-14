@@ -1,0 +1,43 @@
+name: Suggest a paper
+description: Propose a paper for the list (a pull request is faster, but this works too).
+title: "[paper] "
+labels: ["paper suggestion"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Exact title as published
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: https://arxiv.org/abs/2601.12345
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Official code
+      placeholder: https://github.com/org/repo (leave empty if none)
+  - type: dropdown
+    id: collection
+    attributes:
+      label: Where does it belong?
+      description: Select every public collection supported by the paper's primary contribution.
+      multiple: true
+      options:
+        - Benchmarks
+        - Harness Design
+        - Model Design
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it fits
+      description: One or two sentences explaining the paper's primary contribution to the selected collection(s).
+    validations:
+      required: true

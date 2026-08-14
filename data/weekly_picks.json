@@ -1,0 +1,87 @@
+{
+  "updated": "2026-08-14",
+  "cadence": "Curated weekly; citation rankings still refresh every Monday.",
+  "selection": "Official model, harness, and research announcements selected for recency, AI4AI relevance, technical novelty, and source verifiability. Performance claims remain attributed to their publishers.",
+  "items": [
+    {
+      "date": "2026-08-14",
+      "kind": "Model release",
+      "source": "Z.ai",
+      "title": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+      "url": "https://z.ai/blog/glm-5.3",
+      "why": "Z.ai says the unchanged GLM-5.2 base gained stronger long-horizon coding and cyber capabilities entirely through scaled post-training; weights are planned after two weeks of safety hardening."
+    },
+    {
+      "date": "2026-08-14",
+      "kind": "Open-weight release",
+      "source": "Dots Studio · Hugging Face",
+      "title": "dots3-note Preview",
+      "url": "https://huggingface.co/dots-studio/dots3-note-prev",
+      "why": "The first open-weight Dots3 release is a multimodal MoE with 280B total and 16B active parameters, a 512K context window, and explicit support for long-horizon agent tasks."
+    },
+    {
+      "date": "2026-08-13",
+      "kind": "Model update",
+      "source": "Google",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "why": "Google positions 3.7 Flash as its coding-and-agents workhorse, reporting stronger multi-step planning, tool use, software engineering, and business-workflow performance."
+    },
+    {
+      "date": "2026-08-13",
+      "kind": "Model release",
+      "source": "DeepSeek",
+      "title": "DeepSeek-V4-Pro GA Release",
+      "url": "https://api-docs.deepseek.com/news/news260813/",
+      "why": "DeepSeek's general-availability release emphasizes agent upgrades, low/high/max reasoning effort, native OpenAI Responses API support, and availability across its app, web interface, and API."
+    },
+    {
+      "date": "2026-08-13",
+      "kind": "Model release",
+      "source": "Voyage AI",
+      "title": "voyage-code-4: Code Retrieval Built for Coding Agents",
+      "url": "https://blog.voyageai.com/2026/08/13/voyage-code-4/",
+      "why": "Voyage AI's new code-embedding model targets repository retrieval for coding agents, with configurable dimensions and quantization options intended to reduce retrieval cost."
+    },
+    {
+      "date": "2026-08-13",
+      "kind": "Harness release",
+      "source": "Arcee AI",
+      "title": "Introducing NAC, an Open-Source Harness for Long-Running Agent Work",
+      "url": "https://www.arcee.ai/blog/nac",
+      "why": "NAC is an Apache-2.0 agent harness for durable long-running execution, presenting the harness as an inference runtime rather than a fixed prompt-and-tool wrapper."
+    },
+    {
+      "date": "2026-08-12",
+      "kind": "Model release",
+      "source": "xAI",
+      "title": "Introducing Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "why": "Grok 4.6 targets long-running agents and multi-step coding and knowledge work; xAI reports stronger sustained execution, self-testing, and verification after supplemental training and agentic RL."
+    },
+    {
+      "date": "2026-08-11",
+      "kind": "Model release",
+      "source": "NVIDIA",
+      "title": "Nemotron 3.5 Lightning and NeMo Switchyard",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "why": "NVIDIA pairs an efficient model for long-running agent workloads with an open-source router that selects models per workflow step according to quality, latency, and cost."
+    },
+    {
+      "date": "2026-08-11",
+      "kind": "Research release",
+      "source": "IBM Research · Hugging Face",
+      "title": "ALTK-Evolve: Learning from Agent Trajectories with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "why": "ALTK-Evolve extracts, consolidates, and retrieves reusable lessons from agent trajectories without weight updates; IBM reports similar or better accuracy than ACE with lower token use."
+    },
+    {
+      "date": "2026-08-10",
+      "kind": "Open-weight release",
+      "source": "Meta AI Research",
+      "title": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "why": "Meta's 30B open-weight multimodal model is tuned for sequential tool use and local always-on agents, with an Apache-2.0 release and deployment paths for personal hardware."
+    }
+  ]
+}

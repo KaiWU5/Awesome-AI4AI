@@ -1,0 +1,38 @@
+name: Verify AI4AI catalog
+
+on:
+  pull_request:
+    paths:
+      - "data/papers.json"
+      - "data/weekly_picks.json"
+      - "data/closure_audit.json"
+      - "data/catalog_meta.json"
+      - "scripts/**"
+      - "assets/**"
+      - "highlights/**"
+      - "README.md"
+      - "EVIDENCE.md"
+      - "CITATION.cff"
+      - ".github/**"
+      - "CONTRIBUTING.md"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check catalog schema and local metadata
+        run: python scripts/verify_papers.py --offline
+      - name: Generated catalog files must match data
+        run: |
+          python scripts/build_evidence.py
+          python scripts/build_readme.py
+          python scripts/archive_weekly.py --check
+          python scripts/check_repo.py
+          git diff --exit-code README.md EVIDENCE.md data/closure_audit.csv data/closure_audit_summary.json

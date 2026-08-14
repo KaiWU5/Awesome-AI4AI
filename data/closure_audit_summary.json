@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0.0",
+  "frozen_on": "2026-08-04",
+  "last_verified": "2026-08-13",
+  "n_records": 35,
+  "stage_counts": {
+    "goal": {
+      "human": 35
+    },
+    "plan": {
+      "human": 3,
+      "mixed": 16,
+      "system": 16
+    },
+    "execute": {
+      "system": 35
+    },
+    "feedback": {
+      "human": 16,
+      "mixed": 19
+    },
+    "repair": {
+      "mixed": 12,
+      "system": 23
+    }
+  },
+  "target_counts": {
+    "agent memory (adjacent)": 1,
+    "data/tasks": 5,
+    "harness": 9,
+    "program/substrate": 8,
+    "research process": 7,
+    "task output (adjacent)": 1,
+    "weights": 4
+  },
+  "evidence_counts": {
+    "G": {
+      "n": 1,
+      "nr": 1,
+      "y": 33
+    },
+    "R": {
+      "n": 1,
+      "nr": 3,
+      "y": 31
+    },
+    "H": {
+      "nr": 34,
+      "y": 1
+    },
+    "T": {
+      "n": 1,
+      "nr": 20,
+      "y": 14
+    }
+  },
+  "source_tier_counts": {
+    "first-party report (unrefereed)": 1,
+    "peer-reviewed paper": 17,
+    "preprint": 15,
+    "technical report": 2
+  },
+  "confidence_counts": {
+    "high": 20,
+    "low": 1,
+    "medium": 14
+  }
+}
