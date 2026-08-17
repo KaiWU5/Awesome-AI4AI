@@ -13,7 +13,7 @@
     "unique_papers": 223
   },
   "overlap_policy": "A paper may appear in multiple public collections but only once within each collection.",
-  "citations_as_of": "2026-08-14",
+  "citations_as_of": "2026-08-17",
   "citation_sources": [
     "Semantic Scholar",
     "OpenAlex"

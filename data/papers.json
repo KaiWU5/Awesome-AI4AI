@@ -5,7 +5,7 @@
   "date": "2025",
   "arxiv_id": "",
   "url": "https://doi.ieeecomputersociety.org/10.1109/TPAMI.2024.3511593",
-  "citations": 205,
+  "citations": 206,
   "code": null,
   "sections": [
    "targets/harness"
@@ -50,7 +50,7 @@
   "date": "2025",
   "arxiv_id": "",
   "url": "https://proceedings.mlr.press/v267/patil25a.html",
-  "citations": 433,
+  "citations": 435,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -95,7 +95,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.22794",
   "url": "https://arxiv.org/abs/2605.22794",
-  "citations": 4,
+  "citations": 5,
   "code": null,
   "sections": [
    "targets/harness"
@@ -110,7 +110,7 @@
   "date": "2025",
   "arxiv_id": "",
   "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html",
-  "citations": 512,
+  "citations": 515,
   "code": null,
   "sections": [
    "evidence/benchmarks",
@@ -127,7 +127,7 @@
   "date": "2024-10",
   "arxiv_id": "2410.07095",
   "url": "https://arxiv.org/abs/2410.07095",
-  "citations": 340,
+  "citations": 344,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -253,7 +253,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.14249",
   "url": "https://arxiv.org/abs/2606.14249",
-  "citations": 10,
+  "citations": 11,
   "code": null,
   "sections": [
    "targets/harness"
@@ -313,7 +313,7 @@
   "date": "2025",
   "arxiv_id": "",
   "url": "https://doi.org/10.3233/faia251160",
-  "citations": 546,
+  "citations": 548,
   "code": null,
   "sections": [
    "targets/harness"
@@ -412,7 +412,7 @@
   "date": "2023-06",
   "arxiv_id": "2306.06070",
   "url": "https://arxiv.org/abs/2306.06070",
-  "citations": 1346,
+  "citations": 1349,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -470,7 +470,7 @@
   "date": "2025-03",
   "arxiv_id": "2503.09572",
   "url": "https://arxiv.org/abs/2503.09572",
-  "citations": 191,
+  "citations": 194,
   "code": null,
   "sections": [
    "targets/weights"
@@ -545,7 +545,7 @@
   "date": "2025-07",
   "arxiv_id": "2507.21046",
   "url": "https://arxiv.org/abs/2507.21046",
-  "citations": 92,
+  "citations": 94,
   "code": null,
   "sections": [
    "analyses"
@@ -573,7 +573,7 @@
   "date": "2023-05",
   "arxiv_id": "2305.11738",
   "url": "https://arxiv.org/abs/2305.11738",
-  "citations": 852,
+  "citations": 853,
   "code": null,
   "sections": [
    "targets/harness"
@@ -633,7 +633,7 @@
   "date": "2024-05",
   "arxiv_id": "2405.14831",
   "url": "https://arxiv.org/abs/2405.14831",
-  "citations": 315,
+  "citations": 320,
   "code": null,
   "sections": [
    "targets/harness"
@@ -708,7 +708,7 @@
   "date": "2024-08",
   "arxiv_id": "2408.08435",
   "url": "https://arxiv.org/abs/2408.08435",
-  "citations": 272,
+  "citations": 275,
   "code": null,
   "sections": [
    "targets/harness"
@@ -764,7 +764,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.01798",
   "url": "https://arxiv.org/abs/2310.01798",
-  "citations": 1114,
+  "citations": 1115,
   "code": null,
   "sections": [
    "targets/harness"
@@ -809,7 +809,7 @@
   "date": "2025",
   "arxiv_id": "",
   "url": "https://aclanthology.org/2025.findings-acl.692/",
-  "citations": 54,
+  "citations": 55,
   "code": null,
   "sections": [
    "targets/substrate"
@@ -833,7 +833,7 @@
   "date": "2025-02",
   "arxiv_id": "2502.13138",
   "url": "https://arxiv.org/abs/2502.13138",
-  "citations": 167,
+  "citations": 169,
   "code": null,
   "sections": [
    "targets/data"
@@ -872,7 +872,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.06770",
   "url": "https://arxiv.org/abs/2310.06770",
-  "citations": 3348,
+  "citations": 3359,
   "code": "https://github.com/SWE-bench/SWE-bench",
   "sections": [
    "foundations/long-horizon"
@@ -962,7 +962,7 @@
   "date": "2025-10",
   "arxiv_id": "2510.11977",
   "url": "https://arxiv.org/abs/2510.11977",
-  "citations": 52,
+  "citations": 53,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -1043,7 +1043,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.27191",
   "url": "https://arxiv.org/abs/2607.27191",
-  "citations": 0,
+  "citations": 1,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -1127,7 +1127,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.06120",
   "url": "https://arxiv.org/abs/2505.06120",
-  "citations": 386,
+  "citations": 388,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -1142,7 +1142,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.19349",
   "url": "https://openreview.net/forum?id=lKEdGCoDNC",
-  "citations": 133,
+  "citations": 136,
   "code": null,
   "sections": [
    "targets/substrate"
@@ -1196,7 +1196,7 @@
   "date": "2026-03",
   "arxiv_id": "2603.28052",
   "url": "https://arxiv.org/abs/2603.28052",
-  "citations": 129,
+  "citations": 132,
   "code": null,
   "sections": [
    "targets/harness"
@@ -1222,7 +1222,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.15524",
   "url": "https://arxiv.org/abs/2607.15524",
-  "citations": 4,
+  "citations": 5,
   "code": null,
   "sections": [
    "targets/harness"
@@ -1431,7 +1431,7 @@
   "date": "2023-08",
   "arxiv_id": "2308.03688",
   "url": "https://arxiv.org/abs/2308.03688",
-  "citations": 1153,
+  "citations": 1158,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -1446,7 +1446,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.16499",
   "url": "https://arxiv.org/abs/2506.16499",
-  "citations": 51,
+  "citations": 52,
   "code": null,
   "sections": [
    "targets/data"
@@ -1472,7 +1472,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.14228",
   "url": "https://arxiv.org/abs/2604.14228",
-  "citations": 25,
+  "citations": 26,
   "code": null,
   "sections": [
    "targets/harness"
@@ -1547,7 +1547,7 @@
   "date": "2024-08",
   "arxiv_id": "2408.06292",
   "url": "https://arxiv.org/abs/2408.06292",
-  "citations": 1034,
+  "citations": 1038,
   "code": null,
   "sections": [
    "targets/research"
@@ -1571,7 +1571,7 @@
   "date": "2026-03",
   "arxiv_id": "",
   "url": "https://doi.org/10.1038/s41586-026-10265-5",
-  "citations": 192,
+  "citations": 197,
   "code": "https://github.com/SakanaAI/AI-Scientist-v2",
   "sections": [
    "evidence/benchmarks"
@@ -1631,7 +1631,7 @@
   "date": "2026-02",
   "arxiv_id": "2602.06855",
   "url": "https://arxiv.org/abs/2602.06855",
-  "citations": 15,
+  "citations": 16,
   "code": "https://github.com/facebookresearch/airs-bench",
   "sections": [
    "evidence/benchmarks"
@@ -1693,7 +1693,7 @@
   "date": "2023-03",
   "arxiv_id": "2303.17651",
   "url": "https://arxiv.org/abs/2303.17651",
-  "citations": 4325,
+  "citations": 4339,
   "code": null,
   "sections": [
    "foundations/self-improvement"
@@ -1854,7 +1854,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.13131",
   "url": "https://arxiv.org/abs/2506.13131",
-  "citations": 745,
+  "citations": 753,
   "code": null,
   "sections": [
    "targets/substrate"
@@ -1940,7 +1940,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.06614",
   "url": "https://arxiv.org/abs/2605.06614",
-  "citations": 23,
+  "citations": 24,
   "code": null,
   "sections": [
    "targets/harness"
@@ -1955,7 +1955,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.08560",
   "url": "https://arxiv.org/abs/2310.08560",
-  "citations": 1112,
+  "citations": 1114,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2000,7 +2000,7 @@
   "date": "2023-04",
   "arxiv_id": "2304.03442",
   "url": "https://arxiv.org/abs/2304.03442",
-  "citations": 5139,
+  "citations": 5159,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2015,7 +2015,7 @@
   "date": "2023-05",
   "arxiv_id": "2305.15334",
   "url": "https://arxiv.org/abs/2305.15334",
-  "citations": 1499,
+  "citations": 1502,
   "code": null,
   "sections": [
    "targets/weights"
@@ -2030,7 +2030,7 @@
   "date": "2026-03",
   "arxiv_id": "2603.08640",
   "url": "https://arxiv.org/abs/2603.08640",
-  "citations": 24,
+  "citations": 27,
   "code": "https://github.com/aisa-group/PostTrainBench",
   "sections": [
    "evidence/benchmarks"
@@ -2102,7 +2102,7 @@
   "date": "2024-05",
   "arxiv_id": "2405.14573",
   "url": "https://arxiv.org/abs/2405.14573",
-  "citations": 395,
+  "citations": 396,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2147,7 +2147,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.13104",
   "url": "https://arxiv.org/abs/2607.13104",
-  "citations": 3,
+  "citations": 4,
   "code": null,
   "sections": [
    "analyses"
@@ -2192,7 +2192,7 @@
   "date": "2023-02",
   "arxiv_id": "2302.04761",
   "url": "https://arxiv.org/abs/2302.04761",
-  "citations": 5122,
+  "citations": 5138,
   "code": null,
   "sections": [
    "targets/weights"
@@ -2255,7 +2255,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.22368",
   "url": "https://arxiv.org/abs/2607.22368",
-  "citations": 1,
+  "citations": 2,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2285,7 +2285,7 @@
   "date": "2023-03",
   "arxiv_id": "2303.11366",
   "url": "https://arxiv.org/abs/2303.11366",
-  "citations": 4795,
+  "citations": 4818,
   "code": "https://github.com/noahshinn/reflexion",
   "sections": [
    "foundations/self-improvement"
@@ -2311,7 +2311,7 @@
   "date": "2020",
   "arxiv_id": "",
   "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Shridhar_ALFRED_A_Benchmark_for_Interpreting_Grounded_Instructions_for_Everyday_Tasks_CVPR_2020_paper.html",
-  "citations": 1171,
+  "citations": 1172,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2326,7 +2326,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.14525",
   "url": "https://arxiv.org/abs/2601.14525",
-  "citations": 11,
+  "citations": 12,
   "code": null,
   "sections": [
    "evidence/measurement"
@@ -2356,7 +2356,7 @@
   "date": "2025-04",
   "arxiv_id": "2504.01848",
   "url": "https://arxiv.org/abs/2504.01848",
-  "citations": 239,
+  "citations": 241,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2446,7 +2446,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.23419",
   "url": "https://arxiv.org/abs/2505.23419",
-  "citations": 52,
+  "citations": 53,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2461,7 +2461,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.16941",
   "url": "https://arxiv.org/abs/2509.16941",
-  "citations": 192,
+  "citations": 193,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2596,7 +2596,7 @@
   "date": "2026-02",
   "arxiv_id": "2602.23866",
   "url": "https://arxiv.org/abs/2602.23866",
-  "citations": 12,
+  "citations": 13,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2656,7 +2656,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.18705",
   "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d904d300a105809a2114d727851e759-Abstract-Conference.html",
-  "citations": 75,
+  "citations": 77,
   "code": null,
   "sections": [
    "targets/research"
@@ -2721,7 +2721,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.11868",
   "url": "https://arxiv.org/abs/2601.11868",
-  "citations": 323,
+  "citations": 326,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2736,7 +2736,7 @@
   "date": "2023-07",
   "arxiv_id": "2307.16789",
   "url": "https://arxiv.org/abs/2307.16789",
-  "citations": 2041,
+  "citations": 2043,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2796,7 +2796,7 @@
   "date": "2023-05",
   "arxiv_id": "2305.16291",
   "url": "https://arxiv.org/abs/2305.16291",
-  "citations": 2126,
+  "citations": 2133,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2826,7 +2826,7 @@
   "date": "2025-08",
   "arxiv_id": "2508.11027",
   "url": "https://arxiv.org/abs/2508.11027",
-  "citations": 3,
+  "citations": 4,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2946,7 +2946,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.12227",
   "url": "https://arxiv.org/abs/2607.12227",
-  "citations": 5,
+  "citations": 6,
   "code": null,
   "sections": [
    "evidence/measurement"
@@ -3030,7 +3030,7 @@
   "date": "2022-01",
   "arxiv_id": "2201.11903",
   "url": "https://arxiv.org/abs/2201.11903",
-  "citations": 21016,
+  "citations": 21067,
   "code": null,
   "sections": [
    "targets/weights"
@@ -3060,7 +3060,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.26603",
   "url": "https://openreview.net/forum?id=cZFgsLq8Gs",
-  "citations": 46,
+  "citations": 47,
   "code": null,
   "sections": [
    "targets/substrate"
@@ -3084,7 +3084,7 @@
   "date": "2024-11",
   "arxiv_id": "2411.15114",
   "url": "https://arxiv.org/abs/2411.15114",
-  "citations": 124,
+  "citations": 127,
   "code": "https://github.com/METR/ai-rd-tasks",
   "sections": [
    "evidence/benchmarks"
@@ -3099,7 +3099,7 @@
   "date": "2024",
   "arxiv_id": "",
   "url": "https://proceedings.mlr.press/v235/drouin24a.html",
-  "citations": 308,
+  "citations": 310,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -3234,7 +3234,7 @@
   "date": "2024-04",
   "arxiv_id": "2404.07972",
   "url": "https://arxiv.org/abs/2404.07972",
-  "citations": 1024,
+  "citations": 1026,
   "code": "https://github.com/xlang-ai/OSWorld",
   "sections": [
    "foundations/long-horizon"
@@ -3249,7 +3249,7 @@
   "date": "2024-02",
   "arxiv_id": "2402.01622",
   "url": "https://arxiv.org/abs/2402.01622",
-  "citations": 450,
+  "citations": 451,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -3320,7 +3320,7 @@
   "date": "2025-02",
   "arxiv_id": "2502.12110",
   "url": "https://arxiv.org/abs/2502.12110",
-  "citations": 872,
+  "citations": 874,
   "code": null,
   "sections": [
    "targets/harness"
@@ -3350,7 +3350,7 @@
   "date": "2025-04",
   "arxiv_id": "2504.08066",
   "url": "https://arxiv.org/abs/2504.08066",
-  "citations": 344,
+  "citations": 347,
   "code": null,
   "sections": [
    "targets/research"
@@ -3417,7 +3417,7 @@
   "date": "2022-07",
   "arxiv_id": "2207.01206",
   "url": "https://arxiv.org/abs/2207.01206",
-  "citations": 1287,
+  "citations": 1288,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -3432,7 +3432,7 @@
   "date": "2022-10",
   "arxiv_id": "2210.03629",
   "url": "https://arxiv.org/abs/2210.03629",
-  "citations": 10170,
+  "citations": 10212,
   "code": null,
   "sections": [
    "targets/weights",
@@ -3449,7 +3449,7 @@
   "date": "2023-05",
   "arxiv_id": "2305.10601",
   "url": "https://arxiv.org/abs/2305.10601",
-  "citations": 4668,
+  "citations": 4684,
   "code": null,
   "sections": [
    "targets/weights"
@@ -3464,7 +3464,7 @@
   "date": "2024-06",
   "arxiv_id": "2406.12045",
   "url": "https://arxiv.org/abs/2406.12045",
-  "citations": 955,
+  "citations": 957,
   "code": "https://github.com/sierra-research/tau-bench",
   "sections": [
    "foundations/long-horizon"
@@ -3565,7 +3565,7 @@
   "date": "2024-01",
   "arxiv_id": "2401.10020",
   "url": "https://proceedings.mlr.press/v235/yuan24d.html",
-  "citations": 681,
+  "citations": 682,
   "code": null,
   "sections": [
    "targets/weights"
@@ -3606,7 +3606,7 @@
   "date": "2022",
   "arxiv_id": "",
   "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html",
-  "citations": 1017,
+  "citations": 1018,
   "code": null,
   "sections": [
    "targets/weights"
@@ -3632,7 +3632,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.02304",
   "url": "https://arxiv.org/abs/2310.02304",
-  "citations": 121,
+  "citations": 123,
   "code": null,
   "sections": [
    "targets/harness"
@@ -3673,7 +3673,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.22954",
   "url": "https://openreview.net/forum?id=pUpzQZTvGY",
-  "citations": 183,
+  "citations": 185,
   "code": null,
   "sections": [
    "targets/harness"
@@ -3744,7 +3744,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.09498",
   "url": "https://arxiv.org/abs/2606.09498",
-  "citations": 16,
+  "citations": 18,
   "code": null,
   "sections": [
    "targets/harness"
@@ -3770,7 +3770,7 @@
   "date": "2026",
   "arxiv_id": "",
   "url": "https://openreview.net/forum?id=ffKHSraOIK",
-  "citations": 7,
+  "citations": 8,
   "code": null,
   "sections": [
    "evidence/measurement"
@@ -3785,7 +3785,7 @@
   "date": "2023-08",
   "arxiv_id": "2308.10144",
   "url": "https://arxiv.org/abs/2308.10144",
-  "citations": 794,
+  "citations": 798,
   "code": "https://github.com/LeapLabTHU/ExpeL",
   "sections": [
    "targets/harness"
@@ -3841,7 +3841,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.04406",
   "url": "https://arxiv.org/abs/2310.04406",
-  "citations": 596,
+  "citations": 599,
   "code": null,
   "sections": [
    "targets/weights",
@@ -3858,7 +3858,7 @@
   "date": "2023-07",
   "arxiv_id": "2307.13854",
   "url": "https://arxiv.org/abs/2307.13854",
-  "citations": 1808,
+  "citations": 1810,
   "code": "https://github.com/web-arena-x/webarena",
   "sections": [
    "foundations/long-horizon"
@@ -3918,7 +3918,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.25370",
   "url": "https://arxiv.org/abs/2509.25370",
-  "citations": 97,
+  "citations": 98,
   "code": null,
   "sections": [
    "targets/harness"
@@ -3959,7 +3959,7 @@
   "date": "2024-10",
   "arxiv_id": "2410.10934",
   "url": "https://arxiv.org/abs/2410.10934",
-  "citations": 197,
+  "citations": 198,
   "code": null,
   "sections": [
    "evidence/benchmarks",
