@@ -74,7 +74,7 @@
 
 ## 📅 Weekly News in AI4AI
 
-> **Updated 2026-08-14** · Curated weekly; citation rankings still refresh every Monday.
+> **Updated 2026-08-18** · Curated weekly; citation rankings still refresh every Monday.
 >
 > **How we select:** Official model, harness, and research announcements selected for recency, AI4AI relevance, technical novelty, and source verifiability. Performance claims remain attributed to their publishers.
 
