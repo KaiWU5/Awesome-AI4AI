@@ -13,10 +13,12 @@
     "unique_papers": 223
   },
   "overlap_policy": "A paper may appear in multiple public collections but only once within each collection.",
-  "citations_as_of": "2026-08-17",
+  "citations_as_of": "2026-08-19",
+  "github_stars_as_of": "2026-08-19",
   "citation_sources": [
     "Semantic Scholar",
     "OpenAlex"
   ],
-  "year_grouping": "Accepted papers use venue year; otherwise first public appearance year."
+  "citation_policy": "For papers indexed as multiple versions, retain the largest title-verified count reported by the configured sources.",
+  "year_grouping": "All yearly rankings use first public appearance year; a later venue year never moves a paper into a newer cohort."
 }

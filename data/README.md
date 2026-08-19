@@ -17,7 +17,11 @@ This directory contains the structured sources used to generate the public repos
 - `sections` preserves finer survey provenance and does not create extra README sections.
 - Records with an empty `collections` list are retained only for audit/support provenance.
 - One paper may belong to multiple public collections, but appears only once within each list.
-- Citation counts are discovery signals, not scientific-quality scores.
+- Citation counts are discovery signals, not scientific-quality scores. When
+  scholarly indexes split preprint and published versions, the catalog keeps
+  the largest title-verified count from its configured sources.
+- GitHub code links are repository-root URLs; their star counts refresh with
+  citations in the scheduled Monday workflow.
 - G/R/H/T are independent evidence coordinates, not a summed leaderboard.
 - Stage-ownership counts describe the coded sample, not prevalence in the full field.
 - `nr` means not reported or not tested; it does **not** mean demonstrated failure.

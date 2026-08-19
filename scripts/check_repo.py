@@ -157,6 +157,10 @@ catalog_meta = json.loads((ROOT / "data" / "catalog_meta.json").read_text())
 
 if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", catalog_meta.get("citations_as_of", "")):
     failures.append("catalog_meta.json has an invalid citations_as_of date")
+if not re.fullmatch(
+    r"\d{4}-\d{2}-\d{2}", catalog_meta.get("github_stars_as_of", "")
+):
+    failures.append("catalog_meta.json has an invalid github_stars_as_of date")
 if set(catalog_meta.get("public_collections", [])) != VALID_COLLECTIONS:
     failures.append("catalog_meta.json does not declare the three public collections")
 metadata_baseline = catalog_meta.get("survey_baseline", {})
@@ -232,6 +236,10 @@ for key, paper in papers.items():
         failures.append(f"invalid first-appearance date for {key}: {paper['date']}")
     if paper.get("audit") and key not in audit_by_key:
         failures.append(f"paper has audit metadata without source record: {key}")
+    if "github.com" in (paper.get("code") or ""):
+        stars = paper.get("github_stars")
+        if isinstance(stars, bool) or not isinstance(stars, int) or stars < 0:
+            failures.append(f"GitHub code record has no valid star count: {key}")
     collections = paper.get("collections")
     if not isinstance(collections, list):
         failures.append(f"paper has no collections list: {key}")
@@ -282,6 +290,8 @@ for index, (collection, heading) in enumerate(COLLECTION_HEADINGS):
         else readme.index("## 📚 How We Curate", start)
     )
     section = readme[start:end]
+    if "| Paper | Date | Citations | Code |" not in section:
+        failures.append(f"README {collection} table is missing the Citations column")
     mapped = [
         paper for paper in papers.values()
         if collection in paper.get("collections", [])
@@ -305,6 +315,16 @@ for index, (collection, heading) in enumerate(COLLECTION_HEADINGS):
     )]
     if ordered_positions != sorted(ordered_positions):
         failures.append(f"README {collection} collection is not newest first")
+
+for key, paper in papers.items():
+    if (
+        not paper.get("collections")
+        or "github.com" not in (paper.get("code") or "")
+    ):
+        continue
+    expected = f"[GitHub]({paper['code']}) · ★ {paper['github_stars']:,}"
+    if expected not in readme:
+        failures.append(f"README is missing GitHub stars for: {key}")
 
 if failures:
     raise SystemExit("\n".join(failures))

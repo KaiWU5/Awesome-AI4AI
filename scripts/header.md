@@ -31,7 +31,7 @@
 <tr>
 <td width="33%" align="center">
   <strong>🔄 Automatic rankings</strong><br>
-  <sub>Citation counts and rankings refresh every Monday.</sub>
+  <sub>Citations, GitHub stars, and rankings refresh every Monday.</sub>
 </td>
 <td width="33%" align="center">
   <strong>🗞️ Weekly news</strong><br>
@@ -50,7 +50,7 @@
 
 ## What's New
 
-- 🔄 **Every Monday — Automatic refresh.** Citation counts and recent-paper/yearly rankings update automatically.
+- 🔄 **Every Monday — Automatic refresh.** Citations, GitHub stars, and recent-paper/yearly rankings update automatically.
 - 🚀 **<!--LASTUPDATED--> — Awesome AI4AI released.** We published this repository as a living companion to the survey.
 - 📝 **2026-08-14 — Survey coming soon.** We will release our survey very soon.
 

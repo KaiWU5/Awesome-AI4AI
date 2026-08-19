@@ -125,9 +125,7 @@ def display_date(paper):
 
 
 def effective_year(paper):
-    match = re.search(r"(20\d{2})$", str(paper["venue"]))
-    if match:
-        return int(match.group(1))
+    """Group rankings by first public appearance, never later venue year."""
     value = sort_date(paper)
     return int(value[:4]) if value[:4].isdigit() else None
 
@@ -141,10 +139,14 @@ def code_cell(paper):
     url = paper.get("code")
     if not url:
         return "—"
-    return f"[GitHub]({url})" if "github.com" in url else f"[Project]({url})"
+    if "github.com" in url:
+        stars = paper.get("github_stars")
+        suffix = f" · ★ {stars:,}" if stars is not None else ""
+        return f"[GitHub]({url}){suffix}"
+    return f"[Project]({url})"
 
 
-def paper_table(papers, citations=False):
+def paper_table(papers, citations=True):
     headers = ["Paper", "Date"]
     if citations:
         headers.append("Citations")
@@ -242,7 +244,8 @@ parts += [
     f"> Citation counts are current through **{CATALOG_META['citations_as_of']}** from "
     f"{' and '.join(CATALOG_META['citation_sources'])}. Rankings are discovery aids, "
     "not quality scores; audit evidence remains independent of popularity. "
-    f"{CATALOG_META['year_grouping']}",
+    f"GitHub stars are snapshots from **{CATALOG_META['github_stars_as_of']}**. "
+    f"{CATALOG_META['citation_policy']} {CATALOG_META['year_grouping']}",
     "",
     "### 🔥 Recent Papers by Average Monthly Citations",
     "",
@@ -306,7 +309,7 @@ for section_group, section_title, subsections in SECTION_LAYOUT:
             f"> **{len(papers)} papers** · Survey-curated collection, newest first. "
             "Cross-collection papers may appear in more than one section.",
             "",
-            paper_table(papers),
+            paper_table(papers, citations=True),
             "",
         ]
 
