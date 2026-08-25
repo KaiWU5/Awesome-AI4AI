@@ -68,7 +68,14 @@ SECRET_PATTERNS = {
     "AWS access key": re.compile(r"\bAKIA[A-Z0-9]{16}\b"),
     "Slack token": re.compile(r"\bxox[baprs]-[A-Za-z0-9-]{20,}\b"),
 }
-PUBLIC_AUTOMATION_EMAILS = {"cursoragent@cursor.com"}
+# Maintainer and automation addresses allowed to author commits. Anything else
+# must use a @users.noreply.github.com address so contributors do not leak a
+# private inbox into the public history.
+PUBLIC_AUTOMATION_EMAILS = {
+    "cursoragent@cursor.com",
+    "noreply@anthropic.com",
+    "wukaiwork@outlook.com",
+}
 
 failures = []
 
