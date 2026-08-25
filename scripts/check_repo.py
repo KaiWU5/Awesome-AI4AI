@@ -199,8 +199,8 @@ for index, item in enumerate(news_items, 1):
     except ValueError:
         failures.append(f"weekly news item {index} has an invalid date")
         continue
-    if weekly_updated and not 0 <= (weekly_updated - published).days <= 6:
-        failures.append(f"weekly news item {index} falls outside the seven-day window")
+    if weekly_updated and not 0 <= (weekly_updated - published).days <= 30:
+        failures.append(f"news item {index} falls outside the rolling 30-day window")
 if len(news_urls) != len(set(news_urls)):
     failures.append("weekly_picks.json contains duplicate news URLs")
 current_archive = ROOT / "highlights" / f"{weekly['updated']}.md"
@@ -262,9 +262,9 @@ if public_papers < 223:
     failures.append(f"public survey catalog fell below 223 unique papers: {public_papers}")
 
 readme = (ROOT / "README.md").read_text()
-news_heading = "## 📅 Weekly News in AI4AI"
+news_heading = "## 📅 Weekly Update · Monthly Top 10"
 if news_heading not in readme:
-    failures.append("README is missing the weekly news heading")
+    failures.append("README is missing the news heading")
 else:
     news_section = readme[
         readme.index(news_heading):readme.index("## 📈 Live Rankings")
@@ -273,11 +273,11 @@ else:
         title = str(item.get("title", "")).replace("|", "\\|")
         fragment = f"[**{title}**]({item.get('url', '')})"
         if news_section.count(fragment) != 1:
-            failures.append(f"README does not render weekly news exactly once: {title}")
+            failures.append(f"README does not render news exactly once: {title}")
     if [item.get("date") for item in news_items] != sorted(
         (item.get("date") for item in news_items), reverse=True
     ):
-        failures.append("weekly news items are not newest first")
+        failures.append("news items are not newest first")
 
 for index, (collection, heading) in enumerate(COLLECTION_HEADINGS):
     if heading not in readme:

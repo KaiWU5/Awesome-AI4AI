@@ -8,7 +8,7 @@
 2. **Verify:** exact title and identifier checks against primary scholarly sources.
 3. **Classify:** Benchmarks, Harness Design, and Model Design, allowing justified overlap.
 4. **Audit when evidence permits:** stage ownership plus independent G/R/H/T coordinates.
-5. **Refresh weekly:** citation counts and rankings every Monday; papers, releases, blogs, and research news reviewed weekly.
+5. **Refresh weekly:** citation counts and rankings every Monday, alongside the month's top papers, releases, blogs, and research news.
 
 ## 📄 Citation
 

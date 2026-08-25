@@ -28,12 +28,12 @@ jobs:
         run: |
           python scripts/build_evidence.py
           python scripts/build_readme.py
-          python scripts/archive_weekly.py --check
+          python scripts/archive_weekly.py --ensure
           python scripts/check_repo.py
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/papers.json data/catalog_meta.json README.md EVIDENCE.md data/closure_audit.csv data/closure_audit_summary.json
-          git diff --cached --quiet || git commit -m "chore: refresh weekly AI4AI citations, stars, and rankings"
+          git add data/papers.json data/catalog_meta.json data/weekly_picks.json README.md EVIDENCE.md data/closure_audit.csv data/closure_audit_summary.json highlights
+          git diff --cached --quiet || git commit -m "chore: refresh weekly AI4AI citations, stars, rankings, and archive"
           git push

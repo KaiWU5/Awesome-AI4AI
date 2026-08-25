@@ -217,7 +217,7 @@ header_lead, header_remainder = header.split(featured_marker)
 parts = [header_lead.rstrip(), ""]
 
 parts += [
-    "## 📅 Weekly News in AI4AI",
+    "## 📅 Weekly Update · Monthly Top 10",
     "",
     f"> **Updated {WEEKLY['updated']}** · {WEEKLY['cadence']}",
     ">",
@@ -235,8 +235,8 @@ for item in WEEKLY["items"]:
     )
 parts += [
     "",
-    "> **Want next week's news?** Watch the repository. Citation counts and rankings refresh "
-    "every Monday; papers, releases, and research updates are reviewed weekly. "
+    "> **Want next month's news?** Watch the repository. Citation counts, rankings, and the "
+    "month's top stories refresh every Monday. "
     "[Browse past editions →](highlights/README.md)",
     "",
     "## 📈 Live Rankings",
@@ -317,7 +317,7 @@ parts.append((ROOT / "scripts" / "footer.md").read_text().rstrip())
 readme = "\n".join(parts) + "\n"
 
 toc = [
-    "- [📅 Weekly News in AI4AI](#-weekly-news-in-ai4ai)",
+    "- [📅 Weekly Update · Monthly Top 10](#-weekly-update--monthly-top-10)",
     "- [📈 Live Rankings](#-live-rankings)",
     "  - [🔥 Recent Papers by Average Monthly Citations](#-recent-papers-by-average-monthly-citations)",
     "  - [🏆 Most-Cited Papers by Year](#-most-cited-papers-by-year)",

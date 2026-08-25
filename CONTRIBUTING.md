@@ -78,11 +78,14 @@ use the matching provenance value above.
 - Do not add an `audit` block casually. Changes to stage ownership or G/R/H/T
   require a primary-source locator and rationale in `data/closure_audit.json`.
 
-## Weekly news
+## Monthly news
 
-Maintainers update [`data/weekly_picks.json`](data/weekly_picks.json) with
-source-linked papers, releases, blogs, and research news from the previous seven
-days. Prefer official announcements and primary scholarly sources, attribute
+Maintainers keep [`data/weekly_picks.json`](data/weekly_picks.json) as the top
+ten source-linked papers, releases, blogs, and research news from the trailing
+30 days, re-ranked at each weekly refresh: items that aged past 30 days drop
+out, the new week's arrivals are considered, and the rest carry forward. Aim for
+roughly half flagship model releases and half AI4AI research or harness work.
+Prefer official announcements and primary scholarly sources, attribute
 performance claims, and include a concise AI4AI relevance note. After updating
 the date and items, run `python scripts/archive_weekly.py` once to
 publish an immutable edition under [`highlights/`](highlights/README.md).

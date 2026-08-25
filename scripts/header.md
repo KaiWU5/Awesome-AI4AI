@@ -9,11 +9,11 @@
 <p><strong><em>From Long-Horizon Agents to Recursive Self-Improvement</em></strong></p>
 
 <p>
-  Weekly updates on AI-for-AI papers, news, and blogs. <strong>Stay tuned 🔥</strong>
+  Updated weekly with the month's top AI-for-AI papers, news, and blogs. <strong>Stay tuned 🔥</strong>
 </p>
 
 <p>
-  <a href="#-weekly-news-in-ai4ai"><img src="https://img.shields.io/badge/-Weekly_News-B26A00.svg?style=flat-square" alt="Weekly News"></a>
+  <a href="#-weekly-update--monthly-top-10"><img src="https://img.shields.io/badge/-Weekly_Update-B26A00.svg?style=flat-square" alt="Weekly Update"></a>
   <a href="#-live-rankings"><img src="https://img.shields.io/badge/-Live_Rankings-397DB7.svg?style=flat-square" alt="Live Rankings"></a>
   <a href="#-benchmarks"><img src="https://img.shields.io/badge/-Benchmarks-0E5B55.svg?style=flat-square" alt="Benchmarks"></a>
   <a href="#-harness-design"><img src="https://img.shields.io/badge/-Harness_Design-6F42C1.svg?style=flat-square" alt="Harness Design"></a>
@@ -34,8 +34,8 @@
   <sub>Citations, GitHub stars, and rankings refresh every Monday.</sub>
 </td>
 <td width="33%" align="center">
-  <strong>🗞️ Weekly news</strong><br>
-  <sub>Current papers and releases checked against primary sources.</sub>
+  <strong>🗞️ Weekly update</strong><br>
+  <sub>The month's top papers and releases, re-ranked every week against primary sources.</sub>
 </td>
 <td width="33%" align="center">
   <strong>🧭 Survey-grounded map</strong><br>
@@ -45,7 +45,7 @@
 </table>
 
 <p align="center">
-  <strong>Star ⭐ to save the map · Watch 👀 for weekly news · Share 🔁 with your lab</strong>
+  <strong>Star ⭐ to save the map · Watch 👀 for weekly updates · Share 🔁 with your lab</strong>
 </p>
 
 ## What's New
