@@ -13,6 +13,7 @@
 </p>
 
 <p>
+  <a href="https://www.preprints.org/manuscript/202608.2108/v1"><img src="https://img.shields.io/badge/-Read_the_Paper-8B5CF6.svg?style=flat-square" alt="Read the Paper"></a>
   <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
   <a href="#-weekly-update--monthly-top-10"><img src="https://img.shields.io/badge/-Weekly_Update-B26A00.svg?style=flat-square" alt="Weekly Update"></a>
   <a href="#-live-rankings"><img src="https://img.shields.io/badge/-Live_Rankings-397DB7.svg?style=flat-square" alt="Live Rankings"></a>
@@ -51,9 +52,9 @@
 
 ## What's New
 
+- 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement*.
 - 🔄 **Every Monday — Automatic refresh.** Citations, GitHub stars, and recent-paper/yearly rankings update automatically.
-- 🚀 **2026-08-25 — Awesome AI4AI released.** We published this repository as a living companion to the survey.
-- 📝 **2026-08-14 — Survey coming soon.** We will release our survey very soon.
+- 🚀 **2026-08-30 — Latest weekly edition published.** The living catalog and source-verified news digest are up to date.
 
 <details open markdown="1">
 <summary><b>🗂️ Explore the full collection</b></summary>
@@ -75,12 +76,13 @@
 
 ## 📅 Weekly Update · Monthly Top 10
 
-> **Updated 2026-08-25** · The month's top stories, refreshed every Monday alongside citation rankings.
+> **Updated 2026-08-30** · The month's top stories, refreshed every Monday alongside citation rankings.
 >
 > **How we select:** The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.
 
 | Date · Type | News | Why it matters |
 |:--|:--|:--|
+| 2026‑08‑30<br><sub>Paper</sub> | [**On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement**](https://www.preprints.org/manuscript/202608.2108/v1)<br><sub>Preprints.org</sub> | Our companion survey is now publicly available, presenting a unified map from long-horizon agents to recursive self-improvement and organizing the field around benchmarks, harness design, and model-side interventions. |
 | 2026‑08‑21<br><sub>Research release</sub> | [**NVIDIA AVO Reaches 100% on ARC-AGI-3, a General-Purpose Architecture for Long-Horizon Autonomous Agents**](https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/)<br><sub>NVIDIA</sub> | NVIDIA reports its AVO harness scored 100.00 RHAE across all 25 ARC-AGI-3 public environments and 183 levels using about 12 percent fewer actions than VISTA, and cautions that this covers the public set only rather than a controlled ablation. |
 | 2026‑08‑20<br><sub>Paper</sub> | [**AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement**](https://arxiv.org/abs/2608.20318)<br><sub>arXiv</sub> | Agents are given four hours on a single B300 to rewrite training algorithms across ten frozen research repositories, graded by a hidden evaluator. The authors report a mean score of 0.166 across 29 configurations with the best system at 0.250, and note that most submissions never modify the learning procedure itself. |
 | 2026‑08‑19<br><sub>Blog</sub> | [**Codex as a Platform: Build on the Open Agent Harness**](https://developers.openai.com/blog/codex-as-a-platform)<br><sub>OpenAI</sub> | OpenAI positions the open-source Codex harness as the reusable layer beneath its app, CLI, and IDE surfaces, and reports that retained reasoning plus context compaction lifted GPT-5.6 Sol on ARC-AGI-3 from 13.3 to 38.3 percent while cutting output tokens sixfold. |
@@ -90,7 +92,6 @@
 | 2026‑08‑13<br><sub>Model update</sub> | [**Introducing Gemini 3.7 Flash**](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)<br><sub>Google</sub> | Google positions 3.7 Flash as its coding-and-agents workhorse, reporting stronger multi-step planning, tool use, software engineering, and business-workflow performance. |
 | 2026‑08‑13<br><sub>Model release</sub> | [**DeepSeek-V4-Pro GA Release**](https://api-docs.deepseek.com/news/news260813/)<br><sub>DeepSeek</sub> | DeepSeek's general-availability release emphasizes agent upgrades, low/high/max reasoning effort, native OpenAI Responses API support, and availability across its app, web interface, and API. |
 | 2026‑08‑12<br><sub>Model release</sub> | [**Introducing Grok 4.6**](https://x.ai/news/grok-4-6)<br><sub>xAI</sub> | Grok 4.6 targets long-running agents and multi-step coding and knowledge work; xAI reports stronger sustained execution, self-testing, and verification after supplemental training and agentic RL. |
-| 2026‑08‑10<br><sub>Open-weight release</sub> | [**Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device**](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model)<br><sub>Meta AI Research</sub> | Meta's 30B open-weight multimodal model is tuned for sequential tool use and local always-on agents, with an Apache-2.0 release and deployment paths for personal hardware. |
 
 > **Want next month's news?** Watch the repository. Citation counts, rankings, and the month's top stories refresh every Monday. [Browse past editions →](highlights/README.md)
 
@@ -492,9 +493,9 @@ If this map or its evidence audit helps your work, please cite the companion sur
              Wang, Shengzhi and Wang, Zihan and Ye, Yiwen and Wang, Hao and
              Wang, Zimu and Liu, Wenzhe and Wang, Ruobing and Cai, Kai and
              Zhang, Yifan and Yang, Lei and Hu, Xiaobin and Liu, Qingwen},
-  howpublished = {Manuscript},
+  howpublished = {Preprints.org},
   year    = {2026},
-  url     = {https://github.com/KaiWU5/LongHorizonLLMAgents}
+  url     = {https://www.preprints.org/manuscript/202608.2108/v1}
 }
 ```
 

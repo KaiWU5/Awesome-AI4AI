@@ -3,10 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070810">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/KaiWU5/Awesome-AI4AI/main/assets/logo.png">
   <title>Awesome AI4AI — AI Agents, Benchmarks, and Self-Improving AI Research</title>
   <meta name="description" content="A weekly updated, survey-grounded catalog of AI-for-AI research: long-horizon LLM agents, agent benchmarks, harness design, automated AI research, and recursive self-improvement.">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://kaiwu5.github.io/Awesome-AI4AI/">
+  <link rel="stylesheet" href="styles.css">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Awesome AI4AI — From Long-Horizon Agents to Recursive Self-Improvement">
   <meta property="og:description" content="Weekly updated papers, benchmarks, and resources for AI-for-AI research.">
@@ -26,24 +29,16 @@
     "url": "https://kaiwu5.github.io/Awesome-AI4AI/",
     "sameAs": "https://github.com/KaiWU5/Awesome-AI4AI",
     "codeRepository": "https://github.com/KaiWU5/Awesome-AI4AI",
+    "citation": "https://www.preprints.org/manuscript/202608.2108/v1",
     "license": "https://opensource.org/license/mit",
     "datePublished": "2026-08-14",
-    "dateModified": "2026-08-25",
+    "dateModified": "2026-08-30",
     "creator": [
       {"@type": "Person", "name": "Kai Wu"},
       {"@type": "Person", "name": "Hao Lyu"},
       {"@type": "Person", "name": "Zhen Luo"}
     ],
-    "keywords": [
-      "AI for AI",
-      "AI4AI",
-      "LLM agents",
-      "long-horizon agents",
-      "agent benchmarks",
-      "agent harnesses",
-      "automated AI research",
-      "recursive self-improvement"
-    ],
+    "keywords": ["AI for AI", "AI4AI", "LLM agents", "long-horizon agents", "agent benchmarks", "agent harnesses", "automated AI research", "recursive self-improvement"],
     "distribution": {
       "@type": "DataDownload",
       "encodingFormat": "application/json",
@@ -51,70 +46,150 @@
     }
   }
   </script>
-  <style>
-    :root { color-scheme: light dark; --accent: #d76712; --card: color-mix(in srgb, Canvas 94%, #d76712 6%); }
-    * { box-sizing: border-box; }
-    body { margin: 0; font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: CanvasText; background: Canvas; }
-    main { max-width: 920px; margin: 0 auto; padding: 72px 24px 56px; }
-    header { text-align: center; margin-bottom: 54px; }
-    .logo { width: min(180px, 42vw); height: auto; }
-    h1 { margin: 18px 0 4px; font-size: clamp(2.4rem, 7vw, 4.4rem); line-height: 1.05; }
-    h2 { margin-top: 42px; }
-    .tagline { font-size: 1.25rem; margin: 8px auto 24px; max-width: 680px; }
-    .button { display: inline-block; margin: 6px; padding: 10px 17px; border-radius: 8px; color: white; background: var(--accent); text-decoration: none; font-weight: 700; }
-    .button.secondary { color: CanvasText; background: var(--card); border: 1px solid color-mix(in srgb, CanvasText 18%, transparent); }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
-    .card { padding: 18px; border-radius: 12px; background: var(--card); border: 1px solid color-mix(in srgb, CanvasText 12%, transparent); }
-    .card h3 { margin: 0 0 8px; }
-    a { color: color-mix(in srgb, var(--accent) 82%, CanvasText); }
-    footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid color-mix(in srgb, CanvasText 14%, transparent); font-size: .92rem; }
-  </style>
 </head>
 <body>
-  <main>
-    <header>
-      <img class="logo" src="https://raw.githubusercontent.com/KaiWU5/Awesome-AI4AI/main/assets/logo.png" alt="Awesome AI4AI rocket logo" width="512" height="512">
-      <h1>Awesome AI4AI</h1>
-      <p class="tagline">From long-horizon agents to recursive self-improvement: a living, survey-grounded map of research on AI systems that help build better AI.</p>
-      <p>
-        <a class="button" href="https://github.com/KaiWU5/Awesome-AI4AI">Explore the GitHub repository</a>
-        <a class="button secondary" href="https://github.com/KaiWU5/Awesome-AI4AI#-weekly-update--monthly-top-10">See this month's top research</a>
-      </p>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="aurora aurora-one" aria-hidden="true"></div>
+  <div class="aurora aurora-two" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <nav class="nav" aria-label="Primary navigation">
+    <a class="brand" href="#top" aria-label="Awesome AI4AI home"><span class="brand-mark">A<span>4</span>A</span><span>Awesome AI4AI</span></a>
+    <div class="nav-links">
+      <a href="#atlas">Atlas</a>
+      <a href="#collections">Collections</a>
+      <a href="#paper">Paper</a>
+      <a class="nav-github" href="https://github.com/KaiWU5/Awesome-AI4AI">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero">
+      <div class="hero-copy reveal">
+        <a class="eyebrow" href="https://www.preprints.org/manuscript/202608.2108/v1"><span class="pulse"></span> New · companion survey is live <span aria-hidden="true">↗</span></a>
+        <h1><span>Intelligence,</span><br><em>building intelligence.</em></h1>
+        <p class="hero-lead">A living research atlas connecting long-horizon agents, agent harnesses, AI benchmarks, and recursive self-improvement.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://www.preprints.org/manuscript/202608.2108/v1"><span>Read the paper</span><span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="https://github.com/KaiWU5/Awesome-AI4AI"><span>Explore the repository</span><span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="1" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit-label label-one">BENCHMARK</div>
+        <div class="orbit-label label-two">HARNESS</div>
+        <div class="orbit-label label-three">MODEL</div>
+        <div class="logo-shell">
+          <div class="logo-glow"></div>
+          <img src="https://raw.githubusercontent.com/KaiWU5/Awesome-AI4AI/main/assets/logo.png" alt="" width="1254" height="547">
+        </div>
+      </div>
+
+      <div class="metrics reveal" data-delay="2" aria-label="Catalog statistics">
+        <div><strong data-count="223">223</strong><span>public papers</span></div>
+        <div><strong data-count="111">111</strong><span>benchmarks</span></div>
+        <div><strong data-count="98">98</strong><span>harness studies</span></div>
+        <div><strong data-count="26">26</strong><span>model studies</span></div>
+      </div>
     </header>
 
-    <section aria-labelledby="about">
-      <h2 id="about">A curated AI-for-AI research catalog</h2>
-      <p>Awesome AI4AI tracks papers, benchmarks, implementations, and research releases about LLM agents and automated AI research. The collection is refreshed every week, with citation counts, GitHub stars, recent-paper rankings, primary-source links, and an auditable curation methodology.</p>
-      <p>The catalog covers agentic systems that plan and execute over long horizons, environments for measuring those systems, harnesses that shape their behavior, and methods that allow models or agents to improve AI workflows, code, data, training, and evaluation.</p>
-    </section>
+    <div class="ticker" aria-label="Research topics">
+      <div class="ticker-track">
+        <span>LONG-HORIZON AGENTS</span><i></i><span>RECURSIVE SELF-IMPROVEMENT</span><i></i><span>AGENT BENCHMARKS</span><i></i><span>HARNESS DESIGN</span><i></i><span>MODEL DESIGN</span><i></i><span>AUTOMATED AI RESEARCH</span><i></i>
+        <span aria-hidden="true">LONG-HORIZON AGENTS</span><i aria-hidden="true"></i><span aria-hidden="true">RECURSIVE SELF-IMPROVEMENT</span><i aria-hidden="true"></i><span aria-hidden="true">AGENT BENCHMARKS</span><i aria-hidden="true"></i><span aria-hidden="true">HARNESS DESIGN</span><i aria-hidden="true"></i><span aria-hidden="true">MODEL DESIGN</span><i aria-hidden="true"></i><span aria-hidden="true">AUTOMATED AI RESEARCH</span><i aria-hidden="true"></i>
+      </div>
+    </div>
 
-    <section aria-labelledby="collections">
-      <h2 id="collections">Browse the collection</h2>
-      <div class="grid">
-        <article class="card">
-          <h3><a href="https://github.com/KaiWU5/Awesome-AI4AI#-benchmarks">Agent benchmarks</a></h3>
-          <p>Realistic, long-horizon environments for coding, web, computer-use, research, planning, and tool-use agents.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://github.com/KaiWU5/Awesome-AI4AI#%EF%B8%8F-harness-design">Harness design</a></h3>
-          <p>Scaffolds, memory, context management, planning, tools, verification, and orchestration around foundation models.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://github.com/KaiWU5/Awesome-AI4AI#-model-design">Model design</a></h3>
-          <p>Training and self-improvement methods for models that learn to reason, act, research, and improve AI systems.</p>
-        </article>
+    <section class="section atlas" id="atlas">
+      <div class="section-heading reveal">
+        <p class="kicker">01 · THE RESEARCH ATLAS</p>
+        <h2>See the field.<br><span>Connect the systems.</span></h2>
+        <p>One visual map for the benchmarks that measure agents, the harnesses that guide them, and the model interventions that make them improve.</p>
+      </div>
+      <div class="visual-grid">
+        <a class="visual-card visual-card-main tilt reveal" href="https://github.com/KaiWU5/Awesome-AI4AI#-benchmarks">
+          <div class="visual-meta"><span>FIGURE 03</span><span>AI4AI TAXONOMY</span></div>
+          <img src="https://raw.githubusercontent.com/KaiWU5/Awesome-AI4AI/main/assets/benchmarks.png" alt="AI4AI taxonomy showing research benchmark categories" width="1800" height="1200" loading="lazy">
+          <div class="visual-caption"><strong>Benchmarks</strong><span>111 papers · explore collection ↗</span></div>
+        </a>
+        <a class="visual-card tilt reveal" data-delay="1" href="https://github.com/KaiWU5/Awesome-AI4AI#%EF%B8%8F-harness-design">
+          <div class="visual-meta"><span>SYSTEM VIEW</span><span>HARNESS</span></div>
+          <img src="https://raw.githubusercontent.com/KaiWU5/Awesome-AI4AI/main/assets/harness-design.png" alt="Evidence chain for reliable AI agent harness interventions" width="1800" height="892" loading="lazy">
+          <div class="visual-caption"><strong>Harness design</strong><span>98 papers ↗</span></div>
+        </a>
+        <a class="visual-card tilt reveal" data-delay="2" href="https://github.com/KaiWU5/Awesome-AI4AI#-model-design">
+          <div class="visual-meta"><span>SYSTEM VIEW</span><span>MODEL</span></div>
+          <img src="https://raw.githubusercontent.com/KaiWU5/Awesome-AI4AI/main/assets/model-design.png" alt="Model-side interventions across planning, execution, feedback, and repair" width="2000" height="585" loading="lazy">
+          <div class="visual-caption"><strong>Model design</strong><span>26 papers ↗</span></div>
+        </a>
       </div>
     </section>
 
-    <section aria-labelledby="resources">
-      <h2 id="resources">Open research resources</h2>
-      <p>All catalog data is available as structured JSON in the <a href="https://github.com/KaiWU5/Awesome-AI4AI/tree/main/data">data directory</a>. The repository also provides an <a href="https://github.com/KaiWU5/Awesome-AI4AI/blob/main/EVIDENCE.md">evidence audit</a>, reproducible update scripts, dated weekly highlights, contribution guidance, and a machine-readable citation file.</p>
-      <p><a href="https://github.com/KaiWU5/Awesome-AI4AI">Open Awesome AI4AI on GitHub</a> to search the complete paper tables, star the project, suggest a paper, or contribute a correction.</p>
+    <section class="section collections" id="collections">
+      <div class="section-heading reveal">
+        <p class="kicker">02 · LIVE COLLECTIONS</p>
+        <h2>Curated for signal,<br><span>built for discovery.</span></h2>
+      </div>
+      <div class="collection-grid">
+        <a class="collection-card reveal" href="https://github.com/KaiWU5/Awesome-AI4AI#-weekly-update--monthly-top-10">
+          <span class="card-index">01</span><div class="card-icon">⌁</div><h3>Weekly intelligence</h3><p>The month's highest-signal papers, releases, and research news—source-checked and reranked every Monday.</p><span class="card-link">Open the signal feed <b>↗</b></span>
+        </a>
+        <a class="collection-card reveal" data-delay="1" href="https://github.com/KaiWU5/Awesome-AI4AI#-live-rankings">
+          <span class="card-index">02</span><div class="card-icon">↗</div><h3>Live rankings</h3><p>Citation velocity, yearly leaders, and code popularity refreshed from scholarly APIs and GitHub.</p><span class="card-link">See live rankings <b>↗</b></span>
+        </a>
+        <a class="collection-card reveal" data-delay="2" href="https://github.com/KaiWU5/Awesome-AI4AI/blob/main/EVIDENCE.md">
+          <span class="card-index">03</span><div class="card-icon">◇</div><h3>Evidence audit</h3><p>Traceable evidence for stage ownership, generalization, robustness, horizon, and transfer claims.</p><span class="card-link">Inspect the evidence <b>↗</b></span>
+        </a>
+      </div>
     </section>
 
-    <footer>
-      <p>Awesome AI4AI is maintained by Kai Wu, Hao Lyu, and Zhen Luo and released under the MIT License. The catalog accompanies the survey <cite>On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement</cite>.</p>
-    </footer>
+    <section class="section method reveal">
+      <div class="method-copy">
+        <p class="kicker">03 · REPRODUCIBLE BY DESIGN</p>
+        <h2>Every claim has<br><span>a trail.</span></h2>
+        <p>Discover, verify, classify, audit, and refresh. The catalog combines human research judgment with reproducible data and weekly automation.</p>
+        <a class="text-link" href="https://github.com/KaiWU5/Awesome-AI4AI#-how-we-curate">Read the methodology <span>→</span></a>
+      </div>
+      <div class="method-visual">
+        <div class="scanline" aria-hidden="true"></div>
+        <img src="https://raw.githubusercontent.com/KaiWU5/Awesome-AI4AI/main/assets/methodology.png" alt="Search, screening, extraction, coding, and verification workflow" width="1800" height="441" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section paper" id="paper">
+      <div class="paper-card reveal">
+        <div class="paper-noise" aria-hidden="true"></div>
+        <div class="paper-topline"><span><i></i> PAPER NOW LIVE</span><span>PREPRINT · 2026</span></div>
+        <p class="paper-label">THE COMPANION SURVEY</p>
+        <h2>On the Eve of <em>AI4AI</em></h2>
+        <p class="paper-subtitle">From Long-Horizon Agents to Recursive Self-Improvement</p>
+        <p class="paper-description">A unified map of the systems, evidence, and design choices shaping AI that can help build better AI.</p>
+        <div class="paper-actions">
+          <a class="button button-light" href="https://www.preprints.org/manuscript/202608.2108/v1"><span>Read on Preprints.org</span><span>↗</span></a>
+          <a class="button button-outline" href="https://github.com/KaiWU5/Awesome-AI4AI#-citation"><span>Cite this work</span><span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta reveal">
+      <p class="kicker">THE MAP KEEPS MOVING</p>
+      <h2>Follow the frontier.</h2>
+      <p>Star the repository for the weekly update, contribute a missing paper, or explore the structured dataset.</p>
+      <div class="hero-actions centered">
+        <a class="button button-primary" href="https://github.com/KaiWU5/Awesome-AI4AI"><span>Star on GitHub</span><span>★</span></a>
+        <a class="button button-ghost" href="https://github.com/KaiWU5/Awesome-AI4AI/tree/main/data"><span>Explore the data</span><span>→</span></a>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <a class="brand" href="#top"><span class="brand-mark">A<span>4</span>A</span><span>Awesome AI4AI</span></a>
+    <p>Maintained by Kai Wu, Hao Lyu, and Zhen Luo · MIT License</p>
+    <a href="https://github.com/KaiWU5/Awesome-AI4AI">GitHub ↗</a>
+  </footer>
+
+  <script src="app.js" defer></script>
 </body>
 </html>

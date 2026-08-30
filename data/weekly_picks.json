@@ -1,8 +1,16 @@
 {
-  "updated": "2026-08-25",
+  "updated": "2026-08-30",
   "cadence": "The month's top stories, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
+    {
+      "date": "2026-08-30",
+      "kind": "Paper",
+      "source": "Preprints.org",
+      "title": "On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement",
+      "url": "https://www.preprints.org/manuscript/202608.2108/v1",
+      "why": "Our companion survey is now publicly available, presenting a unified map from long-horizon agents to recursive self-improvement and organizing the field around benchmarks, harness design, and model-side interventions."
+    },
     {
       "date": "2026-08-21",
       "kind": "Research release",
@@ -74,14 +82,6 @@
       "title": "Introducing Grok 4.6",
       "url": "https://x.ai/news/grok-4-6",
       "why": "Grok 4.6 targets long-running agents and multi-step coding and knowledge work; xAI reports stronger sustained execution, self-testing, and verification after supplemental training and agentic RL."
-    },
-    {
-      "date": "2026-08-10",
-      "kind": "Open-weight release",
-      "source": "Meta AI Research",
-      "title": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "why": "Meta's 30B open-weight multimodal model is tuned for sequential tool use and local always-on agents, with an Apache-2.0 release and deployment paths for personal hardware."
     }
   ]
 }

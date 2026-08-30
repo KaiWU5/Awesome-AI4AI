@@ -13,6 +13,7 @@
 </p>
 
 <p>
+  <a href="https://www.preprints.org/manuscript/202608.2108/v1"><img src="https://img.shields.io/badge/-Read_the_Paper-8B5CF6.svg?style=flat-square" alt="Read the Paper"></a>
   <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
   <a href="#-weekly-update--monthly-top-10"><img src="https://img.shields.io/badge/-Weekly_Update-B26A00.svg?style=flat-square" alt="Weekly Update"></a>
   <a href="#-live-rankings"><img src="https://img.shields.io/badge/-Live_Rankings-397DB7.svg?style=flat-square" alt="Live Rankings"></a>
@@ -51,9 +52,9 @@
 
 ## What's New
 
+- 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement*.
 - 🔄 **Every Monday — Automatic refresh.** Citations, GitHub stars, and recent-paper/yearly rankings update automatically.
-- 🚀 **<!--LASTUPDATED--> — Awesome AI4AI released.** We published this repository as a living companion to the survey.
-- 📝 **2026-08-14 — Survey coming soon.** We will release our survey very soon.
+- 🚀 **<!--LASTUPDATED--> — Latest weekly edition published.** The living catalog and source-verified news digest are up to date.
 
 <details open markdown="1">
 <summary><b>🗂️ Explore the full collection</b></summary>

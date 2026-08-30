@@ -25,9 +25,9 @@ If this map or its evidence audit helps your work, please cite the companion sur
              Wang, Shengzhi and Wang, Zihan and Ye, Yiwen and Wang, Hao and
              Wang, Zimu and Liu, Wenzhe and Wang, Ruobing and Cai, Kai and
              Zhang, Yifan and Yang, Lei and Hu, Xiaobin and Liu, Qingwen},
-  howpublished = {Manuscript},
+  howpublished = {Preprints.org},
   year    = {2026},
-  url     = {https://github.com/KaiWU5/LongHorizonLLMAgents}
+  url     = {https://www.preprints.org/manuscript/202608.2108/v1}
 }
 ```
 
