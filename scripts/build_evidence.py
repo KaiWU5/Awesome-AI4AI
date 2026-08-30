@@ -84,7 +84,7 @@ def evidence(value):
 lines = [
     "# 🔬 AI4AI Stage-Ownership & Improvement-Evidence Audit",
     "",
-    "> Companion evidence artifact for *On the Eve of AI4AI*. "
+    "> Companion evidence artifact for *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*. "
     "This is an evidence-weighted 35-system sample, **not** a prevalence estimate.",
     "",
     f"**Frozen:** {data['metadata']['frozen_on']} · "

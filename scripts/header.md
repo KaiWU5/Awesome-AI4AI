@@ -52,7 +52,7 @@
 
 ## What's New
 
-- 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement*.
+- 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*.
 - 🔄 **Every Monday — Automatic refresh.** Citations, GitHub stars, and recent-paper/yearly rankings update automatically.
 - 🚀 **<!--LASTUPDATED--> — Latest weekly edition published.** The living catalog and source-verified news digest are up to date.
 

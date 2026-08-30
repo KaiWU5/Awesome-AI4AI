@@ -1,6 +1,6 @@
 # 🔬 AI4AI Stage-Ownership & Improvement-Evidence Audit
 
-> Companion evidence artifact for *On the Eve of AI4AI*. This is an evidence-weighted 35-system sample, **not** a prevalence estimate.
+> Companion evidence artifact for *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*. This is an evidence-weighted 35-system sample, **not** a prevalence estimate.
 
 **Frozen:** 2026-08-04 · **Last verified:** 2026-08-13 · **Schema:** 2.0.0
 

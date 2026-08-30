@@ -19,7 +19,7 @@ If this map or its evidence audit helps your work, please cite the companion sur
 
 ```bibtex
 @misc{wu2026eveai4ai,
-  title   = {On the Eve of {AI4AI}: From Long-Horizon Agents to Recursive Self-Improvement},
+  title   = {{AI4AI} Survey: From Long-Horizon Agents to Recursive Self-Improvement---Definitions, Reliable Horizons, and Open Problems},
   author  = {Wu, Kai and Lyu, Hao and Luo, Zhen and Wang, Chaofan and
              Ye, Siyu and Lin, Jinghao and Ji, Xiaozhong and Jiang, Boyuan and
              Wang, Shengzhi and Wang, Zihan and Ye, Yiwen and Wang, Hao and

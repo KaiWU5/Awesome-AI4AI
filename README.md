@@ -52,7 +52,7 @@
 
 ## What's New
 
-- 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement*.
+- 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*.
 - 🔄 **Every Monday — Automatic refresh.** Citations, GitHub stars, and recent-paper/yearly rankings update automatically.
 - 🚀 **2026-08-30 — Latest weekly edition published.** The living catalog and source-verified news digest are up to date.
 
@@ -82,7 +82,7 @@
 
 | Date · Type | News | Why it matters |
 |:--|:--|:--|
-| 2026‑08‑30<br><sub>Paper</sub> | [**On the Eve of AI4AI: From Long-Horizon Agents to Recursive Self-Improvement**](https://www.preprints.org/manuscript/202608.2108/v1)<br><sub>Preprints.org</sub> | Our companion survey is now publicly available, presenting a unified map from long-horizon agents to recursive self-improvement and organizing the field around benchmarks, harness design, and model-side interventions. |
+| 2026‑08‑30<br><sub>Paper</sub> | [**AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems**](https://www.preprints.org/manuscript/202608.2108/v1)<br><sub>Preprints.org</sub> | Our companion survey is now publicly available, presenting a unified map from long-horizon agents to recursive self-improvement and organizing the field around benchmarks, harness design, and model-side interventions. |
 | 2026‑08‑21<br><sub>Research release</sub> | [**NVIDIA AVO Reaches 100% on ARC-AGI-3, a General-Purpose Architecture for Long-Horizon Autonomous Agents**](https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/)<br><sub>NVIDIA</sub> | NVIDIA reports its AVO harness scored 100.00 RHAE across all 25 ARC-AGI-3 public environments and 183 levels using about 12 percent fewer actions than VISTA, and cautions that this covers the public set only rather than a controlled ablation. |
 | 2026‑08‑20<br><sub>Paper</sub> | [**AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement**](https://arxiv.org/abs/2608.20318)<br><sub>arXiv</sub> | Agents are given four hours on a single B300 to rewrite training algorithms across ten frozen research repositories, graded by a hidden evaluator. The authors report a mean score of 0.166 across 29 configurations with the best system at 0.250, and note that most submissions never modify the learning procedure itself. |
 | 2026‑08‑19<br><sub>Blog</sub> | [**Codex as a Platform: Build on the Open Agent Harness**](https://developers.openai.com/blog/codex-as-a-platform)<br><sub>OpenAI</sub> | OpenAI positions the open-source Codex harness as the reusable layer beneath its app, CLI, and IDE surfaces, and reports that retained reasoning plus context compaction lifted GPT-5.6 Sol on ARC-AGI-3 from 13.3 to 38.3 percent while cutting output tokens sixfold. |
@@ -487,7 +487,7 @@ If this map or its evidence audit helps your work, please cite the companion sur
 
 ```bibtex
 @misc{wu2026eveai4ai,
-  title   = {On the Eve of {AI4AI}: From Long-Horizon Agents to Recursive Self-Improvement},
+  title   = {{AI4AI} Survey: From Long-Horizon Agents to Recursive Self-Improvement---Definitions, Reliable Horizons, and Open Problems},
   author  = {Wu, Kai and Lyu, Hao and Luo, Zhen and Wang, Chaofan and
              Ye, Siyu and Lin, Jinghao and Ji, Xiaozhong and Jiang, Boyuan and
              Wang, Shengzhi and Wang, Zihan and Ye, Yiwen and Wang, Hao and

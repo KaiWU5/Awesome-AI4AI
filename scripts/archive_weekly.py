@@ -58,7 +58,7 @@ lines = [
     marker,
     "",
     "> Source-verified papers, model releases, and research updates from the living companion to "
-    "[*On the Eve of AI4AI*](https://www.preprints.org/manuscript/202608.2108/v1).",
+    "[*AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*](https://www.preprints.org/manuscript/202608.2108/v1).",
     "",
     f"**Selection policy:** {WEEKLY['selection']}",
     "",
