@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kaiwu5.github.io/Awesome-AI4AI/sitemap.xml

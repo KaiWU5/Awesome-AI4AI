@@ -13,6 +13,7 @@
 </p>
 
 <p>
+  <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
   <a href="#-weekly-update--monthly-top-10"><img src="https://img.shields.io/badge/-Weekly_Update-B26A00.svg?style=flat-square" alt="Weekly Update"></a>
   <a href="#-live-rankings"><img src="https://img.shields.io/badge/-Live_Rankings-397DB7.svg?style=flat-square" alt="Live Rankings"></a>
   <a href="#-benchmarks"><img src="https://img.shields.io/badge/-Benchmarks-0E5B55.svg?style=flat-square" alt="Benchmarks"></a>
