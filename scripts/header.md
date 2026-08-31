@@ -14,17 +14,11 @@
 </p>
 
 <p>
-  <a href="https://www.preprints.org/manuscript/202608.2108/v1"><img src="https://img.shields.io/badge/-Read_the_Paper-8B5CF6.svg?style=flat-square" alt="Read the Paper"></a>
-  <a href="assets/AI4AI-Survey.pdf"><img src="https://img.shields.io/badge/-PDF_(original_layout)-B31B1B.svg?style=flat-square" alt="PDF, original layout"></a>
+  <a href="assets/AI4AI-Survey.pdf"><img src="https://img.shields.io/badge/-Paper_(nice_layout)-B31B1B.svg?style=flat-square" alt="Paper, nice layout"></a>
+  <a href="https://www.preprints.org/manuscript/202608.2108/v1"><img src="https://img.shields.io/badge/-Paper_on_Preprints.org-8B5CF6.svg?style=flat-square" alt="Paper on Preprints.org"></a>
   <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
   <a href="https://github.com/simple-agent-lab/RSIHub"><img src="https://img.shields.io/badge/-RSIHub_Harness-24292F.svg?style=flat-square" alt="RSIHub Harness"></a>
   <a href="https://simpleagentlab.com/ai4ai/"><img src="https://img.shields.io/badge/-Blog-0A7EA4.svg?style=flat-square" alt="Blog"></a>
-  <a href="#-weekly-update--monthly-top-10"><img src="https://img.shields.io/badge/-Weekly_Update-B26A00.svg?style=flat-square" alt="Weekly Update"></a>
-  <a href="#-live-rankings"><img src="https://img.shields.io/badge/-Live_Rankings-397DB7.svg?style=flat-square" alt="Live Rankings"></a>
-  <a href="#-benchmarks"><img src="https://img.shields.io/badge/-Benchmarks-0E5B55.svg?style=flat-square" alt="Benchmarks"></a>
-  <a href="#-harness-design"><img src="https://img.shields.io/badge/-Harness_Design-6F42C1.svg?style=flat-square" alt="Harness Design"></a>
-  <a href="#-model-design"><img src="https://img.shields.io/badge/-Model_Design-C05A47.svg?style=flat-square" alt="Model Design"></a>
-  <a href="#-how-we-curate"><img src="https://img.shields.io/badge/-How_We_Curate-555555.svg?style=flat-square" alt="How We Curate"></a>
 </p>
 
 </div>
