@@ -1,12 +1,13 @@
 <div align="center">
 
 <p>
-  <img src="assets/logo.png" width="25%" alt="Awesome AI4AI logo">
+  <img src="assets/cover.png" width="88%" alt="Towards AI that improves AI — the plan, execute, feedback, repair loop">
 </p>
 
 <h1>🚀 Awesome AI4AI</h1>
 
-<p><strong><em>From Long-Horizon Agents to Recursive Self-Improvement</em></strong></p>
+<p><strong><em>AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement</em></strong><br>
+<sub>Definitions, Reliable Horizons, and Open Problems · 23 authors · 7 institutions</sub></p>
 
 <p>
   Updated weekly with the month's top AI-for-AI papers, news, and blogs. <strong>Stay tuned 🔥</strong>
@@ -15,6 +16,8 @@
 <p>
   <a href="https://www.preprints.org/manuscript/202608.2108/v1"><img src="https://img.shields.io/badge/-Read_the_Paper-8B5CF6.svg?style=flat-square" alt="Read the Paper"></a>
   <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
+  <a href="https://github.com/simple-agent-lab/RSIHub"><img src="https://img.shields.io/badge/-RSIHub_Harness-24292F.svg?style=flat-square" alt="RSIHub Harness"></a>
+  <a href="https://simpleagentlab.com/ai4ai/"><img src="https://img.shields.io/badge/-Blog-0A7EA4.svg?style=flat-square" alt="Blog"></a>
   <a href="#-weekly-update--monthly-top-10"><img src="https://img.shields.io/badge/-Weekly_Update-B26A00.svg?style=flat-square" alt="Weekly Update"></a>
   <a href="#-live-rankings"><img src="https://img.shields.io/badge/-Live_Rankings-397DB7.svg?style=flat-square" alt="Live Rankings"></a>
   <a href="#-benchmarks"><img src="https://img.shields.io/badge/-Benchmarks-0E5B55.svg?style=flat-square" alt="Benchmarks"></a>

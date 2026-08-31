@@ -58,7 +58,12 @@ main { overflow: clip; }
 .hero-title-full b { color: #fff; font-weight: 700; }
 .hero-title-full span { display: block; margin-top: 10px; color: var(--muted); font-size: .74em; font-weight: 500; letter-spacing: 0; }
 .hero-actions.centered, .hero-titleblock .hero-actions { justify-content: center; }
-.hero-authors { margin-top: 24px; color: #7f8092; font: 500 12px/1 "DM Mono", monospace; letter-spacing: .1em; }
+.hero-authors { margin: 24px 0 0; color: #9a9bb0; font: 500 12px/1.6 "DM Mono", monospace; letter-spacing: .1em; }
+.hero-authors span { color: #7f8092; }
+.hero-affil { margin: 7px 0 0; max-width: 46ch; color: #6f7084; font: 500 11px/1.7 "DM Mono", monospace; letter-spacing: .08em; }
+.hero-links { margin: 18px 0 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.hero-links a { color: var(--blue); font-size: 12.5px; text-decoration: none; border-bottom: 1px solid rgba(103,212,255,.28); padding-bottom: 2px; transition: color .2s ease, border-color .2s ease; }
+.hero-links a:hover { color: #fff; border-color: rgba(255,255,255,.6); }
 .eyebrow { width: fit-content; margin-bottom: 26px; padding: 8px 12px; display: flex; align-items: center; gap: 9px; border: 1px solid rgba(185,245,109,.2); border-radius: 999px; color: #dfffb9; background: rgba(185,245,109,.06); font: 500 11px/1 "DM Mono", monospace; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
 .pulse { width: 7px; height: 7px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 0 rgba(185,245,109,.6); animation: pulse 2s infinite; }
 h1, h2, h3, p { margin-top: 0; }
