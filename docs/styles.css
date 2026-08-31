@@ -44,22 +44,28 @@ img { max-width: 100%; }
 .nav-links .nav-github { padding: 9px 14px; color: white; border: 1px solid var(--line); border-radius: 10px; }
 
 main { overflow: clip; }
-.hero { min-height: calc(100vh - 82px); width: min(calc(100% - 40px), var(--max)); margin: 0 auto; padding: 7vh 0 50px; display: grid; grid-template-columns: minmax(0, 1.02fr) minmax(0, .98fr); align-items: center; gap: 40px; }
-.hero-copy { position: relative; z-index: 2; }
-.hero-kicker { margin-bottom: 14px; color: var(--muted); font: 500 13px/1 "DM Mono", monospace; letter-spacing: .16em; text-transform: uppercase; }
-.hero-kicker em { color: var(--lime); font-style: normal; }
-.hero-sub { max-width: 620px; margin-bottom: 20px; color: #dcdce6; font-size: clamp(1.02rem, 1.7vw, 1.32rem); font-weight: 600; letter-spacing: -.02em; }
-.hero-authors { margin-top: 22px; color: #7f8092; font: 500 12px/1 "DM Mono", monospace; letter-spacing: .1em; }
+.hero { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; padding: 5vh 0 50px; display: grid; justify-items: center; gap: 46px; text-align: center; }
+.hero-titleblock { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; }
+.hero-titleblock .eyebrow { margin-bottom: 30px; }
+
+/* The lockup is the loudest thing on the page: robot wordmark + "A Survey of AI for AI". */
+.hero-lockup { display: flex; align-items: center; justify-content: center; gap: clamp(16px, 3vw, 40px); flex-wrap: wrap; }
+.hero-logo { position: relative; flex: none; width: clamp(150px, 21vw, 310px); animation: float 6s ease-in-out infinite; }
+.hero-logo img { position: relative; z-index: 2; display: block; width: 100%; height: auto; filter: drop-shadow(0 18px 42px rgba(0,0,0,.6)); }
+.hero-logo-glow { position: absolute; inset: 4% 2%; border-radius: 50%; background: linear-gradient(110deg, var(--violet), var(--blue), var(--orange)); filter: blur(52px); opacity: .42; animation: breathe 4.5s ease-in-out infinite; }
+
+.hero-title-full { max-width: 30ch; margin: 30px 0 0; color: #e9e9f2; font-size: clamp(1.15rem, 2.2vw, 1.72rem); font-weight: 700; line-height: 1.34; letter-spacing: -.025em; text-wrap: balance; }
+.hero-title-full b { color: #fff; font-weight: 700; }
+.hero-title-full span { display: block; margin-top: 10px; color: var(--muted); font-size: .74em; font-weight: 500; letter-spacing: 0; }
+.hero-actions.centered, .hero-titleblock .hero-actions { justify-content: center; }
+.hero-authors { margin-top: 24px; color: #7f8092; font: 500 12px/1 "DM Mono", monospace; letter-spacing: .1em; }
 .eyebrow { width: fit-content; margin-bottom: 26px; padding: 8px 12px; display: flex; align-items: center; gap: 9px; border: 1px solid rgba(185,245,109,.2); border-radius: 999px; color: #dfffb9; background: rgba(185,245,109,.06); font: 500 11px/1 "DM Mono", monospace; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
 .pulse { width: 7px; height: 7px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 0 rgba(185,245,109,.6); animation: pulse 2s infinite; }
 h1, h2, h3, p { margin-top: 0; }
-h1 { margin-bottom: 18px; font-size: clamp(1.95rem, 3.1vw, 2.95rem); line-height: 1.08; letter-spacing: -.038em; }
-/* Keep each half of the title on its own line: the hyphens in "Long-Horizon" and
-   "Self-Improvement" are otherwise treated as break opportunities. */
+h1 { margin-bottom: 0; font-size: clamp(2.9rem, 8.2vw, 7.4rem); line-height: .94; letter-spacing: -.06em; text-align: left; }
 h1 span { display: inline-block; }
 h1 span { color: transparent; background: linear-gradient(110deg, var(--violet), var(--blue) 55%, var(--lime)); background-size: 180% 180%; -webkit-background-clip: text; background-clip: text; animation: gradientFlow 7s ease infinite; }
 h1 em, h2 span { color: transparent; background: linear-gradient(110deg, var(--violet), var(--blue) 55%, var(--lime)); background-size: 180% 180%; -webkit-background-clip: text; background-clip: text; font-style: normal; animation: gradientFlow 7s ease infinite; }
-.hero-lead { max-width: 650px; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 .button { min-height: 52px; padding: 0 20px; display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; border-radius: 12px; font-weight: 700; text-decoration: none; transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease; }
 .button:hover { transform: translateY(-3px); }
@@ -68,13 +74,13 @@ h1 em, h2 span { color: transparent; background: linear-gradient(110deg, var(--v
 .button-ghost { border: 1px solid var(--line); background: rgba(255,255,255,.035); }
 .button-ghost:hover { border-color: rgba(103,212,255,.55); }
 
-.hero-figure { position: relative; z-index: 2; margin: 0; }
+.hero-figure { position: relative; z-index: 2; width: min(100%, 940px); margin: 0; }
 .hero-figure-glow { position: absolute; inset: 6% 4%; border-radius: 40%; background: linear-gradient(110deg, var(--violet), var(--blue), var(--orange)); filter: blur(70px); opacity: .3; animation: breathe 5s ease-in-out infinite; }
 .hero-figure-frame { position: relative; overflow: hidden; padding: 10px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,255,255,.96); box-shadow: 0 34px 90px rgba(0,0,0,.5); animation: float 7s ease-in-out infinite; }
 .hero-figure-frame img { display: block; width: 100%; height: auto; border-radius: 8px; }
 .hero-figure figcaption { position: relative; margin-top: 14px; color: var(--muted); font: 500 11px/1.5 "DM Mono", monospace; letter-spacing: .1em; text-align: center; }
 
-.metrics { grid-column: 1 / -1; margin-top: 20px; padding: 24px 0; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.metrics { width: 100%; margin-top: 6px; padding: 24px 0; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; }
 .metrics div { padding: 0 24px; border-right: 1px solid var(--line); }
 .metrics div:first-child { padding-left: 0; }
 .metrics div:last-child { border-right: 0; }
@@ -181,7 +187,7 @@ h1 em, h2 span { color: transparent; background: linear-gradient(110deg, var(--v
 
 @media (max-width: 900px) {
   .nav-links > a:not(.nav-github) { display: none; }
-  .hero { padding-top: 70px; grid-template-columns: 1fr; }
+  .hero { padding-top: 46px; gap: 34px; }
   .metrics { margin-top: 0; }
   .section-heading, .method { grid-template-columns: 1fr; }
   .visual-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
@@ -196,8 +202,10 @@ h1 em, h2 span { color: transparent; background: linear-gradient(110deg, var(--v
   .nav { height: 58px; top: 10px; margin-top: 10px; }
   .brand > span:last-child { display: none; }
   .hero { width: min(calc(100% - 28px), var(--max)); min-height: auto; }
-  h1 { font-size: clamp(1.95rem, 8vw, 2.6rem); }
-  .metrics { grid-template-columns: 1fr 1fr; }
+  h1 { font-size: clamp(2.5rem, 13.5vw, 3.6rem); text-align: center; }
+  .hero-lockup { gap: 14px; }
+  .hero-logo { width: clamp(140px, 52vw, 230px); }
+  .metrics { grid-template-columns: 1fr 1fr; text-align: left; }
   .metrics div { padding: 18px; border-bottom: 1px solid var(--line); }
   .metrics div:nth-child(2) { border-right: 0; }
   .metrics div:nth-child(3), .metrics div:nth-child(4) { border-bottom: 0; }
