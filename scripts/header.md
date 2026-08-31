@@ -19,6 +19,7 @@
   <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
   <a href="https://github.com/simple-agent-lab/RSIHub"><img src="https://img.shields.io/badge/-RSIHub_Harness-24292F.svg?style=flat-square" alt="RSIHub Harness"></a>
   <a href="https://simpleagentlab.com/ai4ai/"><img src="https://img.shields.io/badge/-Blog-0A7EA4.svg?style=flat-square" alt="Blog"></a>
+  <a href="https://doi.org/10.5281/zenodo.22198847"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22198847.svg" alt="DOI"></a>
 </p>
 
 </div>

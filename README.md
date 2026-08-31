@@ -19,6 +19,7 @@
   <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
   <a href="https://github.com/simple-agent-lab/RSIHub"><img src="https://img.shields.io/badge/-RSIHub_Harness-24292F.svg?style=flat-square" alt="RSIHub Harness"></a>
   <a href="https://simpleagentlab.com/ai4ai/"><img src="https://img.shields.io/badge/-Blog-0A7EA4.svg?style=flat-square" alt="Blog"></a>
+  <a href="https://doi.org/10.5281/zenodo.22198847"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22198847.svg" alt="DOI"></a>
 </p>
 
 </div>
@@ -490,10 +491,12 @@ If this map or its evidence audit helps your work, please cite the companion sur
              Ye, Siyu and Lin, Jinghao and Ji, Xiaozhong and Jiang, Boyuan and
              Wang, Shengzhi and Wang, Zihan and Ye, Yiwen and Wang, Hao and
              Wang, Zimu and Liu, Wenzhe and Wang, Ruobing and Cai, Kai and
+             Xiong, Mingliang and Fang, Wen and Liu, Mingqing and
              Zhang, Yifan and Yang, Lei and Hu, Xiaobin and Liu, Qingwen},
   howpublished = {Preprints.org},
   year    = {2026},
-  url     = {https://www.preprints.org/manuscript/202608.2108/v1}
+  doi     = {10.5281/zenodo.22198847},
+  url     = {https://doi.org/10.5281/zenodo.22198847}
 }
 ```
 
