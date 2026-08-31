@@ -15,6 +15,7 @@
 
 <p>
   <a href="https://www.preprints.org/manuscript/202608.2108/v1"><img src="https://img.shields.io/badge/-Read_the_Paper-8B5CF6.svg?style=flat-square" alt="Read the Paper"></a>
+  <a href="assets/AI4AI-Survey.pdf"><img src="https://img.shields.io/badge/-PDF_(original_layout)-B31B1B.svg?style=flat-square" alt="PDF, original layout"></a>
   <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
   <a href="https://github.com/simple-agent-lab/RSIHub"><img src="https://img.shields.io/badge/-RSIHub_Harness-24292F.svg?style=flat-square" alt="RSIHub Harness"></a>
   <a href="https://simpleagentlab.com/ai4ai/"><img src="https://img.shields.io/badge/-Blog-0A7EA4.svg?style=flat-square" alt="Blog"></a>
