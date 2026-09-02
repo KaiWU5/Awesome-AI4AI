@@ -28,8 +28,8 @@ If this map or its evidence audit helps your work, please cite the companion sur
              Zhang, Yifan and Yang, Lei and Hu, Xiaobin and Liu, Qingwen},
   howpublished = {Preprints.org},
   year    = {2026},
-  doi     = {10.5281/zenodo.22198847},
-  url     = {https://doi.org/10.5281/zenodo.22198847}
+  doi     = {10.20944/preprints202608.2108.v1},
+  url     = {https://doi.org/10.20944/preprints202608.2108.v1}
 }
 ```
 

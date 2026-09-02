@@ -19,7 +19,7 @@
   <a href="https://kaiwu5.github.io/Awesome-AI4AI/"><img src="https://img.shields.io/badge/-Project_Site-D76712.svg?style=flat-square" alt="Project Site"></a>
   <a href="https://github.com/simple-agent-lab/RSIHub"><img src="https://img.shields.io/badge/-RSIHub_Harness-24292F.svg?style=flat-square" alt="RSIHub Harness"></a>
   <a href="https://simpleagentlab.com/ai4ai/"><img src="https://img.shields.io/badge/-Blog-0A7EA4.svg?style=flat-square" alt="Blog"></a>
-  <a href="https://doi.org/10.5281/zenodo.22198847"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22198847.svg" alt="DOI"></a>
+  <a href="https://doi.org/10.20944/preprints202608.2108.v1"><img src="https://img.shields.io/badge/DOI-10.20944%2Fpreprints202608.2108.v1-0A7EA4.svg?style=flat-square" alt="DOI"></a>
 </p>
 
 </div>
@@ -495,8 +495,8 @@ If this map or its evidence audit helps your work, please cite the companion sur
              Zhang, Yifan and Yang, Lei and Hu, Xiaobin and Liu, Qingwen},
   howpublished = {Preprints.org},
   year    = {2026},
-  doi     = {10.5281/zenodo.22198847},
-  url     = {https://doi.org/10.5281/zenodo.22198847}
+  doi     = {10.20944/preprints202608.2108.v1},
+  url     = {https://doi.org/10.20944/preprints202608.2108.v1}
 }
 ```
 
