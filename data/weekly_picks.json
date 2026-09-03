@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-09-03",
   "cadence": "The month's top stories, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
+    {
+      "date": "2026-09-01",
+      "kind": "Model release",
+      "source": "Anthropic",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "why": "Anthropic reports the largest gains in terminal-based scientific and engineering work, computer use, and long-horizon agentic tasks, and cuts cache reads to $0.25 per million tokens, which it estimates lowers highly agentic workload costs by up to roughly 45 percent."
+    },
+    {
+      "date": "2026-09-01",
+      "kind": "Blog",
+      "source": "OpenAI",
+      "title": "Path to Astra: Critical Capabilities and Frontier Safeguards",
+      "url": "https://openai.com/index/path-to-astra/",
+      "why": "OpenAI says Astra is the first model it has designated Critical for cybersecurity under its Preparedness Framework, reporting 100 percent on ExploitBench and two zero-days discovered during evaluation, with the matching capabilities gated behind vetted access rather than shipped by default."
+    },
+    {
+      "date": "2026-08-31",
+      "kind": "Paper",
+      "source": "arXiv",
+      "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
+      "url": "https://arxiv.org/abs/2608.30730",
+      "why": "Agents run several online stores across a simulated 365-day year with deterministic demand and negotiation kernels for reproducibility. The authors report no single model dominates across seven dimensions, with GPT-5.6 Sol earning the most but placing 16th of 18 on fraud avoidance."
+    },
     {
       "date": "2026-08-30",
       "kind": "Paper",
@@ -12,12 +36,20 @@
       "why": "Our companion survey is now publicly available, presenting a unified map from long-horizon agents to recursive self-improvement and organizing the field around benchmarks, harness design, and model-side interventions."
     },
     {
+      "date": "2026-08-24",
+      "kind": "Paper",
+      "source": "arXiv",
+      "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "url": "https://arxiv.org/abs/2608.23564",
+      "why": "Twenty whole-repository migrations graded on migration completeness and behavioural correctness separately. The authors report only 5.4 percent of 520 runs cleared all three stages and 13 of 20 tasks drew no accepted solution, naming a failure mode where agents copy the original implementation to make tests pass."
+    },
+    {
       "date": "2026-08-21",
-      "kind": "Research release",
-      "source": "NVIDIA",
-      "title": "NVIDIA AVO Reaches 100% on ARC-AGI-3, a General-Purpose Architecture for Long-Horizon Autonomous Agents",
-      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
-      "why": "NVIDIA reports its AVO harness scored 100.00 RHAE across all 25 ARC-AGI-3 public environments and 183 levels using about 12 percent fewer actions than VISTA, and cautions that this covers the public set only rather than a controlled ablation."
+      "kind": "Paper",
+      "source": "arXiv",
+      "title": "Context as an Environment: Programmatic Context Management for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2608.21690",
+      "why": "The authors argue existing context managers commit to what to preserve before future needs are known, and present Scroll, which treats each session as an executable environment over an append-only event log. They report 86.7 percent on LOCA_256K, exceeding the best published long-horizon agent by 37.4 points."
     },
     {
       "date": "2026-08-20",
@@ -28,30 +60,6 @@
       "why": "Agents are given four hours on a single B300 to rewrite training algorithms across ten frozen research repositories, graded by a hidden evaluator. The authors report a mean score of 0.166 across 29 configurations with the best system at 0.250, and note that most submissions never modify the learning procedure itself."
     },
     {
-      "date": "2026-08-19",
-      "kind": "Blog",
-      "source": "OpenAI",
-      "title": "Codex as a Platform: Build on the Open Agent Harness",
-      "url": "https://developers.openai.com/blog/codex-as-a-platform",
-      "why": "OpenAI positions the open-source Codex harness as the reusable layer beneath its app, CLI, and IDE surfaces, and reports that retained reasoning plus context compaction lifted GPT-5.6 Sol on ARC-AGI-3 from 13.3 to 38.3 percent while cutting output tokens sixfold."
-    },
-    {
-      "date": "2026-08-18",
-      "kind": "Paper",
-      "source": "Microsoft Research · arXiv",
-      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
-      "url": "https://arxiv.org/abs/2608.17528",
-      "why": "The authors name the paradigm of feeding the deploy-time harness into post-training as harnessed agentic RL and release a roughly 3,500-line framework, reporting Qwen3.5-9B improving from 41.8 to 56.4 percent on SWE-bench Verified with 6K examples."
-    },
-    {
-      "date": "2026-08-18",
-      "kind": "Research release",
-      "source": "Anthropic",
-      "title": "How Claude is Accelerating Protein Design and Analytical Chemistry",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-      "why": "Anthropic says Claude ran largely autonomous binder-design campaigns from a roughly 30,000-token prompt with no further scientific guidance, producing externally validated binders against 14 of 15 targets at reported hit rates of 22.6 to 35.1 percent against a stated field norm of 10 to 15 percent."
-    },
-    {
       "date": "2026-08-14",
       "kind": "Model release",
       "source": "Z.ai",
@@ -60,28 +68,20 @@
       "why": "Z.ai says the unchanged GLM-5.2 base gained stronger long-horizon coding and cyber capabilities entirely through scaled post-training; weights are planned after two weeks of safety hardening."
     },
     {
+      "date": "2026-08-14",
+      "kind": "Blog",
+      "source": "Hugging Face",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "why": "The agent-usage dataset gives a rare direct measurement of harness market share from Hub traffic, with Claude Code reported falling from 67.8 to 44.4 percent between April and July while Codex rose from 10.4 to 20.8 percent and roughly a quarter of agent-tagged traffic came from unregistered clients."
+    },
+    {
       "date": "2026-08-13",
       "kind": "Model update",
       "source": "Google",
       "title": "Introducing Gemini 3.7 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "why": "Google positions 3.7 Flash as its coding-and-agents workhorse, reporting stronger multi-step planning, tool use, software engineering, and business-workflow performance."
-    },
-    {
-      "date": "2026-08-13",
-      "kind": "Model release",
-      "source": "DeepSeek",
-      "title": "DeepSeek-V4-Pro GA Release",
-      "url": "https://api-docs.deepseek.com/news/news260813/",
-      "why": "DeepSeek's general-availability release emphasizes agent upgrades, low/high/max reasoning effort, native OpenAI Responses API support, and availability across its app, web interface, and API."
-    },
-    {
-      "date": "2026-08-12",
-      "kind": "Model release",
-      "source": "xAI",
-      "title": "Introducing Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "why": "Grok 4.6 targets long-running agents and multi-step coding and knowledge work; xAI reports stronger sustained execution, self-testing, and verification after supplemental training and agentic RL."
     }
   ]
 }
