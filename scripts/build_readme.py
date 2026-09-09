@@ -217,7 +217,9 @@ header_lead, header_remainder = header.split(featured_marker)
 parts = [header_lead.rstrip(), ""]
 
 parts += [
-    "## 📅 Weekly Update · Monthly Top 10",
+    '<a id="monthly-news"></a>',
+    "",
+    f"## 📅 Weekly Update · Monthly Top {len(WEEKLY['items'])}",
     "",
     f"> **Updated {WEEKLY['updated']}** · {WEEKLY['cadence']}",
     ">",
@@ -317,7 +319,7 @@ parts.append((ROOT / "scripts" / "footer.md").read_text().rstrip())
 readme = "\n".join(parts) + "\n"
 
 toc = [
-    "- [📅 Weekly Update · Monthly Top 10](#-weekly-update--monthly-top-10)",
+    f"- [📅 Weekly Update · Monthly Top {len(WEEKLY['items'])}](#monthly-news)",
     "- [📈 Live Rankings](#-live-rankings)",
     "  - [🔥 Recent Papers by Average Monthly Citations](#-recent-papers-by-average-monthly-citations)",
     "  - [🏆 Most-Cited Papers by Year](#-most-cited-papers-by-year)",

@@ -81,8 +81,9 @@ use the matching provenance value above.
 ## Monthly news
 
 Maintainers keep [`data/weekly_picks.json`](data/weekly_picks.json) as the top
-ten source-linked papers, releases, blogs, and research news from the trailing
-30 days, re-ranked at each weekly refresh: items that aged past 30 days drop
+source-linked papers, releases, blogs, and research news from the trailing
+30 days, usually ten items, with up to eleven when explicitly approved by the
+maintainer. The selection is re-ranked at each weekly refresh: items that aged past 30 days drop
 out, the new week's arrivals are considered, and the rest carry forward. Aim for
 roughly half flagship model releases and half AI4AI research or harness work.
 Prefer official announcements and primary scholarly sources, attribute

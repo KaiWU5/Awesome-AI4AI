@@ -183,8 +183,8 @@ except (KeyError, ValueError):
     weekly_updated = None
     failures.append("weekly_picks.json has an invalid updated date")
 news_items = weekly.get("items", [])
-if not 1 <= len(news_items) <= 10:
-    failures.append("weekly_picks.json must contain 1–10 news items")
+if not 1 <= len(news_items) <= 11:
+    failures.append("weekly_picks.json must contain 1–11 news items")
 if not weekly.get("selection"):
     failures.append("weekly_picks.json has no selection policy")
 required_news_fields = {"date", "kind", "source", "title", "url", "why"}
@@ -269,7 +269,7 @@ if public_papers < 223:
     failures.append(f"public survey catalog fell below 223 unique papers: {public_papers}")
 
 readme = (ROOT / "README.md").read_text()
-news_heading = "## 📅 Weekly Update · Monthly Top 10"
+news_heading = f"## 📅 Weekly Update · Monthly Top {len(news_items)}"
 if news_heading not in readme:
     failures.append("README is missing the news heading")
 else:
