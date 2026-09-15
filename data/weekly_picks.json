@@ -1,15 +1,55 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-14",
   "cadence": "The month's top stories, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
     {
-      "date": "2026-09-04",
+      "date": "2026-09-11",
+      "kind": "Model release",
+      "source": "Sakana AI",
+      "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
+      "url": "https://sakana.ai/fugu-max-release/",
+      "why": "Sakana AI describes a model trained to route tasks across a fixed pool of open-weight and specialized models and to recursively call instances of itself. It reports 48.3 on Chartography against 27.3 for Opus 5, and says the scores are reached without Fable 5, Fable 5.1 or GPT-6 Astra in the agent pool."
+    },
+    {
+      "date": "2026-09-10",
+      "kind": "Open-weight release",
+      "source": "DeepSeek",
+      "title": "DeepSeek-V4.1-Flash",
+      "url": "https://api-docs.deepseek.com/news/news260910",
+      "why": "DeepSeek publishes weights on Hugging Face for a 552B mixture-of-experts model built on a new causal encoder-decoder architecture that activates roughly 8B parameters on input and 16B on output. It reports 90.6 on Terminal-Bench 2.1 and 74.2 on DeepSWE v1.1, and says the KV cache needs a quarter of the prior generation's HBM."
+    },
+    {
+      "date": "2026-09-10",
+      "kind": "Harness release",
+      "source": "OpenAI",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "why": "OpenAI ships the harness that runs Codex as a managed service in public beta, saying it handles session orchestration, context compaction, sub-agent coordination and recovery while developers supply tools and choose a sandbox. It offers versioned harness access alongside each model launch."
+    },
+    {
+      "date": "2026-09-10",
+      "kind": "Model release",
+      "source": "Cognition",
+      "title": "Introducing SWE-2: Pushing the Pareto Frontier",
+      "url": "https://cognition.com/blog/swe-2",
+      "why": "Cognition says it scaled reinforcement learning to a 2.8T-parameter Kimi K3 base for the first time, training every reasoning-effort level in a single run with a cost-penalized reward. It reports 50.0 on its own FrontierCode 1.1 Main at 64 percent lower cost than Fable 5.1, and 58 percent fewer turns than SWE-1.7."
+    },
+    {
+      "date": "2026-09-08",
       "kind": "Paper",
       "source": "arXiv",
-      "title": "τ^τ-Bench: An Environment for End-To-End, Realistic Agent Construction",
-      "url": "https://arxiv.org/abs/2609.04611",
-      "why": "The authors evaluate agents that must build deployable customer-service agents from business records, client requirements, inherited code and serving constraints. Across 53 tasks in four domains, the strongest configuration passes 23.9 percent of simulations versus 82.2 percent for an expert-authored reference."
+      "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+      "url": "https://arxiv.org/abs/2609.08183",
+      "why": "The authors log predicted capability demand, chosen service tier and interaction outcome for each turn, then reuse those routing signals as a three-stage fine-tuning curriculum and an evaluation-selection-update loop. They report macro-average gains from 58.94 to 64.87 at 4B and 65.60 to 69.04 at 9B across eleven benchmarks, with weights and code released."
+    },
+    {
+      "date": "2026-09-03",
+      "kind": "Paper",
+      "source": "arXiv",
+      "title": "EvoHarnessBench: Can Your Agents Keep Pace with an Evolving Harness?",
+      "url": "https://arxiv.org/abs/2609.04280",
+      "why": "The authors hold tasks fixed and instead grow the harness across tools, skills and agents over 17 multi-stage streams covering 802 tasks, 520 tools, 42 skills and 62 agents. They report harness-induced forgetting of up to 34.7 percent backward transfer on the agents axis with model parameters unchanged."
     },
     {
       "date": "2026-09-03",
@@ -36,60 +76,12 @@
       "why": "Anthropic reports 52.6 percent on Terminal-Bench-Science 0.1 versus 24.7 percent for Fable 5, and estimates that lower cache-read pricing reduces highly agentic workload costs by up to roughly 45 percent."
     },
     {
-      "date": "2026-09-01",
-      "kind": "Paper",
-      "source": "arXiv",
-      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
-      "url": "https://arxiv.org/abs/2609.01437",
-      "why": "The authors test six creator models on harness creation across four domains and 2,207 held-out instances. They report that subsequent harness evolution yields unstable gains and only partial transfer, with outcomes strongly dependent on the model executing the generated harness."
-    },
-    {
       "date": "2026-08-31",
       "kind": "Paper",
       "source": "arXiv",
       "title": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
       "url": "https://arxiv.org/abs/2609.00196",
       "why": "The authors alternate model-weight updates with executable harness search, reporting gains of 4.15 to 24.38 percentage points over the tested single-component and prompt-weight baselines across three domains with Qwen3.5-2B/4B agents. Code is released for reproducing the joint optimization recipe."
-    },
-    {
-      "date": "2026-08-28",
-      "kind": "Paper",
-      "source": "Preprints.org",
-      "title": "AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems",
-      "url": "https://www.preprints.org/manuscript/202608.2108/v1",
-      "why": "Our companion survey maps long-horizon agents, harnesses, model design and recursive self-improvement, separating demonstrated gains from claims of autonomy. The authors identify a composition gap between strong component abilities and reliable end-to-end AI improvement."
-    },
-    {
-      "date": "2026-08-21",
-      "kind": "Paper",
-      "source": "arXiv",
-      "title": "Context as an Environment: Programmatic Context Management for Long-Horizon Agents",
-      "url": "https://arxiv.org/abs/2608.21690",
-      "why": "The authors present Scroll, which exposes an append-only event log through a persistent Python environment so agents can retrieve and transform session state programmatically. With Qwen3.8-Max, they report 86.7 percent on LOCA_256K, 37.4 points above the best published long-horizon agent in their comparison."
-    },
-    {
-      "date": "2026-08-20",
-      "kind": "Paper",
-      "source": "arXiv",
-      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
-      "url": "https://arxiv.org/abs/2608.20318",
-      "why": "The authors give agents four hours on one B300 to rewrite training algorithms across ten frozen repositories, then rerun submissions under hidden evaluation. Across 29 configurations, they report a mean score of 0.166 and a best score of 0.250, with most submissions leaving the learning procedure unchanged."
-    },
-    {
-      "date": "2026-08-14",
-      "kind": "Model release",
-      "source": "Z.ai",
-      "title": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
-      "url": "https://z.ai/blog/glm-5.3",
-      "why": "Z.ai says GLM-5.3 retains the GLM-5.2 base and derives its gains from scaled post-training, reporting 28.3 versus 4.6 on Terminal-Bench 3.0 and 66.9 versus 46.2 on DeepSWE v1.1. Its launch article also describes agent-generated environments and verifiers."
-    },
-    {
-      "date": "2026-08-12",
-      "kind": "Model release",
-      "source": "SpaceXAI",
-      "title": "Introducing Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "why": "SpaceXAI reports DeepSWE v1.1 rising from 54 to 65.9 percent and APEX-Agents from 47.1 to 57.5 percent. It describes using Grok 4.5 to regenerate supervised training trajectories across harnesses and domains before agentic reinforcement learning."
     }
   ]
 }
