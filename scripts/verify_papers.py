@@ -45,18 +45,31 @@ def sim(a, b):
     return SequenceMatcher(None, norm(a), norm(b)).ratio()
 
 
+RATE_LIMITED = []
+
+
 def http_json(url, data=None, tries=6):
+    """Return decoded JSON, or None when the resource is absent or unreachable.
+
+    A 429 is recorded in RATE_LIMITED so callers can distinguish "the index does
+    not have this paper" from "the index refused to answer". Conflating the two
+    silently zeroes citation counts for well-indexed papers.
+    """
+    key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
     for t in range(tries):
         try:
-            req = urllib.request.Request(
-                url, data=data,
-                headers={"Content-Type": "application/json",
-                         "User-Agent": "awesome-ai4ai-verifier"})
+            headers = {"Content-Type": "application/json",
+                       "User-Agent": "awesome-ai4ai-verifier"}
+            if key and "semanticscholar.org" in url:
+                headers["x-api-key"] = key
+            req = urllib.request.Request(url, data=data, headers=headers)
             with urllib.request.urlopen(req, timeout=40) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return None
+            if e.code == 429:
+                RATE_LIMITED.append(url)
             time.sleep(4 + 4 * t)
         except Exception:
             time.sleep(4 + 4 * t)
@@ -64,15 +77,24 @@ def http_json(url, data=None, tries=6):
 
 
 def arxiv_batch(ids):
+    """Map arXiv id -> title. Sets arxiv_batch.incomplete when a chunk request
+    fails outright, so an unreachable API is never reported as missing ids."""
     out = {}
+    arxiv_batch.incomplete = False
     ns = {"a": "http://www.w3.org/2005/Atom"}
     for i in range(0, len(ids), 60):
         url = ("https://export.arxiv.org/api/query?id_list="
                + ",".join(ids[i:i + 60]) + "&max_results=100")
-        try:
-            with urllib.request.urlopen(url, timeout=60) as r:
-                tree = ET.parse(r)
-        except Exception:
+        tree = None
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(url, timeout=60) as r:
+                    tree = ET.parse(r)
+                break
+            except Exception:
+                time.sleep(5 + 5 * attempt)
+        if tree is None:
+            arxiv_batch.incomplete = True
             continue
         for e in tree.getroot().findall("a:entry", ns):
             m = re.search(r"abs/([\d.]+)", e.find("a:id", ns).text or "")
@@ -240,9 +262,15 @@ def main():
     for k, p in with_ax.items():
         t = ax_titles.get(p["arxiv_id"])
         if t is None:
-            failures.append((k, "arXiv id not found: " + p["arxiv_id"]))
+            # Only a reachable API can prove an id is absent. When a chunk
+            # request failed, treat unresolved ids as unchecked, not invalid.
+            if not arxiv_batch.incomplete:
+                failures.append((k, "arXiv id not found: " + p["arxiv_id"]))
         elif sim(p["title"], t) < 0.75:
             failures.append((k, f"arXiv title mismatch: '{t}'"))
+    if arxiv_batch.incomplete:
+        print("warning: the arXiv API was unreachable for at least one batch; "
+              "id verification was skipped for unresolved entries", file=sys.stderr)
 
     s2_matched = set()
     citation_complete = True
@@ -269,11 +297,15 @@ def main():
                     s2_matched.add(k)
             time.sleep(2)
 
-    # Non-arXiv entries: OpenAlex title match. Avoid the rate-limited S2
-    # one-title-at-a-time endpoint; arXiv records already use its batch API.
+    # OpenAlex title match. Covers non-arXiv entries (DOI-only preprints,
+    # technical reports) and, critically, arXiv entries that Semantic Scholar
+    # reports as zero-cited: S2 sometimes splits a preprint from its published
+    # version and leaves the preprint record at 0 while OpenAlex has the real
+    # merged count. Counts combine with max(), so a second opinion is safe.
     github_complete = True
     for k, p in papers.items():
-        if p.get("arxiv_id") or k in s2_matched:
+        s2_zero = k in s2_matched and not papers[k].get("citations")
+        if (p.get("arxiv_id") or k in s2_matched) and not s2_zero:
             continue
         title, cites = openalex_match(p["title"])
         if title:
@@ -282,6 +314,8 @@ def main():
                 # Never let that fallback replace a larger merged count.
                 existing = papers[k].get("citations")
                 papers[k]["citations"] = max(existing or 0, cites)
+        elif k in s2_matched:
+            pass  # already verified via Semantic Scholar; this was a top-up only
         elif (p.get("url") or "").startswith("http"):
             source_only.append(k)
         else:
@@ -317,11 +351,20 @@ def main():
         with open(META, "w") as handle:
             json.dump(metadata, handle, indent=2, ensure_ascii=False)
             handle.write("\n")
+        matched = sum(1 for k in papers if k in s2_matched)
         print(
-            "citations refreshed"
+            f"citations refreshed ({matched}/{len(papers)} matched in Semantic Scholar)"
             if citation_complete
-            else "partial citation refresh; previous as-of date retained"
+            else f"partial citation refresh ({matched}/{len(papers)} matched); "
+                 "previous as-of date retained"
         )
+        if RATE_LIMITED:
+            print(
+                f"warning: {len(RATE_LIMITED)} request(s) were rate-limited (HTTP 429). "
+                "Citation counts for the affected papers were NOT refreshed and may "
+                "understate reality. Set SEMANTIC_SCHOLAR_API_KEY and re-run.",
+                file=sys.stderr,
+            )
 
     if failures:
         print(f"\n{len(failures)} UNVERIFIED entries:")
