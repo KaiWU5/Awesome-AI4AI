@@ -3,4 +3,7 @@ __pycache__/
 .venv/
 .pytest_cache/
 .DS_Store
-.claude/
+# Track shared project skills; keep per-machine settings local.
+.claude/*
+!.claude/skills/
+.claude/settings.local.json
