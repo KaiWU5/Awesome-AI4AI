@@ -1,31 +1,79 @@
 {
-  "updated": "2026-09-16",
-  "cadence": "The month's top stories, refreshed every Monday alongside citation rankings.",
+  "updated": "2026-09-27",
+  "cadence": "Weekly news picks, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
+    {
+      "date": "2026-09-24",
+      "kind": "Paper",
+      "source": "Stanford / Tel Aviv University et al. · arXiv",
+      "title": "Self-Play Pretraining with Zero Data",
+      "url": "https://arxiv.org/abs/2609.30063",
+      "why": "The authors train a program generator and byte-sequence learner from random initialization, using self-play to create a curriculum. They report predictable zero-shot loss scaling on natural datasets without natural-data gradient updates. Natural validation data still guide hyperparameter selection, and the result is a proof of concept."
+    },
+    {
+      "date": "2026-09-24",
+      "kind": "Paper",
+      "source": "SJTU / Theseus Labs / Tencent Hunyuan · arXiv",
+      "title": "Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2609.29773",
+      "why": "The authors introduce Env-Rethink, a system with a 27B post-trained model that organizes context, diagnoses environmental noise and generates harder environments through virtual event histories. They report improved rubric pass rates across nine downstream models on 30 tasks."
+    },
+    {
+      "date": "2026-09-24",
+      "kind": "Paper",
+      "source": "ELLIS / MPI-IS / Snyk et al. · arXiv",
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "url": "https://arxiv.org/abs/2609.30266",
+      "why": "The authors find that tested local coding harnesses, except Muse Code, allow agents to delete their own execution traces when prompted, without triggering monitor guardrails. They also demonstrate externally induced and reward-driven trace tampering, motivating logging outside the agent-controlled environment."
+    },
+    {
+      "date": "2026-09-22",
+      "kind": "Model release",
+      "source": "OpenAI",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "why": "OpenAI reports 68.8% for Sol and 66.6% for Luna on DeepSWE v1.1 at max effort, and introduces lower token prices and cache controls for long-running agents."
+    },
+    {
+      "date": "2026-09-22",
+      "kind": "Model release",
+      "source": "Anthropic",
+      "title": "Introducing Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "why": "Anthropic reports 66.4% on Terminal-Bench 4.0 at xhigh effort and says lower token prices and token usage reduce costs by 40% versus Opus 5. The published evaluations use production safeguards and disclosed fallback models."
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "Model release",
+      "source": "SpaceXAI",
+      "title": "Introducing Grok 4.7",
+      "url": "https://x.ai/news/grok-4-7",
+      "why": "SpaceXAI says Grok 4.7 uses a larger base model and longer reinforcement learning on multi-hour tasks. It reports 37.6% on Terminal-Bench 4.0 versus 20.3% for Grok 4.6, with unchanged starting token prices."
+    },
+    {
+      "date": "2026-09-21",
+      "kind": "Paper",
+      "source": "arXiv / RRSI authors",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2609.24972",
+      "why": "The authors regularize harness edits and selection to reduce benchmark-specific overfitting. Across eight benchmarks, they report gains up to 4.7 points on five out-of-distribution benchmarks and 30% fewer policy tokens than unregularized evolution, with code released."
+    },
     {
       "date": "2026-09-11",
       "kind": "Model release",
       "source": "Sakana AI",
       "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
       "url": "https://sakana.ai/fugu-max-release/",
-      "why": "Sakana AI describes a model trained to route tasks across a fixed pool of open-weight and specialized models and to recursively call instances of itself. It reports 48.3 on Chartography against 27.3 for Opus 5, and says the scores are reached without Fable 5, Fable 5.1 or GPT-6 Astra in the agent pool."
+      "why": "Sakana AI releases Fugu Max and Fugu Ultra v2 around a shared orchestration architecture, expanding the pool of open-weight and specialized models. It argues that routing tasks to appropriate models improves the capability-cost frontier."
     },
     {
       "date": "2026-09-10",
       "kind": "Open-weight release",
       "source": "DeepSeek",
-      "title": "DeepSeek-V4.1-Flash",
-      "url": "https://api-docs.deepseek.com/news/news260910",
-      "why": "DeepSeek publishes weights on Hugging Face for a 552B mixture-of-experts model built on a new causal encoder-decoder architecture that activates roughly 8B parameters on input and 16B on output. It reports 90.6 on Terminal-Bench 2.1 and 74.2 on DeepSWE v1.1, and says the KV cache needs a quarter of the prior generation's HBM."
-    },
-    {
-      "date": "2026-09-10",
-      "kind": "Harness release",
-      "source": "OpenAI",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api/",
-      "why": "OpenAI ships the harness that runs Codex as a managed service in public beta, saying it handles session orchestration, context compaction, sub-agent coordination and recovery while developers supply tools and choose a sandbox. It offers versioned harness access alongside each model launch."
+      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
+      "url": "https://api-docs.deepseek.com/news/news260910/",
+      "why": "DeepSeek releases a 552B MoE with a causal encoder-decoder architecture activating 8B parameters on input and 16B on output. It says the KV cache needs one quarter of the prior generation's HBM, and links model weights and a technical report."
     },
     {
       "date": "2026-09-10",
@@ -33,55 +81,7 @@
       "source": "Cognition",
       "title": "Introducing SWE-2: Pushing the Pareto Frontier",
       "url": "https://cognition.com/blog/swe-2",
-      "why": "Cognition says it scaled reinforcement learning to a 2.8T-parameter Kimi K3 base for the first time, training every reasoning-effort level in a single run with a cost-penalized reward. It reports 50.0 on its own FrontierCode 1.1 Main at 64 percent lower cost than Fable 5.1, and 58 percent fewer turns than SWE-1.7."
-    },
-    {
-      "date": "2026-09-08",
-      "kind": "Paper",
-      "source": "arXiv",
-      "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
-      "url": "https://arxiv.org/abs/2609.08183",
-      "why": "The authors log predicted capability demand, chosen service tier and interaction outcome for each turn, then reuse those routing signals as a three-stage fine-tuning curriculum and an evaluation-selection-update loop. They report macro-average gains from 58.94 to 64.87 at 4B and 65.60 to 69.04 at 9B across eleven benchmarks, with weights and code released."
-    },
-    {
-      "date": "2026-09-03",
-      "kind": "Paper",
-      "source": "arXiv",
-      "title": "EvoHarnessBench: Can Your Agents Keep Pace with an Evolving Harness?",
-      "url": "https://arxiv.org/abs/2609.04280",
-      "why": "The authors hold tasks fixed and instead grow the harness across tools, skills and agents over 17 multi-stage streams covering 802 tasks, 520 tools, 42 skills and 62 agents. They report harness-induced forgetting of up to 34.7 percent backward transfer on the agents axis with model parameters unchanged."
-    },
-    {
-      "date": "2026-09-03",
-      "kind": "Model release",
-      "source": "OpenAI",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "why": "OpenAI reports 64.6 percent on Terminal-Bench Science 0.1 and 57.9 percent on Terminal-Bench 4.0, and introduces experimental Codex notes and searchable history across context windows for long-running work."
-    },
-    {
-      "date": "2026-09-02",
-      "kind": "Model update",
-      "source": "Google",
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "why": "Google reports 54.9 percent on HLE-Verified for Gemini 3.8 Flash while retaining the introductory token prices of 3.7 Flash. It says long-running agentic loops helped evaluate and refine the models, and releases Flash Cyber through trusted-defender access."
-    },
-    {
-      "date": "2026-09-01",
-      "kind": "Model release",
-      "source": "Anthropic",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "why": "Anthropic reports 52.6 percent on Terminal-Bench-Science 0.1 versus 24.7 percent for Fable 5, and estimates that lower cache-read pricing reduces highly agentic workload costs by up to roughly 45 percent."
-    },
-    {
-      "date": "2026-08-31",
-      "kind": "Paper",
-      "source": "arXiv",
-      "title": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
-      "url": "https://arxiv.org/abs/2609.00196",
-      "why": "The authors alternate model-weight updates with executable harness search, reporting gains of 4.15 to 24.38 percentage points over the tested single-component and prompt-weight baselines across three domains with Qwen3.5-2B/4B agents. Code is released for reproducing the joint optimization recipe."
+      "why": "Cognition post-trains the 2.8T-parameter Kimi K3 base with an RL algorithm covering all reasoning-effort levels in one run. It reports 50.0% on FrontierCode 1.1 Main at 64% lower cost than Fable 5.1."
     }
   ]
 }

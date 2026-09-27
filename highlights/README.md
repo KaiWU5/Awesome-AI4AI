@@ -1,7 +1,8 @@
-# 📅 Awesome AI4AI Monthly News Archive
+# 📅 Awesome AI4AI Weekly News Archive
 
-A permanent record of the repository's human-curated top papers, releases, blogs, and research news. Each edition is a dated snapshot of the month's selection at that refresh. Citation rankings refresh separately in the live README.
+A permanent record of the repository's human-curated top papers, releases, blogs, and research news. Each edition is a dated snapshot of the weekly selection at that refresh. Citation rankings refresh separately in the live README.
 
+- [2026-09-27](2026-09-27.md)
 - [2026-09-16](2026-09-16.md)
 - [2026-09-14](2026-09-14.md)
 - [2026-09-09](2026-09-09.md)

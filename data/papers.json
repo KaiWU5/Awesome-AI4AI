@@ -5,7 +5,7 @@
   "date": "2023-11",
   "arxiv_id": "2311.05997",
   "url": "https://doi.ieeecomputersociety.org/10.1109/TPAMI.2024.3511593",
-  "citations": 217,
+  "citations": 218,
   "code": "https://github.com/CraftJarvis/JARVIS-1",
   "sections": [
    "targets/harness"
@@ -21,7 +21,7 @@
   "date": "2025-10",
   "arxiv_id": "2510.00446",
   "url": "https://doi.org/10.1109/ase63991.2025.00020",
-  "citations": 46,
+  "citations": 47,
   "code": "https://github.com/YerbaPage/LongCodeZip",
   "sections": [
    "targets/harness"
@@ -61,7 +61,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 13037
+  "github_stars": 13043
  },
  "bonatti2025windows": {
   "title": "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale",
@@ -69,7 +69,7 @@
   "date": "2024-09",
   "arxiv_id": "2409.08264",
   "url": "https://arxiv.org/abs/2409.08264",
-  "citations": 208,
+  "citations": 209,
   "code": "https://github.com/microsoft/WindowsAgentArena",
   "sections": [
    "evidence/benchmarks"
@@ -77,7 +77,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 901
+  "github_stars": 903
  },
  "buildbench2025": {
   "title": "BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software",
@@ -100,7 +100,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.22794",
   "url": "https://arxiv.org/abs/2605.22794",
-  "citations": 8,
+  "citations": 9,
   "code": "https://github.com/hkgai-official/Moss",
   "sections": [
    "targets/harness"
@@ -108,7 +108,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 25
+  "github_stars": 24
  },
  "cemri2026multi": {
   "title": "Why Do Multi-Agent LLM Systems Fail?",
@@ -116,7 +116,7 @@
   "date": "2025-03",
   "arxiv_id": "2503.13657",
   "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html",
-  "citations": 610,
+  "citations": 618,
   "code": "https://github.com/multi-agent-systems-failure-taxonomy/MAST",
   "sections": [
    "evidence/benchmarks",
@@ -126,7 +126,7 @@
    "benchmarks",
    "harness-design"
   ],
-  "github_stars": 415
+  "github_stars": 418
  },
  "chan2025mlebench": {
   "title": "MLE-bench: Evaluating machine learning agents on machine learning engineering",
@@ -134,7 +134,7 @@
   "date": "2024-10",
   "arxiv_id": "2410.07095",
   "url": "https://arxiv.org/abs/2410.07095",
-  "citations": 403,
+  "citations": 415,
   "code": "https://github.com/openai/mle-bench",
   "sections": [
    "evidence/benchmarks"
@@ -142,7 +142,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 1747
+  "github_stars": 1754
  },
  "chen2024spin": {
   "title": "SPIN: Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
@@ -183,7 +183,7 @@
   "collections": [
    "model-design"
   ],
-  "github_stars": 19978
+  "github_stars": 19990
  },
  "chen2025loop": {
   "title": "Reinforcement Learning for Long-Horizon Interactive LLM Agents",
@@ -191,7 +191,7 @@
   "date": "2025-02",
   "arxiv_id": "2502.01600",
   "url": "https://arxiv.org/abs/2502.01600",
-  "citations": 103,
+  "citations": 106,
   "code": null,
   "sections": [
    "targets/weights"
@@ -206,7 +206,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.19955",
   "url": "https://arxiv.org/abs/2505.19955",
-  "citations": 56,
+  "citations": 57,
   "code": "https://github.com/chchenhui/mlrbench",
   "sections": [
    "evidence/benchmarks"
@@ -230,7 +230,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 14701
+  "github_stars": 14765
  },
  "chen2026aiscientist": {
   "title": "Toward autonomous long-horizon engineering for ML research",
@@ -238,7 +238,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.13018",
   "url": "https://arxiv.org/abs/2604.13018",
-  "citations": 10,
+  "citations": 12,
   "code": "https://github.com/AweAI-Team/AiScientist",
   "sections": [
    "targets/substrate"
@@ -266,7 +266,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.14249",
   "url": "https://arxiv.org/abs/2606.14249",
-  "citations": 25,
+  "citations": 27,
   "code": null,
   "sections": [
    "targets/harness"
@@ -289,7 +289,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 77
+  "github_stars": 79
  },
  "chen2026pastprologueplugincontroller": {
   "title": "The Past Is Prologue: A Plug-in Controller for Selective Updates in Sequentially Evolving LLM Memory",
@@ -312,7 +312,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.07663",
   "url": "https://arxiv.org/abs/2607.07663",
-  "citations": 12,
+  "citations": 15,
   "code": null,
   "sections": [
    "analyses"
@@ -327,7 +327,7 @@
   "date": "2025-04",
   "arxiv_id": "2504.19413",
   "url": "https://doi.org/10.3233/faia251160",
-  "citations": 640,
+  "citations": 661,
   "code": "https://github.com/mem0ai/mem0",
   "sections": [
    "targets/harness"
@@ -335,7 +335,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 65741
+  "github_stars": 66047
  },
  "choudhury2025processrewardmodelsllm": {
   "title": "Process Reward Models for LLM Agents: Practical Framework and Directions",
@@ -343,7 +343,7 @@
   "date": "2025-02",
   "arxiv_id": "2502.10325",
   "url": "https://arxiv.org/abs/2502.10325",
-  "citations": 85,
+  "citations": 86,
   "code": "https://github.com/sanjibanc/agent_prm",
   "sections": [
    "targets/harness"
@@ -391,7 +391,7 @@
   "date": "2024-10",
   "arxiv_id": "2410.06215",
   "url": "https://arxiv.org/abs/2410.06215",
-  "citations": 23,
+  "citations": 24,
   "code": "https://github.com/codezakh/DataEnvGym",
   "sections": [
    "targets/data"
@@ -416,7 +416,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.07946",
   "url": "https://arxiv.org/abs/2607.07946",
-  "citations": 22,
+  "citations": 26,
   "code": "https://github.com/datacurve-ai/deep-swe",
   "sections": [
    "evidence/benchmarks"
@@ -424,7 +424,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 1709
+  "github_stars": 1756
  },
  "deng2023mind2web": {
   "title": "Mind2Web: Towards a Generalist Agent for the Web",
@@ -432,7 +432,7 @@
   "date": "2023-06",
   "arxiv_id": "2306.06070",
   "url": "https://arxiv.org/abs/2306.06070",
-  "citations": 1441,
+  "citations": 1453,
   "code": "https://github.com/OSU-NLP-Group/Mind2Web",
   "sections": [
    "evidence/benchmarks"
@@ -440,7 +440,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 1028
+  "github_stars": 1029
  },
  "deng2026swemilestone": {
   "title": "SWE-Milestone: Evaluating AI Agents on Continuous Software Evolution",
@@ -477,7 +477,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.11763",
   "url": "https://arxiv.org/abs/2506.11763",
-  "citations": 234,
+  "citations": 235,
   "code": "https://github.com/Ayanami0730/deep_research_bench",
   "sections": [
    "evidence/benchmarks"
@@ -485,7 +485,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 832
+  "github_stars": 834
  },
  "erdogan2025planandact": {
   "title": "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks",
@@ -509,7 +509,7 @@
   "date": "2025-08",
   "arxiv_id": "2508.06433",
   "url": "https://aclanthology.org/2026.findings-acl.866/",
-  "citations": 67,
+  "citations": 68,
   "code": "https://github.com/zjunlp/MemP",
   "sections": [
    "targets/harness"
@@ -525,7 +525,7 @@
   "date": "2026-02",
   "arxiv_id": "2602.10975",
   "url": "https://arxiv.org/abs/2602.10975",
-  "citations": 27,
+  "citations": 28,
   "code": "https://github.com/LiberCoders/FeatureBench",
   "sections": [
    "evidence/benchmarks"
@@ -533,7 +533,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 94
+  "github_stars": 95
  },
  "feng2025gigpo": {
   "title": "Group-in-Group Policy Optimization for LLM Agent Training",
@@ -541,7 +541,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.10978",
   "url": "https://arxiv.org/abs/2505.10978",
-  "citations": 414,
+  "citations": 425,
   "code": "https://github.com/langfengQ/verl-agent",
   "sections": [
    "targets/weights"
@@ -549,7 +549,7 @@
   "collections": [
    "model-design"
   ],
-  "github_stars": 2324
+  "github_stars": 2340
  },
  "frontierswe2026": {
   "title": "FrontierSWE",
@@ -573,13 +573,13 @@
   "date": "2025-07",
   "arxiv_id": "2507.21046",
   "url": "https://arxiv.org/abs/2507.21046",
-  "citations": 116,
+  "citations": 119,
   "code": "https://github.com/CharlesQ9/Self-Evolving-Agents",
   "sections": [
    "analyses"
   ],
   "collections": [],
-  "github_stars": 1324
+  "github_stars": 1328
  },
  "gonzalezpumariega2025robotouille": {
   "title": "Robotouille: An Asynchronous Planning Benchmark for LLM Agents",
@@ -603,7 +603,7 @@
   "date": "2023-05",
   "arxiv_id": "2305.11738",
   "url": "https://arxiv.org/abs/2305.11738",
-  "citations": 931,
+  "citations": 945,
   "code": "https://github.com/microsoft/ProphetNet",
   "sections": [
    "targets/harness"
@@ -619,7 +619,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.21506",
   "url": "https://arxiv.org/abs/2506.21506",
-  "citations": 74,
+  "citations": 76,
   "code": "https://github.com/OSU-NLP-Group/Mind2Web-2",
   "sections": [
    "evidence/benchmarks"
@@ -650,7 +650,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.20683",
   "url": "https://arxiv.org/abs/2606.20683",
-  "citations": 5,
+  "citations": 6,
   "code": null,
   "sections": [
    "targets/harness"
@@ -665,7 +665,7 @@
   "date": "2024-05",
   "arxiv_id": "2405.14831",
   "url": "https://arxiv.org/abs/2405.14831",
-  "citations": 360,
+  "citations": 375,
   "code": "https://github.com/OSU-NLP-Group/HippoRAG",
   "sections": [
    "targets/harness"
@@ -673,7 +673,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 4017
+  "github_stars": 4023
  },
  "han2026robocerebra": {
   "title": "RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation",
@@ -681,7 +681,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.06677",
   "url": "https://arxiv.org/abs/2506.06677",
-  "citations": 34,
+  "citations": 35,
   "code": "https://github.com/buaa-colalab/RoboCerebra",
   "sections": [
    "evidence/benchmarks"
@@ -697,7 +697,7 @@
   "date": "2024-01",
   "arxiv_id": "2401.13919",
   "url": "https://arxiv.org/abs/2401.13919",
-  "citations": 452,
+  "citations": 455,
   "code": "https://github.com/MinorJerry/WebVoyager",
   "sections": [
    "evidence/benchmarks"
@@ -705,7 +705,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 1125
+  "github_stars": 1127
  },
  "hill2023mineplanner": {
   "title": "MinePlanner: A Benchmark for Long-Horizon Planning in Large Minecraft Worlds",
@@ -729,7 +729,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.07508",
   "url": "https://arxiv.org/abs/2607.07508",
-  "citations": 18,
+  "citations": 20,
   "code": null,
   "sections": [
    "targets/weights"
@@ -744,7 +744,7 @@
   "date": "2024-08",
   "arxiv_id": "2408.08435",
   "url": "https://arxiv.org/abs/2408.08435",
-  "citations": 322,
+  "citations": 331,
   "code": "https://github.com/ShengranHu/ADAS",
   "sections": [
    "targets/harness"
@@ -771,7 +771,7 @@
   "date": "2025-12",
   "arxiv_id": "2512.13564",
   "url": "https://arxiv.org/abs/2512.13564",
-  "citations": 269,
+  "citations": 275,
   "code": null,
   "sections": [
    "targets/harness"
@@ -802,7 +802,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.01798",
   "url": "https://arxiv.org/abs/2310.01798",
-  "citations": 1198,
+  "citations": 1216,
   "code": null,
   "sections": [
    "targets/harness"
@@ -817,7 +817,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.23899",
   "url": "https://arxiv.org/abs/2605.23899",
-  "citations": 15,
+  "citations": 16,
   "code": null,
   "sections": [
    "targets/harness"
@@ -832,7 +832,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.09050",
   "url": "https://arxiv.org/abs/2506.09050",
-  "citations": 30,
+  "citations": 31,
   "code": "https://github.com/SakanaAI/ALE-Bench",
   "sections": [
    "evidence/benchmarks"
@@ -840,7 +840,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 220
+  "github_stars": 221
  },
  "jansen2025codescientist": {
   "title": "CodeScientist: End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation",
@@ -873,7 +873,7 @@
   "date": "2025-02",
   "arxiv_id": "2502.13138",
   "url": "https://arxiv.org/abs/2502.13138",
-  "citations": 190,
+  "citations": 196,
   "code": "https://github.com/WecoAI/aideml",
   "sections": [
    "targets/data"
@@ -890,7 +890,7 @@
    "confidence": "medium"
   },
   "collections": [],
-  "github_stars": 1536
+  "github_stars": 1544
  },
  "jiang2026darwindynamicagenticallyrewriting": {
   "title": "DARWIN: Dynamic Agentically Rewriting Self-Improving Network",
@@ -914,7 +914,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.06770",
   "url": "https://arxiv.org/abs/2310.06770",
-  "citations": 3793,
+  "citations": 3871,
   "code": "https://github.com/SWE-bench/SWE-bench",
   "sections": [
    "foundations/long-horizon"
@@ -922,7 +922,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 5883
+  "github_stars": 5921
  },
  "jin2026chainswe": {
   "title": "ChainSWE: Benchmarking Coding Agents on Multi-Bug Software Maintenance",
@@ -960,7 +960,7 @@
   "date": "2024-06",
   "arxiv_id": "2406.01297",
   "url": "https://arxiv.org/abs/2406.01297",
-  "citations": 352,
+  "citations": 359,
   "code": null,
   "sections": [
    "targets/harness"
@@ -975,7 +975,7 @@
   "date": "2025-10",
   "arxiv_id": "2510.00615",
   "url": "https://arxiv.org/abs/2510.00615",
-  "citations": 96,
+  "citations": 104,
   "code": "https://github.com/microsoft/acon",
   "sections": [
    "targets/harness"
@@ -983,7 +983,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 117
+  "github_stars": 119
  },
  "kapoor2024omniact": {
   "title": "OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web",
@@ -1006,7 +1006,7 @@
   "date": "2025-10",
   "arxiv_id": "2510.11977",
   "url": "https://arxiv.org/abs/2510.11977",
-  "citations": 69,
+  "citations": 73,
   "code": "https://github.com/princeton-pli/hal-harness",
   "sections": [
    "evidence/benchmarks"
@@ -1038,7 +1038,7 @@
   "date": "2026-03",
   "arxiv_id": "2603.29231",
   "url": "https://arxiv.org/abs/2603.29231",
-  "citations": 6,
+  "citations": 7,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -1053,7 +1053,7 @@
   "date": "2025-12",
   "arxiv_id": "2512.08296",
   "url": "https://arxiv.org/abs/2512.08296",
-  "citations": 127,
+  "citations": 131,
   "code": "https://github.com/ybkim95/agent-scaling",
   "sections": [
    "evidence/benchmarks",
@@ -1071,7 +1071,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.24653",
   "url": "https://arxiv.org/abs/2607.24653",
-  "citations": 33,
+  "citations": 44,
   "code": "https://github.com/MoonshotAI/Kimi-K3",
   "sections": [
    "evidence/benchmarks",
@@ -1083,7 +1083,7 @@
    "model-design",
    "harness-design"
   ],
-  "github_stars": 8832
+  "github_stars": 8861
  },
  "kirgis2026shadow": {
   "title": "Can AI Agents Conduct Open-Ended AI Research? Early Evidence from Two Case Studies",
@@ -1138,7 +1138,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.25996",
   "url": "https://arxiv.org/abs/2606.25996",
-  "citations": 7,
+  "citations": 8,
   "code": null,
   "sections": [
    "targets/data"
@@ -1164,13 +1164,13 @@
   "date": "2025-03",
   "arxiv_id": "2503.14499",
   "url": "https://arxiv.org/abs/2503.14499",
-  "citations": 149,
+  "citations": 152,
   "code": "https://github.com/METR/eval-analysis-public",
   "sections": [
    "evidence/measurement"
   ],
   "collections": [],
-  "github_stars": 330
+  "github_stars": 332
  },
  "laban2026llms": {
   "title": "LLMs Get Lost In Multi-Turn Conversation",
@@ -1178,7 +1178,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.06120",
   "url": "https://arxiv.org/abs/2505.06120",
-  "citations": 450,
+  "citations": 459,
   "code": "https://github.com/microsoft/lost_in_conversation",
   "sections": [
    "evidence/benchmarks"
@@ -1186,7 +1186,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 297
+  "github_stars": 298
  },
  "lange2025shinkaevolve": {
   "title": "ShinkaEvolve: Towards open-ended and sample-efficient program evolution",
@@ -1194,7 +1194,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.19349",
   "url": "https://openreview.net/forum?id=lKEdGCoDNC",
-  "citations": 147,
+  "citations": 150,
   "code": "https://github.com/SakanaAI/ShinkaEvolve",
   "sections": [
    "targets/substrate"
@@ -1211,7 +1211,7 @@
    "confidence": "high"
   },
   "collections": [],
-  "github_stars": 1403
+  "github_stars": 1414
  },
  "lee2024benchmarking": {
   "title": "Benchmarking Mobile Device Control Agents across Diverse Configurations",
@@ -1251,7 +1251,7 @@
   "date": "2026-03",
   "arxiv_id": "2603.28052",
   "url": "https://arxiv.org/abs/2603.28052",
-  "citations": 183,
+  "citations": 194,
   "code": "https://github.com/stanford-iris-lab/meta-harness-tbench2-artifact",
   "sections": [
    "targets/harness"
@@ -1270,7 +1270,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 1221
+  "github_stars": 1225
  },
  "lee2026rhi": {
   "title": "Recursive harness self-improvement",
@@ -1278,7 +1278,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.15524",
   "url": "https://arxiv.org/abs/2607.15524",
-  "citations": 12,
+  "citations": 14,
   "code": null,
   "sections": [
    "targets/harness"
@@ -1312,7 +1312,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 1708
+  "github_stars": 1725
  },
  "li2025salt": {
   "title": "SALT: Step-level Advantage Assignment for Long-horizon Agents via Trajectory Graph",
@@ -1320,7 +1320,7 @@
   "date": "2025-10",
   "arxiv_id": "2510.20022",
   "url": "https://arxiv.org/abs/2510.20022",
-  "citations": 20,
+  "citations": 22,
   "code": null,
   "sections": [
    "targets/weights"
@@ -1335,7 +1335,7 @@
   "date": "2025-11",
   "arxiv_id": "2511.20718",
   "url": "https://arxiv.org/abs/2511.20718",
-  "citations": 5,
+  "citations": 6,
   "code": "https://github.com/Cloud0723/SORL",
   "sections": [
    "targets/weights"
@@ -1359,7 +1359,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 19978
+  "github_stars": 19990
  },
  "li2026acmagenticcontextmanagement": {
   "title": "ACM: Agentic Context Management for Long Horizon Tasks",
@@ -1367,7 +1367,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.23809",
   "url": "https://arxiv.org/abs/2607.23809",
-  "citations": 1,
+  "citations": 6,
   "code": "https://github.com/lixiaochuan2020/agentic-context-management",
   "sections": [
    "targets/harness"
@@ -1375,7 +1375,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 38
+  "github_stars": 39
  },
  "li2026autosota": {
   "title": "AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery",
@@ -1383,7 +1383,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.05550",
   "url": "https://arxiv.org/abs/2604.05550",
-  "citations": 16,
+  "citations": 17,
   "code": "https://github.com/tsinghua-fib-lab/AutoSOTA",
   "sections": [
    "targets/substrate"
@@ -1402,7 +1402,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 681
+  "github_stars": 682
  },
  "li2026compactionrlreinforcementlearningcontext": {
   "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
@@ -1439,7 +1439,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.09426",
   "url": "https://arxiv.org/abs/2606.09426",
-  "citations": 5,
+  "citations": 7,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -1478,7 +1478,7 @@
   "date": "2025-08",
   "arxiv_id": "2508.21433",
   "url": "https://arxiv.org/abs/2508.21433",
-  "citations": 30,
+  "citations": 33,
   "code": null,
   "sections": [
    "targets/harness"
@@ -1493,7 +1493,7 @@
   "date": "2023-08",
   "arxiv_id": "2308.03688",
   "url": "https://arxiv.org/abs/2308.03688",
-  "citations": 1307,
+  "citations": 1335,
   "code": "https://github.com/THUDM/AgentBench",
   "sections": [
    "evidence/benchmarks"
@@ -1501,7 +1501,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 3742
+  "github_stars": 3753
  },
  "liu2025mlmaster": {
   "title": "ML-Master: Towards AI-for-AI via integration of exploration and reasoning",
@@ -1509,7 +1509,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.16499",
   "url": "https://arxiv.org/abs/2506.16499",
-  "citations": 55,
+  "citations": 58,
   "code": "https://github.com/sjtu-sai-agents/ML-Master",
   "sections": [
    "targets/data"
@@ -1536,7 +1536,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.14228",
   "url": "https://arxiv.org/abs/2604.14228",
-  "citations": 33,
+  "citations": 35,
   "code": "https://github.com/VILA-Lab/Dive-into-Claude-Code",
   "sections": [
    "targets/harness"
@@ -1544,7 +1544,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 2119
+  "github_stars": 2127
  },
  "liu2026escherloopmutualevolutionclosedloop": {
   "title": "Escher-Loop: Mutual Evolution by Closed-Loop Self-Referential Optimization",
@@ -1583,7 +1583,7 @@
   "date": "2026-02",
   "arxiv_id": "2602.14337",
   "url": "https://arxiv.org/abs/2602.14337",
-  "citations": 24,
+  "citations": 25,
   "code": "https://github.com/finyorko/longcli-bench",
   "sections": [
    "evidence/benchmarks"
@@ -1591,7 +1591,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 47
+  "github_stars": 48
  },
  "lu-etal-2025-runaway": {
   "title": "Runaway is Ashamed, But Helpful: On the Early-Exit Behavior of Large Language Model-based Agents in Embodied Environments",
@@ -1615,7 +1615,7 @@
   "date": "2024-08",
   "arxiv_id": "2408.06292",
   "url": "https://arxiv.org/abs/2408.06292",
-  "citations": 1147,
+  "citations": 1159,
   "code": "https://github.com/SakanaAI/AI-Scientist",
   "sections": [
    "targets/research"
@@ -1632,7 +1632,7 @@
    "confidence": "medium"
   },
   "collections": [],
-  "github_stars": 14595
+  "github_stars": 14621
  },
  "lu2026endtoendautomation": {
   "title": "Towards End-to-End Automation of AI Research",
@@ -1640,7 +1640,7 @@
   "date": "2026-03",
   "arxiv_id": "",
   "url": "https://doi.org/10.1038/s41586-026-10265-5",
-  "citations": 249,
+  "citations": 263,
   "code": "https://github.com/SakanaAI/AI-Scientist-v2",
   "sections": [
    "evidence/benchmarks"
@@ -1648,7 +1648,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 7194
+  "github_stars": 7223
  },
  "lu2026meta": {
   "title": "The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?",
@@ -1672,7 +1672,7 @@
   "date": "2024-02",
   "arxiv_id": "2402.05930",
   "url": "https://arxiv.org/abs/2402.05930",
-  "citations": 187,
+  "citations": 189,
   "code": "https://github.com/McGill-NLP/weblinx",
   "sections": [
    "evidence/benchmarks"
@@ -1680,7 +1680,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 163
+  "github_stars": 164
  },
  "lu2408toolsandbox": {
   "title": "ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities",
@@ -1688,7 +1688,7 @@
   "date": "2024-08",
   "arxiv_id": "2408.04682",
   "url": "https://aclanthology.org/2025.findings-naacl.65/",
-  "citations": 263,
+  "citations": 280,
   "code": "https://github.com/apple-aiml-research/ToolSandbox",
   "sections": [
    "evidence/benchmarks"
@@ -1704,7 +1704,7 @@
   "date": "2026-02",
   "arxiv_id": "2602.06855",
   "url": "https://arxiv.org/abs/2602.06855",
-  "citations": 22,
+  "citations": 25,
   "code": "https://github.com/facebookresearch/airs-bench",
   "sections": [
    "evidence/benchmarks"
@@ -1720,7 +1720,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.08678",
   "url": "https://arxiv.org/abs/2605.08678",
-  "citations": 8,
+  "citations": 9,
   "code": "https://github.com/Imbernoulli/MLS-Bench",
   "sections": [
    "evidence/benchmarks"
@@ -1728,7 +1728,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 118
+  "github_stars": 120
  },
  "ma2026trex": {
   "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
@@ -1736,7 +1736,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.14116",
   "url": "https://arxiv.org/abs/2604.14116",
-  "citations": 3,
+  "citations": 5,
   "code": null,
   "sections": [
    "targets/weights"
@@ -1751,7 +1751,7 @@
   "date": "2025-12",
   "arxiv_id": "2512.06749",
   "url": "https://arxiv.org/abs/2512.06749",
-  "citations": 14,
+  "citations": 16,
   "code": "https://github.com/microsoft/ACV",
   "sections": [
    "evidence/benchmarks",
@@ -1769,7 +1769,7 @@
   "date": "2023-03",
   "arxiv_id": "2303.17651",
   "url": "https://arxiv.org/abs/2303.17651",
-  "citations": 4692,
+  "citations": 4755,
   "code": "https://github.com/madaan/self-refine",
   "sections": [
    "foundations/self-improvement"
@@ -1819,7 +1819,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 357
+  "github_stars": 361
  },
  "meng2026rsibenchdata": {
   "title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
@@ -1835,7 +1835,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 159
+  "github_stars": 164
  },
  "meyerson2025solving": {
   "title": "Solving a Million-Step LLM Task with Zero Errors",
@@ -1859,7 +1859,7 @@
   "date": "2025-07",
   "arxiv_id": "2507.21504",
   "url": "https://arxiv.org/abs/2507.21504",
-  "citations": 203,
+  "citations": 206,
   "code": "https://github.com/SAP-samples/llm-agents-eval-tutorial",
   "sections": [
    "evidence/benchmarks"
@@ -1875,7 +1875,7 @@
   "date": "2025-07",
   "arxiv_id": "2507.22358",
   "url": "https://arxiv.org/abs/2507.22358",
-  "citations": 51,
+  "citations": 53,
   "code": "https://github.com/microsoft/magentic-ui",
   "sections": [
    "targets/harness"
@@ -1883,7 +1883,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 10091
+  "github_stars": 10088
  },
  "nakano2022webgpt": {
   "title": "WebGPT: Browser-assisted question-answering with human feedback",
@@ -1891,7 +1891,7 @@
   "date": "2021-12",
   "arxiv_id": "2112.09332",
   "url": "https://arxiv.org/abs/2112.09332",
-  "citations": 2072,
+  "citations": 2081,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -1906,7 +1906,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.18747",
   "url": "https://arxiv.org/abs/2605.18747",
-  "citations": 26,
+  "citations": 29,
   "code": "https://github.com/YennNing/Awesome-Code-as-Agent-Harness-Papers",
   "sections": [
    "targets/harness"
@@ -1914,7 +1914,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 704
+  "github_stars": 709
  },
  "nl2repo2025": {
   "title": "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents",
@@ -1922,7 +1922,7 @@
   "date": "2025-12",
   "arxiv_id": "2512.12730",
   "url": "https://arxiv.org/abs/2512.12730",
-  "citations": 47,
+  "citations": 48,
   "code": "https://github.com/multimodal-art-projection/NL2RepoBench",
   "sections": [
    "evidence/benchmarks"
@@ -1930,7 +1930,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 176
+  "github_stars": 177
  },
  "novikov2025alphaevolve": {
   "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
@@ -1938,7 +1938,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.13131",
   "url": "https://arxiv.org/abs/2506.13131",
-  "citations": 862,
+  "citations": 884,
   "code": null,
   "sections": [
    "targets/substrate"
@@ -1964,7 +1964,7 @@
   "date": "2024-07",
   "arxiv_id": "2407.19056",
   "url": "https://arxiv.org/abs/2407.19056",
-  "citations": 54,
+  "citations": 56,
   "code": "https://github.com/zlwang-cs/OfficeBench",
   "sections": [
    "evidence/benchmarks"
@@ -1995,7 +1995,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.05115",
   "url": "https://arxiv.org/abs/2505.05115",
-  "citations": 5,
+  "citations": 6,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2025,7 +2025,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.06614",
   "url": "https://arxiv.org/abs/2605.06614",
-  "citations": 36,
+  "citations": 37,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2040,7 +2040,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.08560",
   "url": "https://arxiv.org/abs/2310.08560",
-  "citations": 1336,
+  "citations": 1378,
   "code": "https://github.com/letta-ai/letta",
   "sections": [
    "targets/harness"
@@ -2048,7 +2048,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 24819
+  "github_stars": 24899
  },
  "pan2026naturallanguageagentharnesses": {
   "title": "Natural-Language Agent Harnesses",
@@ -2056,7 +2056,7 @@
   "date": "2026-03",
   "arxiv_id": "2603.25723",
   "url": "https://arxiv.org/abs/2603.25723",
-  "citations": 43,
+  "citations": 46,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2087,7 +2087,7 @@
   "date": "2023-04",
   "arxiv_id": "2304.03442",
   "url": "https://arxiv.org/abs/2304.03442",
-  "citations": 5576,
+  "citations": 5674,
   "code": "https://github.com/joonspk-research/generative_agents",
   "sections": [
    "targets/harness"
@@ -2095,7 +2095,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 22130
+  "github_stars": 22153
  },
  "patil2023gorilla": {
   "title": "Gorilla: Large Language Model Connected with Massive APIs",
@@ -2103,7 +2103,7 @@
   "date": "2023-05",
   "arxiv_id": "2305.15334",
   "url": "https://arxiv.org/abs/2305.15334",
-  "citations": 1642,
+  "citations": 1668,
   "code": "https://github.com/ShishirPatil/gorilla",
   "sections": [
    "targets/weights"
@@ -2111,7 +2111,7 @@
   "collections": [
    "model-design"
   ],
-  "github_stars": 13037
+  "github_stars": 13043
  },
  "posttrainbench2026": {
   "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
@@ -2119,7 +2119,7 @@
   "date": "2026-03",
   "arxiv_id": "2603.08640",
   "url": "https://arxiv.org/abs/2603.08640",
-  "citations": 34,
+  "citations": 36,
   "code": "https://github.com/aisa-group/PostTrainBench",
   "sections": [
    "evidence/benchmarks"
@@ -2128,7 +2128,7 @@
    "benchmarks",
    "model-design"
   ],
-  "github_stars": 566
+  "github_stars": 570
  },
  "programbench2026": {
   "title": "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
@@ -2136,7 +2136,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.03546",
   "url": "https://arxiv.org/abs/2605.03546",
-  "citations": 26,
+  "citations": 32,
   "code": "https://github.com/facebookresearch/ProgramBench",
   "sections": [
    "evidence/benchmarks"
@@ -2144,7 +2144,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 928
+  "github_stars": 934
  },
  "qu2026bilevel": {
   "title": "Bilevel Autoresearch: Meta-Autoresearching Itself",
@@ -2194,7 +2194,7 @@
   "date": "2024-05",
   "arxiv_id": "2405.14573",
   "url": "https://arxiv.org/abs/2405.14573",
-  "citations": 434,
+  "citations": 440,
   "code": "https://github.com/google-research/android_world",
   "sections": [
    "evidence/benchmarks"
@@ -2202,7 +2202,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 924
+  "github_stars": 934
  },
  "ray2026structuredfeedbackimprovesrepair": {
   "title": "Structured Feedback Improves Repair in an LLM Agent Loop",
@@ -2249,7 +2249,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 497
+  "github_stars": 511
  },
  "repogenesis2026": {
   "title": "RepoGenesis: Benchmarking End-to-End Microservice Generation from Readme to Repository",
@@ -2257,7 +2257,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.13943",
   "url": "https://arxiv.org/abs/2601.13943",
-  "citations": 6,
+  "citations": 7,
   "code": "https://github.com/pzy2000/RepoGenesis",
   "sections": [
    "evidence/benchmarks"
@@ -2289,7 +2289,7 @@
   "date": "2023-02",
   "arxiv_id": "2302.04761",
   "url": "https://arxiv.org/abs/2302.04761",
-  "citations": 5659,
+  "citations": 5750,
   "code": null,
   "sections": [
    "targets/weights"
@@ -2304,7 +2304,7 @@
   "date": "2025-03",
   "arxiv_id": "2503.18102",
   "url": "https://arxiv.org/abs/2503.18102",
-  "citations": 65,
+  "citations": 66,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2345,7 +2345,7 @@
    "confidence": "medium"
   },
   "collections": [],
-  "github_stars": 1860
+  "github_stars": 1863
  },
  "shao2026agent": {
   "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
@@ -2353,7 +2353,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.22368",
   "url": "https://arxiv.org/abs/2607.22368",
-  "citations": 4,
+  "citations": 5,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2368,7 +2368,7 @@
   "date": "2026-08",
   "arxiv_id": "2608.09802",
   "url": "https://arxiv.org/abs/2608.09802",
-  "citations": 5,
+  "citations": 6,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2383,7 +2383,7 @@
   "date": "2023-03",
   "arxiv_id": "2303.11366",
   "url": "https://arxiv.org/abs/2303.11366",
-  "citations": 5327,
+  "citations": 5428,
   "code": "https://github.com/noahshinn/reflexion",
   "sections": [
    "foundations/self-improvement"
@@ -2402,7 +2402,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 3280
+  "github_stars": 3285
  },
  "shridhar2020alfred": {
   "title": "ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks",
@@ -2410,7 +2410,7 @@
   "date": "2019-12",
   "arxiv_id": "1912.01734",
   "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Shridhar_ALFRED_A_Benchmark_for_Interpreting_Grounded_Instructions_for_Everyday_Tasks_CVPR_2020_paper.html",
-  "citations": 1198,
+  "citations": 1203,
   "code": "https://github.com/askforalfred/alfred",
   "sections": [
    "evidence/benchmarks"
@@ -2418,7 +2418,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 532
+  "github_stars": 533
  },
  "si2026executiongrounded": {
   "title": "Towards Execution-Grounded Automated AI Research",
@@ -2426,7 +2426,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.14525",
   "url": "https://arxiv.org/abs/2601.14525",
-  "citations": 13,
+  "citations": 14,
   "code": "https://github.com/NoviScl/Automated-AI-Researcher",
   "sections": [
    "evidence/measurement"
@@ -2434,7 +2434,7 @@
   "collections": [
    "model-design"
   ],
-  "github_stars": 84
+  "github_stars": 86
  },
  "sigdel2026schematoolapisllm": {
   "title": "Schema First Tool APIs for LLM Agents: A Controlled Study of Tool Misuse, Recovery, and Budgeted Performance",
@@ -2442,7 +2442,7 @@
   "date": "2026-03",
   "arxiv_id": "2603.13404",
   "url": "https://arxiv.org/abs/2603.13404",
-  "citations": 5,
+  "citations": 6,
   "code": "https://github.com/akgitrepos/schema-first-tool-apis-experiments",
   "sections": [
    "targets/harness"
@@ -2458,7 +2458,7 @@
   "date": "2025-04",
   "arxiv_id": "2504.01848",
   "url": "https://arxiv.org/abs/2504.01848",
-  "citations": 280,
+  "citations": 285,
   "code": "https://github.com/openai/frontier-evals",
   "sections": [
    "evidence/benchmarks"
@@ -2466,7 +2466,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 1300
+  "github_stars": 1301
  },
  "starace2026scaffoldeffectsgaiacontrolled": {
   "title": "Scaffold Effects on GAIA: A Controlled Comparison",
@@ -2474,7 +2474,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.08529",
   "url": "https://arxiv.org/abs/2606.08529",
-  "citations": 0,
+  "citations": 1,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2489,7 +2489,7 @@
   "date": "2023-09",
   "arxiv_id": "2309.02427",
   "url": "https://arxiv.org/abs/2309.02427",
-  "citations": 521,
+  "citations": 526,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2512,7 +2512,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 128
+  "github_stars": 129
  },
  "sun2025scaling": {
   "title": "Scaling Long-Horizon LLM Agent via Context-Folding",
@@ -2520,7 +2520,7 @@
   "date": "2025-10",
   "arxiv_id": "2510.11967",
   "url": "https://arxiv.org/abs/2510.11967",
-  "citations": 111,
+  "citations": 114,
   "code": "https://github.com/sunnweiwei/FoldAgent",
   "sections": [
    "targets/harness"
@@ -2528,7 +2528,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 189
+  "github_stars": 191
  },
  "sweatlas2026": {
   "title": "SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution",
@@ -2544,7 +2544,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 72
+  "github_stars": 73
  },
  "swebenchlive2025": {
   "title": "SWE-bench Goes Live!",
@@ -2552,7 +2552,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.23419",
   "url": "https://arxiv.org/abs/2505.23419",
-  "citations": 62,
+  "citations": 66,
   "code": "https://github.com/microsoft/SWE-bench-Live",
   "sections": [
    "evidence/benchmarks"
@@ -2560,7 +2560,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 241
+  "github_stars": 244
  },
  "swebenchpro2025": {
   "title": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?",
@@ -2568,7 +2568,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.16941",
   "url": "https://arxiv.org/abs/2509.16941",
-  "citations": 232,
+  "citations": 246,
   "code": "https://github.com/scaleapi/SWE-bench_Pro-os",
   "sections": [
    "evidence/benchmarks"
@@ -2576,7 +2576,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 527
+  "github_stars": 531
  },
  "swechain2026": {
   "title": "SWE-Chain: Benchmarking Coding Agents on Chained Release-Level Package Upgrades",
@@ -2608,7 +2608,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 178
+  "github_stars": 179
  },
  "swecycle2026": {
   "title": "SWE-Cycle: Benchmarking Code Agents across the Complete Issue Resolution Cycle",
@@ -2632,7 +2632,7 @@
   "date": "2025-12",
   "arxiv_id": "2512.18470",
   "url": "https://arxiv.org/abs/2512.18470",
-  "citations": 42,
+  "citations": 45,
   "code": "https://github.com/SWE-EVO/SWE-EVO",
   "sections": [
    "evidence/benchmarks"
@@ -2648,7 +2648,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.07297",
   "url": "https://arxiv.org/abs/2606.07297",
-  "citations": 15,
+  "citations": 16,
   "code": "https://github.com/Qiushao-E/SWE-Explore-Bench",
   "sections": [
    "evidence/benchmarks"
@@ -2656,7 +2656,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 42
+  "github_stars": 43
  },
  "sweinfrabench2026": {
   "title": "SWE-InfraBench: Evaluating Language Models on Cloud Infrastructure Code",
@@ -2694,7 +2694,7 @@
   "date": "2025-07",
   "arxiv_id": "2507.11059",
   "url": "https://arxiv.org/abs/2507.11059",
-  "citations": 7,
+  "citations": 8,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2709,7 +2709,7 @@
   "date": "2026-02",
   "arxiv_id": "2602.23866",
   "url": "https://arxiv.org/abs/2602.23866",
-  "citations": 14,
+  "citations": 17,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2739,7 +2739,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.27233",
   "url": "https://aclanthology.org/2026.gem-main.13/",
-  "citations": 4,
+  "citations": 5,
   "code": null,
   "sections": [
    "targets/harness"
@@ -2754,7 +2754,7 @@
   "date": "2026-03",
   "arxiv_id": "2603.08754",
   "url": "https://arxiv.org/abs/2603.08754",
-  "citations": 40,
+  "citations": 44,
   "code": null,
   "sections": [
    "targets/weights"
@@ -2769,7 +2769,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.18705",
   "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d904d300a105809a2114d727851e759-Abstract-Conference.html",
-  "citations": 90,
+  "citations": 91,
   "code": "https://github.com/HKUDS/AI-Researcher",
   "sections": [
    "targets/research"
@@ -2786,7 +2786,7 @@
    "confidence": "high"
   },
   "collections": [],
-  "github_stars": 5753
+  "github_stars": 5765
  },
  "tang2026fars": {
   "title": "FARS: A Fully Automated Research System Deployed at Scale",
@@ -2836,7 +2836,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.11868",
   "url": "https://arxiv.org/abs/2601.11868",
-  "citations": 425,
+  "citations": 439,
   "code": "https://github.com/harbor-framework/terminal-bench-1",
   "sections": [
    "evidence/benchmarks"
@@ -2844,7 +2844,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 2593
+  "github_stars": 2595
  },
  "toolllm2023": {
   "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
@@ -2852,7 +2852,7 @@
   "date": "2023-07",
   "arxiv_id": "2307.16789",
   "url": "https://arxiv.org/abs/2307.16789",
-  "citations": 2266,
+  "citations": 2300,
   "code": "https://github.com/OpenBMB/ToolBench",
   "sections": [
    "evidence/benchmarks"
@@ -2860,7 +2860,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 5745
+  "github_stars": 5747
  },
  "trivedi2024appworld": {
   "title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
@@ -2868,7 +2868,7 @@
   "date": "2024-07",
   "arxiv_id": "2407.18901",
   "url": "https://arxiv.org/abs/2407.18901",
-  "citations": 327,
+  "citations": 340,
   "code": "https://github.com/StonyBrookNLP/appworld",
   "sections": [
    "foundations/long-horizon"
@@ -2876,7 +2876,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 518
+  "github_stars": 520
  },
  "ursekar2026harnessopt": {
   "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
@@ -2884,7 +2884,7 @@
   "date": "2026-08",
   "arxiv_id": "2608.06301",
   "url": "https://arxiv.org/abs/2608.06301",
-  "citations": 1,
+  "citations": 2,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -2899,7 +2899,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.07636",
   "url": "https://aclanthology.org/2025.findings-acl.193/",
-  "citations": 27,
+  "citations": 28,
   "code": "https://github.com/THUDM/SWE-Dev",
   "sections": [
    "targets/harness"
@@ -2915,7 +2915,7 @@
   "date": "2023-05",
   "arxiv_id": "2305.16291",
   "url": "https://arxiv.org/abs/2305.16291",
-  "citations": 2314,
+  "citations": 2343,
   "code": "https://github.com/MineDojo/Voyager",
   "sections": [
    "targets/harness"
@@ -2923,7 +2923,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 7221
+  "github_stars": 7226
  },
  "wang2025agent": {
   "title": "Agent Workflow Memory",
@@ -2931,7 +2931,7 @@
   "date": "2024-09",
   "arxiv_id": "2409.07429",
   "url": "https://arxiv.org/abs/2409.07429",
-  "citations": 282,
+  "citations": 290,
   "code": "https://github.com/zorazrw/agent-workflow-memory",
   "sections": [
    "targets/harness"
@@ -2939,7 +2939,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 472
+  "github_stars": 474
  },
  "wang2025hell": {
   "title": "Hell or High Water: Evaluating Agentic Recovery from External Failures",
@@ -2947,7 +2947,7 @@
   "date": "2025-08",
   "arxiv_id": "2508.11027",
   "url": "https://arxiv.org/abs/2508.11027",
-  "citations": 6,
+  "citations": 7,
   "code": "https://github.com/JHU-CLSP/hell-or-high-water",
   "sections": [
    "evidence/benchmarks"
@@ -2979,7 +2979,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.14004",
   "url": "https://arxiv.org/abs/2607.14004",
-  "citations": 2,
+  "citations": 4,
   "code": "https://github.com/relai-ai/Continual-Learning-Terminal-Bench",
   "sections": [
    "evidence/benchmarks"
@@ -3018,7 +3018,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 92
+  "github_stars": 93
  },
  "wang2026long": {
   "title": "The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break",
@@ -3026,7 +3026,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.11978",
   "url": "https://arxiv.org/abs/2604.11978",
-  "citations": 25,
+  "citations": 28,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -3041,7 +3041,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.05297",
   "url": "https://arxiv.org/abs/2607.05297",
-  "citations": 9,
+  "citations": 11,
   "code": null,
   "sections": [
    "targets/harness"
@@ -3056,7 +3056,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.24530",
   "url": "https://arxiv.org/abs/2606.24530",
-  "citations": 2,
+  "citations": 3,
   "code": "https://github.com/FrontisAI/NatureBench",
   "sections": [
    "evidence/benchmarks"
@@ -3064,7 +3064,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 125
+  "github_stars": 126
  },
  "wang2026rethinking": {
   "title": "Rethinking the Evaluation of Harness Evolution for Agents",
@@ -3072,7 +3072,7 @@
   "date": "2026-07",
   "arxiv_id": "2607.12227",
   "url": "https://arxiv.org/abs/2607.12227",
-  "citations": 21,
+  "citations": 23,
   "code": "https://github.com/rethinking-harness-evolution/code",
   "sections": [
    "evidence/measurement"
@@ -3096,7 +3096,7 @@
   "collections": [
    "model-design"
   ],
-  "github_stars": 1671
+  "github_stars": 1677
  },
  "wang2026swe": {
   "title": "SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents",
@@ -3104,7 +3104,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.16746",
   "url": "https://arxiv.org/abs/2601.16746",
-  "citations": 37,
+  "citations": 43,
   "code": "https://github.com/Ayanami1314/swe-pruner",
   "sections": [
    "targets/harness"
@@ -3159,7 +3159,7 @@
   "date": "2022-01",
   "arxiv_id": "2201.11903",
   "url": "https://arxiv.org/abs/2201.11903",
-  "citations": 22031,
+  "citations": 22177,
   "code": "https://github.com/jasonwei20/chain-of-thought-prompting",
   "sections": [
    "targets/weights"
@@ -3190,7 +3190,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.26603",
   "url": "https://openreview.net/forum?id=cZFgsLq8Gs",
-  "citations": 53,
+  "citations": 55,
   "code": "https://github.com/ResearAI/DeepScientist",
   "sections": [
    "targets/substrate"
@@ -3207,7 +3207,7 @@
    "confidence": "high"
   },
   "collections": [],
-  "github_stars": 3331
+  "github_stars": 3336
  },
  "wijk2024re": {
   "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
@@ -3215,9 +3215,9 @@
   "date": "2024-11",
   "arxiv_id": "2411.15114",
   "url": "https://arxiv.org/abs/2411.15114",
-  "citations": 152,
+  "citations": 158,
   "code": "https://github.com/METR/RE-Bench",
-  "github_stars": 163,
+  "github_stars": 165,
   "sections": [
    "evidence/benchmarks"
   ],
@@ -3231,7 +3231,7 @@
   "date": "2024-03",
   "arxiv_id": "2403.07718",
   "url": "https://proceedings.mlr.press/v235/drouin24a.html",
-  "citations": 349,
+  "citations": 359,
   "code": "https://github.com/ServiceNow/WorkArena",
   "sections": [
    "evidence/benchmarks"
@@ -3262,7 +3262,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.13313",
   "url": "https://arxiv.org/abs/2509.13313",
-  "citations": 113,
+  "citations": 116,
   "code": "https://github.com/Alibaba-NLP/DeepResearch",
   "sections": [
    "targets/harness"
@@ -3270,7 +3270,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 19978
+  "github_stars": 19990
  },
  "wu2026contextbudget": {
   "title": "ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents",
@@ -3278,7 +3278,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.01664",
   "url": "https://arxiv.org/abs/2604.01664",
-  "citations": 10,
+  "citations": 11,
   "code": "https://github.com/yw-0311/ContextBudget",
   "sections": [
    "targets/harness"
@@ -3332,7 +3332,7 @@
   "collections": [
    "model-design"
   ],
-  "github_stars": 868
+  "github_stars": 869
  },
  "xia2024agentless": {
   "title": "Demystifying LLM-Based Software Engineering Agents",
@@ -3340,7 +3340,7 @@
   "date": "2024-07",
   "arxiv_id": "2407.01489",
   "url": "https://doi.org/10.1145/3715754",
-  "citations": 500,
+  "citations": 505,
   "code": "https://github.com/OpenAutoCoder/Agentless",
   "sections": [
    "targets/harness"
@@ -3348,7 +3348,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 2112
+  "github_stars": 2114
  },
  "xiao2026reducing": {
   "title": "Reducing Cost of LLM Agents with Trajectory Reduction",
@@ -3371,9 +3371,9 @@
   "date": "2024-04",
   "arxiv_id": "2404.07972",
   "url": "https://arxiv.org/abs/2404.07972",
-  "citations": 1172,
+  "citations": 1198,
   "code": "https://github.com/xlang-ai/OSWorld",
-  "github_stars": 3152,
+  "github_stars": 3157,
   "sections": [
    "foundations/long-horizon"
   ],
@@ -3387,7 +3387,7 @@
   "date": "2024-02",
   "arxiv_id": "2402.01622",
   "url": "https://arxiv.org/abs/2402.01622",
-  "citations": 481,
+  "citations": 487,
   "code": "https://github.com/OSU-NLP-Group/TravelPlanner",
   "sections": [
    "evidence/benchmarks"
@@ -3395,7 +3395,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 549
+  "github_stars": 550
  },
  "xu2026adaptinginterfacemodelruntime": {
   "title": "Adapting the Interface, Not the Model: Runtime Harness Adaptation for Deterministic LLM Agents",
@@ -3421,7 +3421,7 @@
   "url": "https://arxiv.org/abs/2603.29640",
   "citations": 5,
   "code": "https://github.com/GAIR-NLP/ASI-Evolve",
-  "github_stars": 857,
+  "github_stars": 860,
   "sections": [
    "targets/research"
   ],
@@ -3461,7 +3461,7 @@
   "date": "2025-02",
   "arxiv_id": "2502.12110",
   "url": "https://arxiv.org/abs/2502.12110",
-  "citations": 1010,
+  "citations": 1040,
   "code": "https://github.com/WujiangXu/A-mem",
   "sections": [
    "targets/harness"
@@ -3477,7 +3477,7 @@
   "date": "2024-12",
   "arxiv_id": "2412.14161",
   "url": "https://arxiv.org/abs/2412.14161",
-  "citations": 308,
+  "citations": 315,
   "code": "https://github.com/TheAgentCompany/TheAgentCompany",
   "sections": [
    "evidence/benchmarks"
@@ -3485,7 +3485,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 781
+  "github_stars": 785
  },
  "yamada2025aiscientistv2": {
   "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
@@ -3493,7 +3493,7 @@
   "date": "2025-04",
   "arxiv_id": "2504.08066",
   "url": "https://arxiv.org/abs/2504.08066",
-  "citations": 393,
+  "citations": 397,
   "code": "https://github.com/SakanaAI/AI-Scientist-v2",
   "sections": [
    "targets/research"
@@ -3510,7 +3510,7 @@
    "confidence": "medium"
   },
   "collections": [],
-  "github_stars": 7194
+  "github_stars": 7223
  },
  "yang2026beyond": {
   "title": "Beyond Static Summarization: Proactive Memory Extraction for LLM Agents",
@@ -3518,7 +3518,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.04463",
   "url": "https://arxiv.org/abs/2601.04463",
-  "citations": 16,
+  "citations": 17,
   "code": null,
   "sections": [
    "targets/harness"
@@ -3554,7 +3554,7 @@
    "model-design",
    "harness-design"
   ],
-  "github_stars": 733
+  "github_stars": 760
  },
  "yao2022webshop": {
   "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
@@ -3562,7 +3562,7 @@
   "date": "2022-07",
   "arxiv_id": "2207.01206",
   "url": "https://arxiv.org/abs/2207.01206",
-  "citations": 1369,
+  "citations": 1380,
   "code": "https://github.com/princeton-nlp/WebShop",
   "sections": [
    "evidence/benchmarks"
@@ -3570,7 +3570,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 598
+  "github_stars": 599
  },
  "yao2023react": {
   "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
@@ -3578,7 +3578,7 @@
   "date": "2022-10",
   "arxiv_id": "2210.03629",
   "url": "https://arxiv.org/abs/2210.03629",
-  "citations": 11375,
+  "citations": 11555,
   "code": "https://github.com/ysymyth/ReAct",
   "sections": [
    "targets/weights",
@@ -3588,7 +3588,7 @@
    "model-design",
    "harness-design"
   ],
-  "github_stars": 4183
+  "github_stars": 4191
  },
  "yao2023tot": {
   "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
@@ -3596,7 +3596,7 @@
   "date": "2023-05",
   "arxiv_id": "2305.10601",
   "url": "https://arxiv.org/abs/2305.10601",
-  "citations": 4909,
+  "citations": 4942,
   "code": "https://github.com/princeton-nlp/tree-of-thought-llm",
   "sections": [
    "targets/weights"
@@ -3604,7 +3604,7 @@
   "collections": [
    "model-design"
   ],
-  "github_stars": 6068
+  "github_stars": 6071
  },
  "yao2024tau": {
   "title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
@@ -3612,9 +3612,9 @@
   "date": "2024-06",
   "arxiv_id": "2406.12045",
   "url": "https://arxiv.org/abs/2406.12045",
-  "citations": 1177,
+  "citations": 1238,
   "code": "https://github.com/sierra-research/tau-bench",
-  "github_stars": 1445,
+  "github_stars": 1446,
   "sections": [
    "foundations/long-horizon"
   ],
@@ -3628,7 +3628,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.12030",
   "url": "https://aclanthology.org/2026.findings-acl.930/",
-  "citations": 5,
+  "citations": 6,
   "sections": [
    "evidence/benchmarks"
   ],
@@ -3643,7 +3643,7 @@
   "date": "2025-10",
   "arxiv_id": "2510.24699",
   "url": "https://arxiv.org/abs/2510.24699",
-  "citations": 76,
+  "citations": 78,
   "code": "https://github.com/Alibaba-NLP/DeepResearch",
   "sections": [
    "targets/harness"
@@ -3651,7 +3651,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 19978
+  "github_stars": 19990
  },
  "yehudai2026survey": {
   "title": "A Survey on Evaluation of LLM-based Agents",
@@ -3659,7 +3659,7 @@
   "date": "2025-03",
   "arxiv_id": "2503.16416",
   "url": "https://arxiv.org/abs/2503.16416",
-  "citations": 226,
+  "citations": 227,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -3689,7 +3689,7 @@
   "date": "2024-10",
   "arxiv_id": "2410.04444",
   "url": "https://aclanthology.org/2025.acl-long.1354/",
-  "citations": 23,
+  "citations": 24,
   "code": "https://github.com/Arvid-pku/Godel_Agent",
   "sections": [
    "targets/harness"
@@ -3708,7 +3708,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 223
+  "github_stars": 227
  },
  "yuan2024selfreward": {
   "title": "Self-rewarding language models",
@@ -3716,7 +3716,7 @@
   "date": "2024-01",
   "arxiv_id": "2401.10020",
   "url": "https://proceedings.mlr.press/v235/yuan24d.html",
-  "citations": 716,
+  "citations": 721,
   "code": null,
   "sections": [
    "targets/weights"
@@ -3742,7 +3742,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.29537",
   "url": "https://arxiv.org/abs/2606.29537",
-  "citations": 17,
+  "citations": 18,
   "code": "https://github.com/xlang-ai/OSWorld-V2",
   "sections": [
    "evidence/benchmarks"
@@ -3750,7 +3750,7 @@
   "collections": [
    "benchmarks"
   ],
-  "github_stars": 322
+  "github_stars": 337
  },
  "zelikman2022star": {
   "title": "STaR: Bootstrapping reasoning with reasoning",
@@ -3758,7 +3758,7 @@
   "date": "2022-03",
   "arxiv_id": "2203.14465",
   "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html",
-  "citations": 1069,
+  "citations": 1081,
   "code": null,
   "sections": [
    "targets/weights"
@@ -3784,7 +3784,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.02304",
   "url": "https://arxiv.org/abs/2310.02304",
-  "citations": 140,
+  "citations": 144,
   "code": "https://github.com/microsoft/stop",
   "sections": [
    "targets/harness"
@@ -3803,7 +3803,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 53
+  "github_stars": 54
  },
  "zhang-etal-2025-di": {
   "title": "DI-BENCH: Benchmarking Large Language Models on Dependency Inference with Testable Repositories at Scale",
@@ -3811,7 +3811,7 @@
   "date": "2025-01",
   "arxiv_id": "2501.13699",
   "url": "https://arxiv.org/abs/2501.13699",
-  "citations": 8,
+  "citations": 9,
   "code": "https://github.com/microsoft/DI-Bench",
   "sections": [
    "evidence/benchmarks"
@@ -3827,7 +3827,7 @@
   "date": "2025-05",
   "arxiv_id": "2505.22954",
   "url": "https://openreview.net/forum?id=pUpzQZTvGY",
-  "citations": 239,
+  "citations": 254,
   "code": "https://github.com/jennyzzt/dgm",
   "sections": [
    "targets/harness"
@@ -3846,7 +3846,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 2354
+  "github_stars": 2376
  },
  "zhang2026agenticcontextengineeringevolving": {
   "title": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
@@ -3854,7 +3854,7 @@
   "date": "2025-10",
   "arxiv_id": "2510.04618",
   "url": "https://arxiv.org/abs/2510.04618",
-  "citations": 310,
+  "citations": 322,
   "code": "https://github.com/ace-agent/ace",
   "sections": [
    "targets/harness"
@@ -3862,7 +3862,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 1327
+  "github_stars": 1334
  },
  "zhang2026deepplanning": {
   "title": "DeepPlanning: Benchmarking Long-Horizon Agentic Planning with Verifiable Constraints",
@@ -3870,7 +3870,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.18137",
   "url": "https://arxiv.org/abs/2601.18137",
-  "citations": 33,
+  "citations": 36,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -3885,7 +3885,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.19156",
   "url": "https://arxiv.org/abs/2605.19156",
-  "citations": 6,
+  "citations": 7,
   "code": null,
   "sections": [
    "evidence/benchmarks"
@@ -3900,7 +3900,7 @@
   "date": "2026-06",
   "arxiv_id": "2606.09498",
   "url": "https://arxiv.org/abs/2606.09498",
-  "citations": 42,
+  "citations": 46,
   "code": "https://github.com/qzzqzzb/Self-Harness",
   "sections": [
    "targets/harness"
@@ -3919,7 +3919,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 110
+  "github_stars": 113
  },
  "zhang2026stop": {
   "title": "Stop Comparing LLM Agents Without Disclosing the Harness",
@@ -3942,9 +3942,9 @@
   "date": "2023-08",
   "arxiv_id": "2308.10144",
   "url": "https://arxiv.org/abs/2308.10144",
-  "citations": 922,
+  "citations": 944,
   "code": "https://github.com/LeapLabTHU/ExpeL",
-  "github_stars": 243,
+  "github_stars": 244,
   "sections": [
    "targets/harness"
   ],
@@ -3969,7 +3969,7 @@
   "date": "2026-05",
   "arxiv_id": "2605.21384",
   "url": "https://arxiv.org/abs/2605.21384",
-  "citations": 14,
+  "citations": 17,
   "code": "https://github.com/WecoAI/SpecBench",
   "sections": [
    "targets/harness"
@@ -3985,7 +3985,7 @@
   "date": "2024-06",
   "arxiv_id": "2406.04520",
   "url": "https://arxiv.org/abs/2406.04520",
-  "citations": 141,
+  "citations": 142,
   "code": "https://github.com/google-deepmind/natural-plan",
   "sections": [
    "evidence/benchmarks"
@@ -4001,7 +4001,7 @@
   "date": "2023-10",
   "arxiv_id": "2310.04406",
   "url": "https://arxiv.org/abs/2310.04406",
-  "citations": 642,
+  "citations": 647,
   "code": "https://github.com/andyz245/LanguageAgentTreeSearch",
   "sections": [
    "targets/weights",
@@ -4011,7 +4011,7 @@
    "model-design",
    "harness-design"
   ],
-  "github_stars": 863
+  "github_stars": 864
  },
  "zhou2024webarena": {
   "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
@@ -4019,9 +4019,9 @@
   "date": "2023-07",
   "arxiv_id": "2307.13854",
   "url": "https://arxiv.org/abs/2307.13854",
-  "citations": 2026,
+  "citations": 2062,
   "code": "https://github.com/web-arena-x/webarena",
-  "github_stars": 1611,
+  "github_stars": 1618,
   "sections": [
    "foundations/long-horizon"
   ],
@@ -4035,7 +4035,7 @@
   "date": "2025-06",
   "arxiv_id": "2506.15841",
   "url": "https://arxiv.org/abs/2506.15841",
-  "citations": 200,
+  "citations": 205,
   "code": "https://github.com/MIT-MI/MEM1",
   "sections": [
    "targets/harness"
@@ -4051,7 +4051,7 @@
   "date": "2026-04",
   "arxiv_id": "2604.08224",
   "url": "https://arxiv.org/abs/2604.08224",
-  "citations": 61,
+  "citations": 63,
   "code": null,
   "sections": [
    "targets/harness"
@@ -4074,7 +4074,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 148
+  "github_stars": 146
  },
  "zhu2025llmagentsfaillearn": {
   "title": "Where LLM Agents Fail and How They can Learn From Failures",
@@ -4082,7 +4082,7 @@
   "date": "2025-09",
   "arxiv_id": "2509.25370",
   "url": "https://arxiv.org/abs/2509.25370",
-  "citations": 118,
+  "citations": 119,
   "code": "https://github.com/ulab-uiuc/AgentDebug",
   "sections": [
    "targets/harness"
@@ -4098,7 +4098,7 @@
   "date": "2026-01",
   "arxiv_id": "2601.10402",
   "url": "https://arxiv.org/abs/2601.10402",
-  "citations": 24,
+  "citations": 25,
   "code": null,
   "sections": [
    "targets/data"
@@ -4124,7 +4124,7 @@
   "date": "2024-10",
   "arxiv_id": "2410.10934",
   "url": "https://arxiv.org/abs/2410.10934",
-  "citations": 223,
+  "citations": 230,
   "code": "https://github.com/metauto-ai/agent-as-a-judge",
   "sections": [
    "evidence/benchmarks",
@@ -4134,7 +4134,7 @@
    "benchmarks",
    "harness-design"
   ],
-  "github_stars": 828
+  "github_stars": 829
  },
  "xiao2026pilot": {
   "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
@@ -4142,7 +4142,7 @@
   "date": "2026-08",
   "arxiv_id": "2608.26530",
   "url": "https://arxiv.org/abs/2608.26530",
-  "citations": 1,
+  "citations": 2,
   "code": null,
   "sections": [
    "targets/harness"
@@ -4157,7 +4157,7 @@
   "date": "2026-08",
   "arxiv_id": "2608.24876",
   "url": "https://arxiv.org/abs/2608.24876",
-  "citations": 2,
+  "citations": 3,
   "code": "https://github.com/Gen-Verse/Recuris",
   "sections": [
    "targets/harness"
@@ -4165,7 +4165,7 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 214
+  "github_stars": 218
  },
  "karten2026primeagent": {
   "title": "Prime Agent: A Self-Improving RLM Harness",
@@ -4173,7 +4173,7 @@
   "date": "2026-08",
   "arxiv_id": "2608.23552",
   "url": "https://arxiv.org/abs/2608.23552",
-  "citations": 3,
+  "citations": 5,
   "code": "https://github.com/PrimeIntellect-ai/prime-agent",
   "sections": [
    "targets/harness"
@@ -4181,6 +4181,6 @@
   "collections": [
    "harness-design"
   ],
-  "github_stars": 21117
+  "github_stars": 21308
  }
 }

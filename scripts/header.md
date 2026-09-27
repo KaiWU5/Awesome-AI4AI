@@ -10,7 +10,7 @@
 <sub>Definitions, Reliable Horizons, and Open Problems · 23 authors · 7 institutions</sub></p>
 
 <p>
-  Updated weekly with the month's top AI-for-AI papers, news, and blogs. <strong>Stay tuned 🔥</strong>
+  Weekly news featuring top AI-for-AI papers, releases, and blogs. <strong>Stay tuned 🔥</strong>
 </p>
 
 <p>
@@ -36,7 +36,7 @@
 </td>
 <td width="33%" align="center">
   <strong>🗞️ Weekly update</strong><br>
-  <sub>The month's top papers and releases, re-ranked every week against primary sources.</sub>
+  <sub>Top papers and releases, selected every week and verified against primary sources.</sub>
 </td>
 <td width="33%" align="center">
   <strong>🧭 Survey-grounded map</strong><br>

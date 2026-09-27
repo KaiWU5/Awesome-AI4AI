@@ -53,7 +53,7 @@ if path.exists() and not FORCE:
 
 ARCHIVE.mkdir(exist_ok=True)
 lines = [
-    f"# Awesome AI4AI Monthly News — {date}",
+    f"# Awesome AI4AI Weekly News — {date}",
     "",
     marker,
     "",
@@ -89,10 +89,10 @@ editions = sorted(
     reverse=True,
 )
 index_lines = [
-    "# 📅 Awesome AI4AI Monthly News Archive",
+    "# 📅 Awesome AI4AI Weekly News Archive",
     "",
     "A permanent record of the repository's human-curated top papers, releases, "
-    "blogs, and research news. Each edition is a dated snapshot of the month's "
+    "blogs, and research news. Each edition is a dated snapshot of the weekly "
     "selection at that refresh. Citation rankings refresh separately in the live README.",
     "",
 ]

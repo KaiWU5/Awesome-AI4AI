@@ -269,7 +269,7 @@ if public_papers < 223:
     failures.append(f"public survey catalog fell below 223 unique papers: {public_papers}")
 
 readme = (ROOT / "README.md").read_text()
-news_heading = f"## 📅 Weekly Update · Monthly Top {len(news_items)}"
+news_heading = f"## 📅 Weekly News · Top {len(news_items)}"
 if news_heading not in readme:
     failures.append("README is missing the news heading")
 else:

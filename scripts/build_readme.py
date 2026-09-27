@@ -218,8 +218,9 @@ parts = [header_lead.rstrip(), ""]
 
 parts += [
     '<a id="monthly-news"></a>',
+    '<a id="weekly-news"></a>',
     "",
-    f"## 📅 Weekly Update · Monthly Top {len(WEEKLY['items'])}",
+    f"## 📅 Weekly News · Top {len(WEEKLY['items'])}",
     "",
     f"> **Updated {WEEKLY['updated']}** · {WEEKLY['cadence']}",
     ">",
@@ -237,8 +238,8 @@ for item in WEEKLY["items"]:
     )
 parts += [
     "",
-    "> **Want next month's news?** Watch the repository. Citation counts, rankings, and the "
-    "month's top stories refresh every Monday. "
+    "> **Want next week's news?** Watch the repository. Citation counts, rankings, and the "
+    "weekly news picks refresh every Monday. "
     "[Browse past editions →](highlights/README.md)",
     "",
     "## 📈 Live Rankings",
@@ -319,7 +320,7 @@ parts.append((ROOT / "scripts" / "footer.md").read_text().rstrip())
 readme = "\n".join(parts) + "\n"
 
 toc = [
-    f"- [📅 Weekly Update · Monthly Top {len(WEEKLY['items'])}](#monthly-news)",
+    f"- [📅 Weekly News · Top {len(WEEKLY['items'])}](#weekly-news)",
     "- [📈 Live Rankings](#-live-rankings)",
     "  - [🔥 Recent Papers by Average Monthly Citations](#-recent-papers-by-average-monthly-citations)",
     "  - [🏆 Most-Cited Papers by Year](#-most-cited-papers-by-year)",
