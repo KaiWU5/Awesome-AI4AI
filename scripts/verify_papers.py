@@ -149,6 +149,10 @@ def openalex_match(title):
 
 
 def semantic_scholar_id(paper):
+    # Some proceedings URLs are not resolvable by S2 even though the paper is
+    # indexed. Retain a title-verified paper ID for those records.
+    if paper.get("semantic_scholar_id"):
+        return paper["semantic_scholar_id"]
     if paper.get("arxiv_id"):
         return "ARXIV:" + paper["arxiv_id"]
     url = paper.get("url", "")
@@ -230,6 +234,11 @@ def validate_catalog(papers):
         if paper.get("arxiv_id") and not re.fullmatch(
                 r"\d{4}\.\d{4,5}", paper["arxiv_id"]):
             failures.append((key, "malformed arXiv id: " + paper["arxiv_id"]))
+        s2_id = paper.get("semantic_scholar_id")
+        if s2_id is not None and (
+            not isinstance(s2_id, str) or not re.fullmatch(r"[0-9a-f]{40}", s2_id)
+        ):
+            failures.append((key, "malformed Semantic Scholar paper id"))
         url = paper.get("url")
         if url:
             if not url.startswith("https://"):

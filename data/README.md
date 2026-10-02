@@ -20,6 +20,9 @@ This directory contains the structured sources used to generate the public repos
 - Citation counts are discovery signals, not scientific-quality scores. When
   scholarly indexes split preprint and published versions, the catalog keeps
   the largest title-verified count from its configured sources.
+- An optional `semantic_scholar_id` stores a title-verified 40-character paper
+  ID when Semantic Scholar cannot resolve the paper's proceedings URL. The
+  refresh uses this ID directly and still checks the returned title.
 - GitHub code links are repository-root URLs; their star counts refresh with
   citations in the scheduled Monday workflow.
 - G/R/H/T are independent evidence coordinates, not a summed leaderboard.

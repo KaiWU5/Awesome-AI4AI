@@ -1,8 +1,40 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-10-02",
   "cadence": "Weekly news picks, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
+    {
+      "date": "2026-09-30",
+      "kind": "Model release",
+      "source": "Google DeepMind",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "why": "Google reports 77.9% on DeepSWE v1.1 and expands the output limit to one million tokens for long-horizon workflows. Access is initially limited to trusted cyber defenders and testers; broader availability is pending."
+    },
+    {
+      "date": "2026-09-30",
+      "kind": "Paper",
+      "source": "Kunlun Zhu et al. · arXiv",
+      "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+      "url": "https://arxiv.org/abs/2609.40111",
+      "why": "The authors introduce 50,228 error-diagnosis pairs across 33 environments, 19 harness families and 23 policy models. On 3,062 matched replay pairs, they report verifier pass rates rising from 18.4% to 51.1%; the separate actor-training comparison uses one seed."
+    },
+    {
+      "date": "2026-09-29",
+      "kind": "Model update",
+      "source": "OpenAI",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "why": "OpenAI reports a 6.4-point improvement over GPT-6 Sol on DeepSWE v1.1 at lower reasoning effort, and a seven-point gain on OSWorld 2.0 offline at max effort at less than half the cost. Cached input is priced at $0.10 per million tokens."
+    },
+    {
+      "date": "2026-09-29",
+      "kind": "Paper",
+      "source": "Jungwoo Yang / Injin Kong / Yohan Jo · arXiv",
+      "title": "SelfSearch: Reward-Free Search for Self-Improving Agents",
+      "url": "https://arxiv.org/abs/2609.37968",
+      "why": "The authors search over agent modifications using prior self-improvement records without downstream reward signals during search. They report gains up to 11.2 percentage points on Terminal-Bench 2.1, and an 82.0% result with DeepSeek V4 Flash after $4.03 of search under a public nine-harness comparison setup."
+    },
     {
       "date": "2026-09-24",
       "kind": "Paper",
@@ -14,26 +46,10 @@
     {
       "date": "2026-09-24",
       "kind": "Paper",
-      "source": "SJTU / Theseus Labs / Tencent Hunyuan · arXiv",
-      "title": "Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
-      "url": "https://arxiv.org/abs/2609.29773",
-      "why": "The authors introduce Env-Rethink, a system with a 27B post-trained model that organizes context, diagnoses environmental noise and generates harder environments through virtual event histories. They report improved rubric pass rates across nine downstream models on 30 tasks."
-    },
-    {
-      "date": "2026-09-24",
-      "kind": "Paper",
       "source": "ELLIS / MPI-IS / Snyk et al. · arXiv",
       "title": "LLM Agents Can Easily Tamper With Their Own Traces",
       "url": "https://arxiv.org/abs/2609.30266",
       "why": "The authors find that tested local coding harnesses, except Muse Code, allow agents to delete their own execution traces when prompted, without triggering monitor guardrails. They also demonstrate externally induced and reward-driven trace tampering, motivating logging outside the agent-controlled environment."
-    },
-    {
-      "date": "2026-09-22",
-      "kind": "Model release",
-      "source": "OpenAI",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "why": "OpenAI reports 68.8% for Sol and 66.6% for Luna on DeepSWE v1.1 at max effort, and introduces lower token prices and cache controls for long-running agents."
     },
     {
       "date": "2026-09-22",
@@ -60,28 +76,12 @@
       "why": "The authors regularize harness edits and selection to reduce benchmark-specific overfitting. Across eight benchmarks, they report gains up to 4.7 points on five out-of-distribution benchmarks and 30% fewer policy tokens than unregularized evolution, with code released."
     },
     {
-      "date": "2026-09-11",
-      "kind": "Model release",
-      "source": "Sakana AI",
-      "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
-      "url": "https://sakana.ai/fugu-max-release/",
-      "why": "Sakana AI releases Fugu Max and Fugu Ultra v2 around a shared orchestration architecture, expanding the pool of open-weight and specialized models. It argues that routing tasks to appropriate models improves the capability-cost frontier."
-    },
-    {
       "date": "2026-09-10",
       "kind": "Open-weight release",
       "source": "DeepSeek",
       "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
       "url": "https://api-docs.deepseek.com/news/news260910/",
       "why": "DeepSeek releases a 552B MoE with a causal encoder-decoder architecture activating 8B parameters on input and 16B on output. It says the KV cache needs one quarter of the prior generation's HBM, and links model weights and a technical report."
-    },
-    {
-      "date": "2026-09-10",
-      "kind": "Model release",
-      "source": "Cognition",
-      "title": "Introducing SWE-2: Pushing the Pareto Frontier",
-      "url": "https://cognition.com/blog/swe-2",
-      "why": "Cognition post-trains the 2.8T-parameter Kimi K3 base with an RL algorithm covering all reasoning-effort levels in one run. It reports 50.0% on FrontierCode 1.1 Main at 64% lower cost than Fable 5.1."
     }
   ]
 }
