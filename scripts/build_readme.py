@@ -250,7 +250,7 @@ parts += [
     f"GitHub stars are snapshots from **{CATALOG_META['github_stars_as_of']}**. "
     f"{CATALOG_META['citation_policy']} {CATALOG_META['year_grouping']}",
     "",
-    "### 🔥 Recent Papers by Average Monthly Citations",
+    "### Top Ranking Papers by Average Monthly Citations",
     "",
 ]
 
@@ -322,7 +322,7 @@ readme = "\n".join(parts) + "\n"
 toc = [
     f"- [📅 Weekly News · Top {len(WEEKLY['items'])}](#weekly-news)",
     "- [📈 Live Rankings](#-live-rankings)",
-    "  - [🔥 Recent Papers by Average Monthly Citations](#-recent-papers-by-average-monthly-citations)",
+    "  - [Top Ranking Papers by Average Monthly Citations](#top-ranking-papers-by-average-monthly-citations)",
     "  - [🏆 Most-Cited Papers by Year](#-most-cited-papers-by-year)",
     "- [🧪 Benchmarks](#-benchmarks)",
     "- [🛠️ Harness Design](#-harness-design)",

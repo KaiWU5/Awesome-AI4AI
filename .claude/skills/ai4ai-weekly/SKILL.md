@@ -25,7 +25,7 @@ which is the part that silently fails. Verify, don't assume.
 |:--|:--|:--|
 | 📅 Weekly Update · Monthly Top 10 | `data/weekly_picks.json` | Picks approved and rewritten |
 | 📈 Live Rankings | `citations` + `github_stars` in `papers.json` | `verify_papers.py --update` succeeds |
-| 🔥 Recent Papers by Average Monthly Citations | `citations` + `date` | same |
+| Top Ranking Papers by Average Monthly Citations | `citations` + `date` | same |
 | 🏆 Most-Cited Papers by Year | `citations` + first-appearance year | same |
 
 Plus **every paper's `citations` and `github_stars`** — all catalog entries, not
@@ -229,7 +229,7 @@ Sanity-check before committing:
 1. `README.md` shows `Updated <date>` and `current through **<date>**`.
 2. `citations_as_of` and `github_stars_as_of` in `catalog_meta.json` both advanced to today. If either did not, the refresh was incomplete — re-run rather than committing stale rankings.
 3. The coverage check above reports a plausible number of changed citations, and no well-known paper sits at 0.
-4. All four README sections rebuilt: Weekly Update, Live Rankings, Recent Papers by Average Monthly Citations, Most-Cited Papers by Year.
+4. All four README sections rebuilt: Weekly Update, Live Rankings, Top Ranking Papers by Average Monthly Citations, Most-Cited Papers by Year.
 
 ## Recovery
 

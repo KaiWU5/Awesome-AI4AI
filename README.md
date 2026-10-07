@@ -60,7 +60,7 @@
 
 - [📅 Weekly News · Top 10](#weekly-news)
 - [📈 Live Rankings](#-live-rankings)
-  - [🔥 Recent Papers by Average Monthly Citations](#-recent-papers-by-average-monthly-citations)
+  - [Top Ranking Papers by Average Monthly Citations](#top-ranking-papers-by-average-monthly-citations)
   - [🏆 Most-Cited Papers by Year](#-most-cited-papers-by-year)
 - [🧪 Benchmarks](#-benchmarks)
 - [🛠️ Harness Design](#-harness-design)
@@ -101,7 +101,7 @@
 
 > Citation counts are current through **2026-10-07** from Semantic Scholar and OpenAlex. Rankings are discovery aids, not quality scores; audit evidence remains independent of popularity. GitHub stars are snapshots from **2026-10-07**. For papers indexed as multiple versions, retain the largest title-verified count reported by the configured sources. All yearly rankings use first public appearance year; a later venue year never moves a paper into a newer cohort.
 
-### 🔥 Recent Papers by Average Monthly Citations
+### Top Ranking Papers by Average Monthly Citations
 
 | Paper | Venue | Date | Citations | Avg. cites/month | Code |
 |:--|:--:|:--:|:--:|:--:|:--:|
