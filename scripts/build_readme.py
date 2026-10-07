@@ -239,7 +239,7 @@ for item in WEEKLY["items"]:
 parts += [
     "",
     "> **Want next week's news?** Watch the repository. Citation counts, rankings, and the "
-    "weekly news picks refresh every Monday. "
+    "weekly news picks are published with maintainer updates. "
     "[Browse past editions →](highlights/README.md)",
     "",
     "## 📈 Live Rankings",
@@ -269,7 +269,7 @@ if rising:
             ]) + " |"
         )
 else:
-    parts.append("_Citation data will appear after the first scheduled refresh._")
+    parts.append("_Citation data will appear after the first maintainer refresh._")
 
 parts += ["", "### 🏆 Most-Cited Papers by Year", ""]
 years = sorted({

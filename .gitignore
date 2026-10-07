@@ -1,9 +1,40 @@
-preview_local.html
+# Local agent instructions, skills, settings, and maintainer workflows.
+/.claude/
+/.agents/
+/.codex/
+/.cursor/
+/.github/
+/AGENTS.md
+/CLAUDE.md
+/GEMINI.md
+
+# Local previews, refresh scratch files, and unpublished social drafts.
+/preview_local.html
+/output/
+/tmp/
+/temp/
+/twitter_longpost*.md
+/scripts/unicode_style.py
+*.log
+
+# Credentials and local environment files.
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Runtime, editor, and operating-system artifacts.
 __pycache__/
 .venv/
+venv/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+/.idea/
+/.vscode/
 .DS_Store
-# Track shared project skills; keep per-machine settings local.
-.claude/*
-!.claude/skills/
-.claude/settings.local.json
+*.swp
+*.swo

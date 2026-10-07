@@ -92,7 +92,26 @@ def paper_sort_date(paper):
 
 ignored_parts = {".git", ".venv", "__pycache__", ".pytest_cache"}
 ignored_files = {".DS_Store", "preview_local.html"}
-for path in ROOT.rglob("*"):
+if (ROOT / ".git").exists():
+    tracked = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT)
+    ignored = subprocess.run(
+        ["git", "check-ignore", "--no-index", "--stdin", "-z"],
+        input=tracked, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=ROOT,
+    )
+    if ignored.returncode not in (0, 1):
+        failures.append("could not check tracked files against .gitignore")
+    for relative in ignored.stdout.decode().split("\0"):
+        if relative:
+            failures.append(f"tracked file is excluded by .gitignore: {relative}")
+    public_paths = subprocess.check_output(
+        ["git", "ls-files", "--cached", "--others", "--exclude-standard", "-z"],
+        cwd=ROOT,
+    ).decode().split("\0")
+    paths_to_scan = [ROOT / name for name in public_paths if name]
+else:
+    paths_to_scan = ROOT.rglob("*")
+
+for path in paths_to_scan:
     if (
         not path.is_file()
         or path.name in ignored_files

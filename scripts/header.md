@@ -31,8 +31,8 @@
 <table>
 <tr>
 <td width="33%" align="center">
-  <strong>🔄 Automatic rankings</strong><br>
-  <sub>Citations, GitHub stars, and rankings refresh every Monday.</sub>
+  <strong>🔄 Refreshed rankings</strong><br>
+  <sub>Citations, GitHub stars, and rankings refresh with maintainer updates.</sub>
 </td>
 <td width="33%" align="center">
   <strong>🗞️ Weekly update</strong><br>
@@ -52,7 +52,7 @@
 ## What's New
 
 - 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*.
-- 🔄 **Every Monday — Automatic refresh.** Citations, GitHub stars, and recent-paper/yearly rankings update automatically.
+- 🔄 **Maintainer refresh.** Citations, GitHub stars, and recent-paper/yearly rankings are rebuilt from the catalog.
 - 🚀 **<!--LASTUPDATED--> — Latest weekly edition published.** The living catalog and source-verified news digest are up to date.
 
 <details open markdown="1">

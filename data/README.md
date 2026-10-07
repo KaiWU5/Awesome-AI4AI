@@ -4,8 +4,8 @@ This directory contains the structured sources used to generate the public repos
 
 | File | Role | Maintained by |
 |:--|:--|:--|
-| `papers.json` | Canonical catalog with public `collections` and fine-grained provenance `sections` | Pull requests + Monday citation refresh |
-| `catalog_meta.json` | Public collection policy, survey baseline, citation refresh date, and year grouping | Monday citation refresh |
+| `papers.json` | Canonical catalog with public `collections` and fine-grained provenance `sections` | Pull requests + maintainer citation refresh |
+| `catalog_meta.json` | Public collection policy, survey baseline, citation refresh date, and year grouping | Maintainer citation refresh |
 | `weekly_picks.json` | Current source-linked papers, releases, blogs, and research news | Weekly maintainer review + dated archive in `../highlights/` |
 | `closure_audit.json` | Source of truth for the 35-system ownership/evidence audit | Survey audit process |
 | `closure_audit.csv` | Flat export of the audit | `scripts/build_evidence.py` |
@@ -24,7 +24,7 @@ This directory contains the structured sources used to generate the public repos
   ID when Semantic Scholar cannot resolve the paper's proceedings URL. The
   refresh uses this ID directly and still checks the returned title.
 - GitHub code links are repository-root URLs; their star counts refresh with
-  citations in the scheduled Monday workflow.
+  citations when maintainers run `python scripts/verify_papers.py --update`.
 - G/R/H/T are independent evidence coordinates, not a summed leaderboard.
 - Stage-ownership counts describe the coded sample, not prevalence in the full field.
 - `nr` means not reported or not tested; it does **not** mean demonstrated failure.

@@ -31,8 +31,8 @@
 <table>
 <tr>
 <td width="33%" align="center">
-  <strong>🔄 Automatic rankings</strong><br>
-  <sub>Citations, GitHub stars, and rankings refresh every Monday.</sub>
+  <strong>🔄 Refreshed rankings</strong><br>
+  <sub>Citations, GitHub stars, and rankings refresh with maintainer updates.</sub>
 </td>
 <td width="33%" align="center">
   <strong>🗞️ Weekly update</strong><br>
@@ -52,7 +52,7 @@
 ## What's New
 
 - 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*.
-- 🔄 **Every Monday — Automatic refresh.** Citations, GitHub stars, and recent-paper/yearly rankings update automatically.
+- 🔄 **Maintainer refresh.** Citations, GitHub stars, and recent-paper/yearly rankings are rebuilt from the catalog.
 - 🚀 **2026-10-07 — Latest weekly edition published.** The living catalog and source-verified news digest are up to date.
 
 <details open markdown="1">
@@ -95,7 +95,7 @@
 | 2026‑09‑21<br><sub>Model release</sub> | [**Introducing Grok 4.7**](https://x.ai/news/grok-4-7)<br><sub>SpaceXAI</sub> | SpaceXAI says Grok 4.7 uses a larger base model and longer reinforcement learning on multi-hour tasks. It reports 37.6% on Terminal-Bench 4.0 versus 20.3% for Grok 4.6, with unchanged starting token prices. |
 | 2026‑09‑10<br><sub>Open-weight release</sub> | [**DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient**](https://api-docs.deepseek.com/news/news260910/)<br><sub>DeepSeek</sub> | DeepSeek releases a 552B MoE with a causal encoder-decoder architecture activating 8B parameters on input and 16B on output. It says the KV cache needs one quarter of the prior generation's HBM, and links model weights and a technical report. |
 
-> **Want next week's news?** Watch the repository. Citation counts, rankings, and the weekly news picks refresh every Monday. [Browse past editions →](highlights/README.md)
+> **Want next week's news?** Watch the repository. Citation counts, rankings, and the weekly news picks are published with maintainer updates. [Browse past editions →](highlights/README.md)
 
 ## 📈 Live Rankings
 
@@ -482,7 +482,7 @@
 2. **Verify:** exact title and identifier checks against primary scholarly sources.
 3. **Classify:** Benchmarks, Harness Design, and Model Design, allowing justified overlap.
 4. **Audit when evidence permits:** stage ownership plus independent G/R/H/T coordinates.
-5. **Refresh weekly:** citation counts and rankings every Monday, alongside weekly picks of papers, releases, blogs, and research news.
+5. **Refresh weekly:** maintainers update citation counts and rankings alongside weekly picks of papers, releases, blogs, and research news.
 
 ## 📄 Citation
 

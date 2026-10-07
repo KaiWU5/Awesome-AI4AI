@@ -47,8 +47,8 @@ python scripts/check_repo.py
 
 3. Commit the regenerated `README.md` and open a pull request.
 
-PR CI runs these deterministic offline checks and rejects generated files that
-do not match the structured source. Maintainers can additionally run
+Run these deterministic offline checks before submitting and confirm that
+generated files match the structured source. Maintainers can additionally run
 `python scripts/verify_papers.py` for live arXiv/Semantic Scholar/OpenAlex title
 checks; this requires network access and may be slow for the full catalog.
 
@@ -71,7 +71,7 @@ use the matching provenance value above.
 
 - Use the **exact published title**.
 - `date` is first public appearance (`YYYY-MM`); use `YYYY` only when the month is unavailable.
-- Leave `citations` as `null`; the Monday workflow fills it.
+- Leave `citations` as `null`; a maintainer refresh fills it.
 - `code` must be project-designated or maintainer-reviewed, not an arbitrary fork.
 - `collections` contains one or more of the three public collection keys.
 - A paper may appear in multiple collections when its primary contribution spans them.
@@ -95,6 +95,9 @@ publish an immutable edition under [`highlights/`](highlights/README.md).
 
 - No fabricated identifiers, titles, or source claims.
 - No credentials, private URLs, internal domains, or absolute local paths.
+- Keep local agent skills, maintainer workflows, environment files, logs, and
+  unpublished drafts out of Git. `scripts/check_repo.py` rejects tracked files
+  covered by `.gitignore`, including files added with `git add -f`.
 - No popularity claims presented as scientific quality.
 - No RSI label without distinguishing self-reference, fixed evaluators, and
   evidence across accepted successors.
