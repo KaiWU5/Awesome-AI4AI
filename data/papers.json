@@ -2021,6 +2021,22 @@
    "harness-design"
   ]
  },
+ "oshima2026autoref": {
+  "title": "AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation",
+  "venue": "arXiv",
+  "date": "2026-09",
+  "arxiv_id": "2609.35530",
+  "url": "https://arxiv.org/abs/2609.35530",
+  "citations": null,
+  "code": "https://github.com/KuOnoda/AutoRef",
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ],
+  "github_stars": 22
+ },
  "ouyang2026skilloslearningskillcuration": {
   "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
   "venue": "arXiv",

@@ -328,10 +328,11 @@
   <img src="assets/harness-design.png" width="92%" alt="Evidence chain for reliable harness interventions">
 </p>
 
-> **101 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
+> **102 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
 
 | Paper | Date | Citations | Code |
 |:--|:--:|:--:|:--:|
+| [**AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation**](https://arxiv.org/abs/2609.35530)<br><sub>arXiv</sub> | <nobr>2026-09</nobr> | — | [GitHub](https://github.com/KuOnoda/AutoRef) · ★ 22 |
 | [**PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents**](https://arxiv.org/abs/2608.26530)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 2 | — |
 | [**Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses**](https://arxiv.org/abs/2608.24876)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 4 | [GitHub](https://github.com/Gen-Verse/Recuris) · ★ 227 |
 | [**Prime Agent: A Self-Improving RLM Harness**](https://arxiv.org/abs/2608.23552)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 12 | [GitHub](https://github.com/PrimeIntellect-ai/prime-agent) · ★ 21,581 |
