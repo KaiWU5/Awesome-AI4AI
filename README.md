@@ -17,7 +17,7 @@
   Top AI-for-AI papers, releases, and blogs — curated every week. <strong>Stay tuned 🔥</strong>
 </p>
 
-<p><strong>Living catalog: 296 papers</strong> · 136 benchmarks · 145 harness studies · 46 model studies<br><sub>Collections overlap. The original survey covers 223 papers.</sub></p>
+<p><strong>Living catalog: 297 papers</strong> · 136 benchmarks · 146 harness studies · 46 model studies<br><sub>Collections overlap. The original survey covers 223 papers.</sub></p>
 
 <p>
   <a href="assets/AI4AI-Survey.pdf"><img src="https://img.shields.io/badge/-Paper_(nice_layout)-B31B1B.svg?style=flat-square" alt="Paper, nice layout"></a>
@@ -362,7 +362,7 @@
   <img src="assets/harness-design.png" width="92%" alt="Evidence chain for reliable harness interventions">
 </p>
 
-> **145 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
+> **146 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
 
 | Paper | Date | Citations | Code |
 |:--|:--:|:--:|:--:|
@@ -455,6 +455,7 @@
 | [**Natural-Language Agent Harnesses**](https://arxiv.org/abs/2603.25723)<br><sub>arXiv</sub> | <nobr>2026-03</nobr> | 58 | — |
 | [**Bilevel Autoresearch: Meta-Autoresearching Itself**](https://arxiv.org/abs/2603.23420)<br><sub>arXiv</sub> | <nobr>2026-03</nobr> | 8 | [GitHub](https://github.com/EdwardOptimization/Bilevel-Autoresearch) · ★ 209 |
 | [**Schema First Tool APIs for LLM Agents: A Controlled Study of Tool Misuse, Recovery, and Budgeted Performance**](https://arxiv.org/abs/2603.13404)<br><sub>arXiv</sub> | <nobr>2026-03</nobr> | 8 | [GitHub](https://github.com/akgitrepos/schema-first-tool-apis-experiments) · ★ 0 |
+| [**Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime**](https://doi.org/10.20944/preprints202603.1756.v2)<br><sub>Preprints</sub> | <nobr>2026-03</nobr> | — | — |
 | [**DARWIN: Dynamic Agentically Rewriting Self-Improving Network**](https://arxiv.org/abs/2602.05848)<br><sub>arXiv</sub> | <nobr>2026-02</nobr> | 1 | [GitHub](https://github.com/henryyjiang/DARWIN) · ★ 0 |
 | [**SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents**](https://arxiv.org/abs/2601.16746)<br><sub>arXiv preprint arXiv:2601.16746</sub> | <nobr>2026-01</nobr> | 56 | [GitHub](https://github.com/Ayanami1314/swe-pruner) · ★ 320 |
 | [**Beyond Static Summarization: Proactive Memory Extraction for LLM Agents**](https://arxiv.org/abs/2601.04463)<br><sub>arXiv preprint arXiv:2601.04463</sub> | <nobr>2026-01</nobr> | 20 | — |

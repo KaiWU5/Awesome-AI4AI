@@ -4239,6 +4239,21 @@
   ],
   "first_public_date": "2026-08-18"
  },
+ "he2026harnessengineering": {
+  "title": "Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime",
+  "venue": "Preprints",
+  "date": "2026-03",
+  "arxiv_id": "",
+  "url": "https://doi.org/10.20944/preprints202603.1756.v2",
+  "citations": null,
+  "code": null,
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ]
+ },
  "fan2026ecommercebench": {
   "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
   "venue": "arXiv",
