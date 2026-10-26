@@ -349,6 +349,7 @@ toc = [
     "- [🛠️ Harness Design](#-harness-design)",
     "- [🧠 Model Design](#-model-design)",
     "- [📚 How We Curate](#-how-we-curate)",
+    "- [🔗 Related Lists](#-related-lists)",
     "- [📄 Citation](#-citation)",
     "- [🤝 Contributing](#-contributing)",
 ]

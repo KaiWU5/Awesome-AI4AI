@@ -75,6 +75,7 @@
 - [🛠️ Harness Design](#-harness-design)
 - [🧠 Model Design](#-model-design)
 - [📚 How We Curate](#-how-we-curate)
+- [🔗 Related Lists](#-related-lists)
 - [📄 Citation](#-citation)
 - [🤝 Contributing](#-contributing)
 
@@ -754,6 +755,12 @@
 3. **Classify:** Benchmarks, Harness Design, and Model Design, allowing justified overlap.
 4. **Audit when evidence permits:** stage ownership plus independent G/R/H/T coordinates.
 5. **Refresh weekly:** discover and deduplicate new papers, add them to the relevant collections, refresh citations and GitHub stars, and rebuild all collection lists and rankings alongside the selected research news. The growing catalog extends the original survey; its historical paper counts and fixed evidence-audit sample remain separately identified.
+
+## 🔗 Related Lists
+
+- [awesome-agentic-ml](https://github.com/vicfei/awesome-agentic-ml) - Practice-oriented companion: systems and benchmarks for agents that automate data engineering, training runs, and distillation. (2026)
+- [awesome-self-improving-coding-agents](https://github.com/vicfei/awesome-self-improving-coding-agents) - Vertical map of RSI for software engineering. (2026)
+- [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) - The broad RSI research map. (2026)
 
 ## 📄 Citation
 
