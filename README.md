@@ -17,7 +17,7 @@
   Top AI-for-AI papers, releases, and blogs — curated every week. <strong>Stay tuned 🔥</strong>
 </p>
 
-<p><strong>Living catalog: 438 papers</strong> · 191 benchmarks · 224 harness studies · 84 model studies<br><sub>Collections overlap. The original survey covers 223 papers.</sub></p>
+<p><strong>Living catalog: 440 papers</strong> · 192 benchmarks · 225 harness studies · 84 model studies<br><sub>Collections overlap. The original survey covers 223 papers.</sub></p>
 
 <p>
   <a href="assets/AI4AI-Survey.pdf"><img src="https://img.shields.io/badge/-Paper_(nice_layout)-B31B1B.svg?style=flat-square" alt="Paper, nice layout"></a>
@@ -218,7 +218,7 @@
   <img src="assets/benchmarks.png" width="92%" alt="Figure 3 from the companion survey: What Is AI4AI? A Taxonomy">
 </p>
 
-> **191 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
+> **192 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
 
 | Paper | Date | Citations | Code |
 |:--|:--:|:--:|:--:|
@@ -277,6 +277,7 @@
 | [**Harness-Delta Attribution: Dissecting Gains From Harness Evolution**](https://arxiv.org/abs/2610.22466)<br><sub>arXiv</sub> | <nobr>2026-10</nobr> | 0 | — |
 | [**AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems**](https://arxiv.org/abs/2610.22511)<br><sub>arXiv</sub> | <nobr>2026-10</nobr> | 0 | [GitHub](https://github.com/Lexsi-Labs/AuditKIT) · ★ 14 |
 | [**From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research**](https://arxiv.org/abs/2610.21767)<br><sub>arXiv</sub> | <nobr>2026-10</nobr> | 0 | — |
+| [**SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents**](https://arxiv.org/abs/2610.21082)<br><sub>arXiv</sub> | <nobr>2026-10</nobr> | — | [GitHub](https://github.com/AutoResearch-Factory/SciPIvot) · ★ 12 |
 | [**Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents**](https://arxiv.org/abs/2610.20344)<br><sub>arXiv</sub> | <nobr>2026-10</nobr> | 0 | — |
 | [**SEAR: Self-Evolving Agentic Robotics**](https://arxiv.org/abs/2610.18792)<br><sub>arXiv</sub> | <nobr>2026-10</nobr> | 0 | — |
 | [**Agent Plasticity: Measuring Self-Improvement Through Experience**](https://arxiv.org/abs/2610.08902)<br><sub>arXiv</sub> | <nobr>2026-10</nobr> | 0 | — |
@@ -420,7 +421,7 @@
   <img src="assets/harness-design.png" width="92%" alt="Evidence chain for reliable harness interventions">
 </p>
 
-> **224 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
+> **225 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
 
 | Paper | Date | Citations | Code |
 |:--|:--:|:--:|:--:|
@@ -539,6 +540,7 @@
 | [**WHALE: A Simple Recipe for Joint Harness-Weight Optimization**](https://arxiv.org/abs/2609.00196)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 0 | [GitHub](https://github.com/krafton-ai/WHALE) · ★ 61 |
 | [**Context as an Environment: Programmatic Context Management for Long-Horizon Agents**](https://arxiv.org/abs/2608.21690)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 0 | — |
 | [**Agent Lightning v1.0: Towards Harnessed Agentic RL**](https://arxiv.org/abs/2608.17528)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 0 | — |
+| [**AutoSR: Automatic Symbolic Regression by Searching Research States**](https://arxiv.org/abs/2608.16876)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | — | [GitHub](https://github.com/AutoResearch-Factory/AutoSR) · ★ 2 |
 | [**Self-Evolving Embodied Agents via Skill-Harness Evolution**](https://arxiv.org/abs/2608.11350)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 0 | — |
 | [**PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents**](https://arxiv.org/abs/2608.04003)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 0 | [GitHub](https://github.com/Gen-Verse/PAST-Bench) · ★ 35 |
 | [**HarnessCompass: Guiding Automatic Harness Evolution toward Generalizable and Effective Agent Harnesses**](https://arxiv.org/abs/2608.01918)<br><sub>arXiv</sub> | <nobr>2026-08</nobr> | 0 | — |
