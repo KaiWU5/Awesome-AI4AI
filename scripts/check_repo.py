@@ -74,6 +74,7 @@ SECRET_PATTERNS = {
 PUBLIC_AUTOMATION_EMAILS = {
     "cursoragent@cursor.com",
     "noreply@anthropic.com",
+    "noreply@github.com",
     "wukaiwork@outlook.com",
 }
 

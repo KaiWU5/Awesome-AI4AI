@@ -57,7 +57,7 @@
 
 ## What's New
 
-- 🤝 **2026-10-26 — Community paper recommendations added.** Added ReCreate, Meta-Team, and Agon to Harness Design, and PerspectiveGap to Benchmarks, with paper and official code links.
+- 🤝 **2026-10-26 — Community contributions integrated.** Added ReCreate, Meta-Team, Agon, EvoRepair, and Harness Engineering for Language Agents to Harness Design, and PerspectiveGap to Benchmarks. Related Lists now links to three complementary community resources.
 
 - 📚 **2026-10-25 — 136 papers added.** Expanded Benchmarks, Harness Design, and Model Design with verified new and previously missed papers; rebuilt the full catalog and both ranking families.
 - 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*.
