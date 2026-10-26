@@ -17,7 +17,7 @@
   Top AI-for-AI papers, releases, and blogs — curated every week. <strong>Stay tuned 🔥</strong>
 </p>
 
-<p><strong>Living catalog: 436 papers</strong> · 191 benchmarks · 222 harness studies · 84 model studies<br><sub>Collections overlap. The original survey covers 223 papers.</sub></p>
+<p><strong>Living catalog: 437 papers</strong> · 191 benchmarks · 223 harness studies · 84 model studies<br><sub>Collections overlap. The original survey covers 223 papers.</sub></p>
 
 <p>
   <a href="assets/AI4AI-Survey.pdf"><img src="https://img.shields.io/badge/-Paper_(nice_layout)-B31B1B.svg?style=flat-square" alt="Paper, nice layout"></a>
@@ -419,7 +419,7 @@
   <img src="assets/harness-design.png" width="92%" alt="Evidence chain for reliable harness interventions">
 </p>
 
-> **222 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
+> **223 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
 
 | Paper | Date | Citations | Code |
 |:--|:--:|:--:|:--:|
@@ -584,6 +584,7 @@
 | [**ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents**](https://arxiv.org/abs/2604.01664)<br><sub>arXiv preprint arXiv:2604.01664</sub> | <nobr>2026-04</nobr> | 14 | [GitHub](https://github.com/yw-0311/ContextBudget) · ★ 9 |
 | [**ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents**](https://arxiv.org/abs/2604.23069)<br><sub>arXiv preprint arXiv:2604.23069</sub> | <nobr>2026-04</nobr> | 4 | — |
 | [**Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering**](https://arxiv.org/abs/2604.08224)<br><sub>arXiv preprint arXiv:2604.08224</sub> | <nobr>2026-04</nobr> | 73 | — |
+| [**Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime**](https://doi.org/10.20944/preprints202603.1756.v2)<br><sub>Preprints</sub> | <nobr>2026-03</nobr> | — | — |
 | [**Meta-Harness: End-to-End Optimization of Model Harnesses**](https://arxiv.org/abs/2603.28052)<br><sub>arXiv</sub> | <nobr>2026-03</nobr> | 305 | [GitHub](https://github.com/stanford-iris-lab/meta-harness-tbench2-artifact) · ★ 1,244 |
 | [**Natural-Language Agent Harnesses**](https://arxiv.org/abs/2603.25723)<br><sub>arXiv</sub> | <nobr>2026-03</nobr> | 58 | — |
 | [**Bilevel Autoresearch: Meta-Autoresearching Itself**](https://arxiv.org/abs/2603.23420)<br><sub>arXiv</sub> | <nobr>2026-03</nobr> | 8 | [GitHub](https://github.com/EdwardOptimization/Bilevel-Autoresearch) · ★ 209 |
