@@ -57,6 +57,8 @@
 
 ## What's New
 
+- 🤝 **2026-10-26 — Community paper recommendations added.** Added ReCreate, Meta-Team, and Agon to Harness Design, and PerspectiveGap to Benchmarks, with paper and official code links.
+
 <!--RESEARCHUPDATE-->
 - 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*.
 - 🔄 **Maintainer refresh.** Citations, GitHub stars, and recent-paper/yearly rankings are rebuilt from the catalog.

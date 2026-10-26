@@ -1,8 +1,24 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-25",
   "cadence": "Weekly news picks, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
+    {
+      "date": "2026-10-23",
+      "kind": "Model release",
+      "source": "Moonshot AI",
+      "title": "Kimi K3.1 Pro series is live",
+      "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+      "why": "Moonshot rolls out Kimi K3.1 Pro and its Highspeed variant in Kimi Code, with a 1M-token context window and improved long-horizon agent capabilities. Its technical blog reports 65.7% on Terminal-Bench 4.0 and says full weights are planned by November 4; this edition treats the product launch and future weight release separately."
+    },
+    {
+      "date": "2026-10-22",
+      "kind": "Paper",
+      "source": "Sun, Xun et al. · arXiv",
+      "title": "HERD: Harness-Evolving Recursive Distillation for Continual Learning",
+      "url": "https://arxiv.org/abs/2610.31401",
+      "why": "The authors introduce HERD, combining continual skill evolution and bounded residual memory with drift-constrained distillation into model parameters. On the 25-stage TRACE+17 stream under fixed memory and compute budgets, they report competitive new-task acquisition with the least forgetting among the compared methods."
+    },
     {
       "date": "2026-10-21",
       "kind": "Open-weight release",
@@ -26,22 +42,6 @@
       "title": "Evolving Agent Interfaces",
       "url": "https://arxiv.org/abs/2610.28601",
       "why": "The authors introduce Agent S4, which evolves computer-use interfaces and usage knowledge from trajectories, then selects repositories using held-out validation tasks. They report a 21.3% OSWorld V2 binary score with Qwen3.8-27B and a ScienceBoard increase from 41.4% to 58.6%; code is public."
-    },
-    {
-      "date": "2026-10-20",
-      "kind": "Paper",
-      "source": "Yu Cui et al. · arXiv",
-      "title": "MaD-RSI: Model-as-Data for Recursive Self-Improvement of Agent Harnesses",
-      "url": "https://arxiv.org/abs/2610.28201",
-      "why": "The authors introduce MaD-RSI, optimizing a shared agent harness with failure trajectories from heterogeneous models. Model differences become evidence during optimization rather than only a later transfer test; they report improved cross-model generalization and reduced training cost."
-    },
-    {
-      "date": "2026-10-20",
-      "kind": "Paper",
-      "source": "Ruhan Wang et al. · arXiv",
-      "title": "Harness Self-Evolution for Long-Horizon Terminal Agents",
-      "url": "https://arxiv.org/abs/2610.27435",
-      "why": "The authors introduce RiseHarness for frozen-model terminal agents, using repeated successful and failed runs together with internal execution traces. Behavioral checks and repeated task evaluation gate proposed harness edits, targeting execution reliability and transfer rather than a single successful rollout."
     },
     {
       "date": "2026-10-19",
