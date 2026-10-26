@@ -7710,5 +7710,22 @@
    "harness-design"
   ],
   "first_public_date": "2026-03-23"
+ },
+ "hu2026evorepair": {
+  "title": "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair",
+  "venue": "ICSE 2027",
+  "date": "2026-05",
+  "arxiv_id": "2605.30105",
+  "url": "https://arxiv.org/abs/2605.30105",
+  "citations": null,
+  "code": "https://github.com/iSEngLab/Learn-from-Repair-Experience",
+  "sections": [
+   "targets/harness"
+  ],
+  "collections": [
+   "harness-design"
+  ],
+  "github_stars": 0,
+  "first_public_date": "2026-05-28"
  }
 }

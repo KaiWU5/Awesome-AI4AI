@@ -17,7 +17,7 @@
   Top AI-for-AI papers, releases, and blogs — curated every week. <strong>Stay tuned 🔥</strong>
 </p>
 
-<p><strong>Living catalog: 437 papers</strong> · 191 benchmarks · 223 harness studies · 84 model studies<br><sub>Collections overlap. The original survey covers 223 papers.</sub></p>
+<p><strong>Living catalog: 438 papers</strong> · 191 benchmarks · 224 harness studies · 84 model studies<br><sub>Collections overlap. The original survey covers 223 papers.</sub></p>
 
 <p>
   <a href="assets/AI4AI-Survey.pdf"><img src="https://img.shields.io/badge/-Paper_(nice_layout)-B31B1B.svg?style=flat-square" alt="Paper, nice layout"></a>
@@ -419,7 +419,7 @@
   <img src="assets/harness-design.png" width="92%" alt="Evidence chain for reliable harness interventions">
 </p>
 
-> **223 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
+> **224 papers** · Survey-curated collection, newest first. Cross-collection papers may appear in more than one section.
 
 | Paper | Date | Citations | Code |
 |:--|:--:|:--:|:--:|
@@ -566,6 +566,7 @@
 | [**Stop Comparing LLM Agents Without Disclosing the Harness**](https://openreview.net/forum?id=ffKHSraOIK)<br><sub>Second Workshop on Agents in the Wild: Safety, Security, and Beyond</sub> | <nobr>2026</nobr> | 8 | — |
 | [**Are We Ready For An Agent-Native Memory System?**](https://arxiv.org/abs/2606.24775)<br><sub>arXiv</sub> | <nobr>2026-06</nobr> | 17 | [GitHub](https://github.com/OpenDataBox/MemoryData) · ★ 150 |
 | [**Evolve as a Team: Collaborative Self-Evolution for LLM-based Multi-Agent Systems**](https://arxiv.org/abs/2605.29790)<br><sub>arXiv</sub> | <nobr>2026-05</nobr> | 0 | [GitHub](https://github.com/zz-haooo/Meta-Team) · ★ 63 |
+| [**Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair**](https://arxiv.org/abs/2605.30105)<br><sub>ICSE 2027</sub> | <nobr>2026-05</nobr> | — | [GitHub](https://github.com/iSEngLab/Learn-from-Repair-Experience) · ★ 0 |
 | [**MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems**](https://arxiv.org/abs/2605.22794)<br><sub>arXiv</sub> | <nobr>2026-05</nobr> | 12 | [GitHub](https://github.com/hkgai-official/Moss) · ★ 27 |
 | [**Ask Early, Ask Late, Ask Right: When Does Clarification Timing Matter for Long-Horizon Agents?**](https://arxiv.org/abs/2605.07937)<br><sub>arXiv</sub> | <nobr>2026-05</nobr> | 5 | — |
 | [**From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills**](https://arxiv.org/abs/2605.23899)<br><sub>arXiv</sub> | <nobr>2026-05</nobr> | 20 | — |
