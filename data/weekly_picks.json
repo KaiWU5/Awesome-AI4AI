@@ -1,8 +1,56 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-11-03",
   "cadence": "Weekly news picks, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
+    {
+      "date": "2026-11-02",
+      "kind": "Paper",
+      "source": "Xu, Yang et al. · arXiv",
+      "title": "SelfImprove-Bench: Evaluating Generalization in Self-Improving Agents",
+      "url": "https://arxiv.org/abs/2611.02797",
+      "why": "The authors introduce a reproducible RSI benchmark with a G0–G4 generalization ladder spanning exploration, planning and reasoning, and report that evolution gains do not consistently transfer across levels."
+    },
+    {
+      "date": "2026-10-30",
+      "kind": "Paper",
+      "source": "Krentsel et al. · arXiv",
+      "title": "Exo: An Architecture for Self-Improving Systems at Runtime",
+      "url": "https://arxiv.org/abs/2611.00463",
+      "why": "The authors let an agent revise its harness during ongoing work behind a protected activation layer. Against a fixed-policy control, they report 35–61% lower held-out model cost on AppWorld and SREGym with comparable correctness."
+    },
+    {
+      "date": "2026-10-29",
+      "kind": "Paper",
+      "source": "Zhang et al. · arXiv",
+      "title": "MoLRSI: A Recursive Self-Improving AI agent for Molecular Discovery",
+      "url": "https://arxiv.org/abs/2610.39714",
+      "why": "The authors combine workflow and model-architecture search with persistent cross-task memory. They report a 15.9% experimental antibiotic hit rate versus 8.7% for a prior expert-led workflow on the same training data and screening library."
+    },
+    {
+      "date": "2026-10-28",
+      "kind": "Model release",
+      "source": "Google DeepMind",
+      "title": "Gemini 4 Carbon: our next frontier model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "why": "Google announces Carbon for long-horizon engineering and cybersecurity, reporting 88.2% on SEC-bench Pro. Access begins with pre-release testing and selected cyber defenders through Fairwind; general developer and consumer access is still forthcoming."
+    },
+    {
+      "date": "2026-10-26",
+      "kind": "Model release",
+      "source": "OpenAI",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "why": "OpenAI releases a model for visual reasoning and computer use in Work, Codex and the API. It reports a 15-point Agents’ Last Exam gain over GPT-5.6 Terra at medium effort at about one-third the cost, and 50.3% on Terminal-Bench 4.0 at max effort."
+    },
+    {
+      "date": "2026-10-26",
+      "kind": "Paper",
+      "source": "Tao et al. · arXiv",
+      "title": "Skill∞: Recursive Self-Improvement for Agent Skill Optimization",
+      "url": "https://arxiv.org/abs/2610.35434",
+      "why": "The authors make the skill optimizer itself a reusable, revisable meta-skill. They report 60.7% on 83 SkillsBench tasks, compared with 56.4% for human-curated skills and 54.5% for SkillEvolver."
+    },
     {
       "date": "2026-10-23",
       "kind": "Model release",
@@ -12,52 +60,12 @@
       "why": "Moonshot rolls out Kimi K3.1 Pro and its Highspeed variant in Kimi Code, with a 1M-token context window and improved long-horizon agent capabilities. Its technical blog reports 65.7% on Terminal-Bench 4.0 and says full weights are planned by November 4; this edition treats the product launch and future weight release separately."
     },
     {
-      "date": "2026-10-22",
-      "kind": "Paper",
-      "source": "Sun, Xun et al. · arXiv",
-      "title": "HERD: Harness-Evolving Recursive Distillation for Continual Learning",
-      "url": "https://arxiv.org/abs/2610.31401",
-      "why": "The authors introduce HERD, combining continual skill evolution and bounded residual memory with drift-constrained distillation into model parameters. On the 25-stage TRACE+17 stream under fixed memory and compute budgets, they report competitive new-task acquisition with the least forgetting among the compared methods."
-    },
-    {
-      "date": "2026-10-21",
+      "date": "2026-10-18",
       "kind": "Open-weight release",
       "source": "Recursive",
       "title": "Introducing Flint",
       "url": "https://recursive.com/updates/introducing-recursive-flint",
-      "why": "Recursive releases Apache-2.0 Flint, a 40B-total / 2.5B-active MoE for local agentic coding. The team says its Eureka Machine helped build the data, training, quantization and inference stack; open weights and day-zero vLLM support make this an inspectable AI-built-AI release."
-    },
-    {
-      "date": "2026-10-21",
-      "kind": "Research release",
-      "source": "Anthropic",
-      "title": "Introducing Claude Duet",
-      "url": "https://claude.com/resources/articles/claude-duet",
-      "why": "Anthropic opens a waitlisted US research preview of Claude Duet for Pro and Max subscribers. Built around Opus 5.5, the proactive agent carries account memory and skills into a persistent workflow, works in a cloud VM with a browser, and checks before consequential actions."
-    },
-    {
-      "date": "2026-10-20",
-      "kind": "Paper",
-      "source": "Saaket Agashe et al. · arXiv",
-      "title": "Evolving Agent Interfaces",
-      "url": "https://arxiv.org/abs/2610.28601",
-      "why": "The authors introduce Agent S4, which evolves computer-use interfaces and usage knowledge from trajectories, then selects repositories using held-out validation tasks. They report a 21.3% OSWorld V2 binary score with Qwen3.8-27B and a ScienceBoard increase from 41.4% to 58.6%; code is public."
-    },
-    {
-      "date": "2026-10-19",
-      "kind": "Model release",
-      "source": "MiniMax",
-      "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost",
-      "url": "https://www.minimax.io/blog/minimax-m31f",
-      "why": "MiniMax releases M3.1 Flash through its API and coding products, reporting 73.7% on DeepSWE v1.1 and 70% lower agentic usage cost than its predecessor. The announcement targets coding, computer use and professional workflows; weights are promised later rather than released at launch."
-    },
-    {
-      "date": "2026-10-18",
-      "kind": "Paper",
-      "source": "Yue Huang et al. · arXiv",
-      "title": "Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research",
-      "url": "https://arxiv.org/abs/2610.24944",
-      "why": "The authors introduce Epi, combining persistent research history, hierarchical memory, branching and independent review across sessions under fixed verification. They report 120 record-setting mathematical results; on 30 FrontierOR tasks, Epi-turbo scores 5.4% above Codex at 64% of its model cost with the same backbone and effort."
+      "why": "Recursive releases a 40B-total / 2.5B-active MoE for local agentic coding and says its Eureka Machine helped develop the architecture, data, training, quantization and inference stack. The official post reports over 125 tokens/s on an M4 Pro at short contexts."
     },
     {
       "date": "2026-10-16",
@@ -66,14 +74,6 @@
       "title": "Beam is now available",
       "url": "https://reflection.ai/blog/beam-is-available",
       "why": "Reflection releases Beam under Apache 2.0 with 501B total and 23B active parameters, multiple weight precisions, a speculative drafter, and the Mirror CLI harness. The release makes its coding and long-horizon agent stack available for deployment and customization."
-    },
-    {
-      "date": "2026-10-12",
-      "kind": "Model release",
-      "source": "Meta",
-      "title": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
-      "url": "https://research.meta.ai/blog/muse-wonder",
-      "why": "Meta introduces Muse Wonder and Muse Wonder Full for personal and professional agents, emphasizing Active Memory, sustained execution, and coding. Wonder is available through its API and Muse Code, while Full is available to Muse Code subscribers; the announcement does not release open weights."
     },
     {
       "date": "2026-10-09",
