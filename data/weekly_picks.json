@@ -1,8 +1,32 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-07",
   "cadence": "Weekly news picks, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
+    {
+      "date": "2026-11-06",
+      "kind": "Blog",
+      "source": "Anthropic",
+      "title": "The components of agent memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "why": "Anthropic separates transcripts, memory notes, wikis and injected context, and tests offline dreaming to correct and reorganize them. On 25 internal-document questions it reports 61% of graded criteria with search plus a grown wiki, versus 53% with search alone."
+    },
+    {
+      "date": "2026-11-05",
+      "kind": "Paper",
+      "source": "Jiang, Qile et al. · arXiv",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "https://arxiv.org/abs/2611.08483",
+      "why": "The authors use latent-space agent swarms and KV-cache exchange for evolutionary program search. On 21 mathematical and scientific-computing problems, they report matching competing frameworks’ 60-minute best scores in a median 3–8 minutes."
+    },
+    {
+      "date": "2026-11-04",
+      "kind": "Paper",
+      "source": "Genoria AI Team et al. · arXiv",
+      "title": "EnzymeRSI: A dual-loop recursive self-improvement system for enzyme design",
+      "url": "https://arxiv.org/abs/2611.06321",
+      "why": "The authors evolve both harness assets and enzyme-design algorithms. They report 10 of 32 non-pre-specified luciferase candidates with at least twice wild-type activity, plus prospective A3A and polymerase tests; physical-loop results are distinguished from development-set optimization."
+    },
     {
       "date": "2026-11-02",
       "kind": "Paper",
@@ -21,11 +45,11 @@
     },
     {
       "date": "2026-10-29",
-      "kind": "Paper",
-      "source": "Zhang et al. · arXiv",
-      "title": "MoLRSI: A Recursive Self-Improving AI agent for Molecular Discovery",
-      "url": "https://arxiv.org/abs/2610.39714",
-      "why": "The authors combine workflow and model-architecture search with persistent cross-task memory. They report a 15.9% experimental antibiotic hit rate versus 8.7% for a prior expert-led workflow on the same training data and screening library."
+      "kind": "Open-weight release",
+      "source": "Mistral AI",
+      "title": "Mistral Large 4 (Le Chonk) is now open weight",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "why": "Mistral releases the improved 1T-parameter multimodal flagship weights under its Ecosystem Open-Weight license. It reports 41% on Terminal-Bench 4.0 and 48% on the Coding Agent Index, with 47% fewer tokens than GLM-5.3 on the latter."
     },
     {
       "date": "2026-10-28",
@@ -44,20 +68,12 @@
       "why": "OpenAI releases a model for visual reasoning and computer use in Work, Codex and the API. It reports a 15-point Agents’ Last Exam gain over GPT-5.6 Terra at medium effort at about one-third the cost, and 50.3% on Terminal-Bench 4.0 at max effort."
     },
     {
-      "date": "2026-10-26",
-      "kind": "Paper",
-      "source": "Tao et al. · arXiv",
-      "title": "Skill∞: Recursive Self-Improvement for Agent Skill Optimization",
-      "url": "https://arxiv.org/abs/2610.35434",
-      "why": "The authors make the skill optimizer itself a reusable, revisable meta-skill. They report 60.7% on 83 SkillsBench tasks, compared with 56.4% for human-curated skills and 54.5% for SkillEvolver."
-    },
-    {
       "date": "2026-10-23",
       "kind": "Model release",
       "source": "Moonshot AI",
       "title": "Kimi K3.1 Pro series is live",
       "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
-      "why": "Moonshot rolls out Kimi K3.1 Pro and its Highspeed variant in Kimi Code, with a 1M-token context window and improved long-horizon agent capabilities. Its technical blog reports 65.7% on Terminal-Bench 4.0 and says full weights are planned by November 4; this edition treats the product launch and future weight release separately."
+      "why": "Moonshot’s 3T-class multimodal flagship has a 1M-token context window and is available in Kimi products and the API. Moonshot reports 65.7% on Terminal-Bench 4.0; the official Hugging Face repository now contains downloadable weights."
     },
     {
       "date": "2026-10-18",
@@ -66,22 +82,6 @@
       "title": "Introducing Flint",
       "url": "https://recursive.com/updates/introducing-recursive-flint",
       "why": "Recursive releases a 40B-total / 2.5B-active MoE for local agentic coding and says its Eureka Machine helped develop the architecture, data, training, quantization and inference stack. The official post reports over 125 tokens/s on an M4 Pro at short contexts."
-    },
-    {
-      "date": "2026-10-16",
-      "kind": "Open-weight release",
-      "source": "Reflection",
-      "title": "Beam is now available",
-      "url": "https://reflection.ai/blog/beam-is-available",
-      "why": "Reflection releases Beam under Apache 2.0 with 501B total and 23B active parameters, multiple weight precisions, a speculative drafter, and the Mirror CLI harness. The release makes its coding and long-horizon agent stack available for deployment and customization."
-    },
-    {
-      "date": "2026-10-09",
-      "kind": "Paper",
-      "source": "Google Research",
-      "title": "Harness²: Recursive Agent Harnessing for an Open World",
-      "url": "https://arxiv.org/abs/2610.14224",
-      "why": "Google Research introduces two connected loops that refine the current task harness and retain evidence-supported lessons for future tasks, with model weights fixed. The authors report gains across three professional benchmarks; the Apache-2.0 implementation supports OpenCode and Codex, parallel and sequential recursion, and reproducible benchmark runs. [Official code](https://github.com/google-research/harness2)."
     }
   ]
 }

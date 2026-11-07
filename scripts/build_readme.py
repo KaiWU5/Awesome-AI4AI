@@ -247,10 +247,10 @@ parts += [
     "",
     "## 📈 Live Rankings",
     "",
-    f"> Citation counts are current through **{CATALOG_META['citations_as_of']}** from "
+    f"> Last complete citation snapshot: **{CATALOG_META['citations_as_of']}**, using "
     f"{' and '.join(CATALOG_META['citation_sources'])}. Rankings are discovery aids, "
     "not quality scores; audit evidence remains independent of popularity. "
-    f"GitHub stars are snapshots from **{CATALOG_META['github_stars_as_of']}**. "
+    f"Last complete GitHub stars snapshot: **{CATALOG_META['github_stars_as_of']}**. "
     f"{CATALOG_META['citation_policy']} {CATALOG_META['year_grouping']}",
     "",
     "### Top Ranking Papers by Average Monthly Citations",
@@ -267,12 +267,18 @@ if metrics_refresh:
         f'> **Latest metric check: {metrics_refresh["checked_on"]}.** '
         f'Title-verified citations for {metrics_refresh["citation_records_verified"]}/'
         f'{metrics_refresh["citation_records_checked"]} catalog records; '
-        f'{retained_count} previously cited records retain older counts and '
+        f'{retained_count} records retain prior verified counts and '
         f'{unknown_count} records remain without a verified index count. '
         f'GitHub stars refreshed for {metrics_refresh["github_records_verified"]} records '
         f'across {metrics_refresh["github_repositories_verified"]} repositories. '
-        'The complete citation as-of date above advances only after unresolved counts are verified.'
     )
+    unavailable_repos = metrics_refresh.get("github_repositories_unavailable", [])
+    if unavailable_repos:
+        note += (
+            f'{len(unavailable_repos)} configured GitHub repository '
+            'could not be refreshed; its prior star count is retained. '
+        )
+    note += 'Complete snapshot dates advance only when every relevant record is verified.'
     parts[-3:-3] = ["", note]
 
 rising = rising_stars()
