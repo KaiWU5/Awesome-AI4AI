@@ -62,6 +62,25 @@ VALID_SECTIONS = {
 VALID_COLLECTIONS = {"benchmarks", "harness-design", "model-design"}
 
 
+def sort_whats_new(readme):
+    """Sort resolved update entries newest first, keeping undated notes last."""
+    section = re.search(r"(## What's New\n)(.*?)(?=<details\b|\n## |\Z)", readme, re.S)
+    if not section:
+        raise ValueError("README template is missing What's New")
+    entries = re.findall(r"^- .*?(?=^- |\Z)", section[2], re.M | re.S)
+
+    def update_date(entry):
+        match = re.match(r"^- .*?\*\*(\d{4}-\d{2}-\d{2})\b", entry)
+        return date.fromisoformat(match[1]).isoformat() if match else ""
+
+    # Stable sorting preserves editorial order for entries on the same date.
+    entries.sort(key=update_date, reverse=True)
+    prefix = section[2].split("- ", 1)[0].strip()
+    content = ((prefix + "\n\n") if prefix else "\n")
+    content += "\n".join(entry.rstrip() for entry in entries) + "\n\n"
+    return readme[:section.start(2)] + content + readme[section.end(2):]
+
+
 def validate():
     required = {
         "title", "venue", "date", "arxiv_id", "url", "citations", "code",
@@ -388,6 +407,7 @@ if research:
         'previously missed papers; rebuilt the full catalog and both ranking families.'
     )
 readme = readme.replace("<!--RESEARCHUPDATE-->", research_update)
+readme = sort_whats_new(readme)
 
 (ROOT / "README.md").write_text(readme)
 print(

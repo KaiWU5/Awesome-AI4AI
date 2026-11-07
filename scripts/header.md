@@ -57,12 +57,11 @@
 
 ## What's New
 
-- 🤝 **2026-10-26 — Community contributions integrated.** Added ReCreate, Meta-Team, Agon, EvoRepair, and Harness Engineering for Language Agents to Harness Design, and PerspectiveGap to Benchmarks. Related Lists now links to three complementary community resources.
-
 <!--RESEARCHUPDATE-->
+- 🚀 **<!--LASTUPDATED--> — Latest weekly edition published.** Read the source-verified news digest below.
+- 🤝 **2026-10-26 — Community contributions integrated.** Added ReCreate, Meta-Team, Agon, EvoRepair, and Harness Engineering for Language Agents to Harness Design, and PerspectiveGap to Benchmarks. Related Lists now links to three complementary community resources.
 - 📄 **2026-08-30 — [Companion survey now online.](https://www.preprints.org/manuscript/202608.2108/v1)** Read *AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems*.
 - 🔄 **Maintainer refresh.** Citations, GitHub stars, and recent-paper/yearly rankings are rebuilt from the catalog.
-- 🚀 **<!--LASTUPDATED--> — Latest weekly edition published.** Read the source-verified news digest below.
 
 <details open markdown="1">
 <summary><b>🗂️ Explore the full collection</b></summary>

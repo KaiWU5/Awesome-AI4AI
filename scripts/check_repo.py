@@ -291,6 +291,28 @@ if public_papers < 223:
     failures.append(f"public survey catalog fell below 223 unique papers: {public_papers}")
 
 readme = (ROOT / "README.md").read_text()
+updates_section = re.search(
+    r"## What's New\n(.*?)(?=<details\b|\n## |\Z)", readme, re.S
+)
+if not updates_section:
+    failures.append("README is missing What's New")
+else:
+    update_entries = re.findall(r"^- .+", updates_section[1], re.M)
+    update_dates = []
+    for entry in update_entries:
+        match = re.match(r"^- .*?\*\*(\d{4}-\d{2}-\d{2})\b", entry)
+        value = match[1] if match else ""
+        if value:
+            try:
+                date.fromisoformat(value)
+            except ValueError:
+                failures.append(f"What's New has an invalid date: {value}")
+        update_dates.append(value)
+    if not update_entries:
+        failures.append("What's New contains no update entries")
+    if update_dates != sorted(update_dates, reverse=True):
+        failures.append("What's New must be newest first, with undated notes last")
+
 news_heading = f"## 📅 Weekly News · Top {len(news_items)}"
 if news_heading not in readme:
     failures.append("README is missing the news heading")
