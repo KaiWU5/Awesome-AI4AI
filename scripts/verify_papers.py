@@ -23,8 +23,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "papers.json")
 META = os.path.join(ROOT, "data", "catalog_meta.json")
 S2_FIELDS = "title,citationCount,externalIds"
-# OpenAlex grants a faster, more reliable "polite pool" to requests that identify
-# themselves. Free and requires no signup, unlike a Semantic Scholar API key.
+# Optional contact address for OpenAlex requests.
 _MAILTO = os.environ.get("OPENALEX_MAILTO", "").strip()
 OPENALEX_MAILTO = f"&mailto={urllib.parse.quote(_MAILTO)}" if _MAILTO else ""
 UPDATE = "--update" in sys.argv
@@ -50,6 +49,7 @@ def sim(a, b):
 
 
 RATE_LIMITED = []
+RATE_LIMITED_HOSTS = set()
 
 
 def http_json(url, data=None, tries=6):
@@ -59,6 +59,9 @@ def http_json(url, data=None, tries=6):
     not have this paper" from "the index refused to answer". Conflating the two
     silently zeroes citation counts for well-indexed papers.
     """
+    host = urllib.parse.urlsplit(url).netloc
+    if host in RATE_LIMITED_HOSTS:
+        return None
     key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
     for t in range(tries):
         try:
@@ -74,6 +77,8 @@ def http_json(url, data=None, tries=6):
                 return None
             if e.code == 429:
                 RATE_LIMITED.append(url)
+                RATE_LIMITED_HOSTS.add(host)
+                return None
             time.sleep(4 + 4 * t)
         except Exception:
             time.sleep(4 + 4 * t)
@@ -113,18 +118,17 @@ def arxiv_batch(ids):
     return out
 
 
-def openalex_batch(arxiv_ids):
-    """Bulk citation lookup by arXiv id. OpenAlex needs no API key and accepts
-    up to 50 ids per filtered request, so this is the primary citation source:
-    a single pass covers the whole catalog without per-title searching.
+def openalex_batch(arxiv_titles):
+    """Bulk citation lookup for an arXiv-id-to-title mapping.
 
-    Returns {arxiv_id: cited_by_count}.
+    DOI matches still require a matching title: index metadata can be wrong.
+    Returns {arxiv_id: cited_by_count} for title-verified records only.
     """
     out = {}
-    ids = [a for a in arxiv_ids if a]
+    ids = [a for a in arxiv_titles if a]
     for i in range(0, len(ids), 50):
         chunk = ids[i:i + 50]
-        url = ("https://api.openalex.org/works?per-page=50&select=ids,cited_by_count"
+        url = ("https://api.openalex.org/works?per-page=50&select=ids,display_name,cited_by_count"
                "&filter=doi:"
                + "|".join("10.48550/arxiv." + a for a in chunk)
                + OPENALEX_MAILTO)
@@ -132,7 +136,9 @@ def openalex_batch(arxiv_ids):
         for w in (rec or {}).get("results", []):
             doi = (w.get("ids") or {}).get("doi") or ""
             m = re.search(r"arxiv\.(\d{4}\.\d{4,5})", doi.lower())
-            if m and w.get("cited_by_count") is not None:
+            if (m and m.group(1) in arxiv_titles
+                    and w.get("cited_by_count") is not None
+                    and sim(arxiv_titles[m.group(1)], w.get("display_name")) >= 0.75):
                 out[m.group(1)] = w["cited_by_count"]
         time.sleep(1)
     return out
@@ -338,7 +344,7 @@ def main():
     # leaves counts stale. S2 runs afterwards and can only raise a count.
     oa_matched = set()
     if UPDATE and with_ax:
-        oa_counts = openalex_batch([p["arxiv_id"] for p in with_ax.values()])
+        oa_counts = openalex_batch({p["arxiv_id"]: p["title"] for p in with_ax.values()})
         for k, p in with_ax.items():
             cites = oa_counts.get(p["arxiv_id"])
             if cites is not None:
@@ -347,7 +353,7 @@ def main():
         print(f"OpenAlex matched {len(oa_matched)}/{len(with_ax)} arXiv entries")
 
     s2_matched = set()
-    s2_gap = set()
+    title_matched = set()
     citation_complete = True
     if UPDATE:
         keys = list(papers)
@@ -356,15 +362,8 @@ def main():
             recs = http_json(
                 "https://api.semanticscholar.org/graph/v1/paper/batch?fields=" + S2_FIELDS,
                 json.dumps({"ids": ids[i:i + 100]}).encode())
-            if recs is None or len(recs) != len(ids[i:i + 100]):
-                # A throttled S2 chunk is only a real gap for papers no other
-                # source covered. OpenAlex handles arXiv entries; the per-title
-                # OpenAlex pass below covers the rest, so defer the verdict to
-                # s2_gap and decide once every source has run.
-                s2_gap.update(
-                    k for k in keys[i:i + 100] if k not in oa_matched
-                )
-            recs = recs or []
+            if not isinstance(recs, list) or len(recs) != len(ids[i:i + 100]):
+                recs = []
             for k, rec in zip(keys[i:i + 100], recs):
                 if (
                     isinstance(rec, dict)
@@ -385,9 +384,11 @@ def main():
     # merged count. Counts combine with max(), so a second opinion is safe.
     github_complete = True
     for k, p in papers.items():
+        if "api.openalex.org" in RATE_LIMITED_HOSTS:
+            break
         indexed = k in s2_matched or k in oa_matched
         still_zero = indexed and not papers[k].get("citations")
-        if (p.get("arxiv_id") or indexed) and not still_zero:
+        if indexed and not still_zero:
             continue
         title, cites = openalex_match(p["title"])
         if title:
@@ -396,14 +397,13 @@ def main():
                 # Never let that fallback replace a larger merged count.
                 existing = papers[k].get("citations")
                 papers[k]["citations"] = max(existing or 0, cites)
-                s2_gap.discard(k)
+                title_matched.add(k)
         elif indexed:
             pass  # already verified via S2/OpenAlex; this was a top-up only
         elif (p.get("url") or "").startswith("http"):
             # Verifiable by landing URL but carries no scholarly index record.
-            # Expected, not a refresh gap.
+            # A landing URL proves provenance, not a refreshed citation count.
             source_only.append(k)
-            s2_gap.discard(k)
         else:
             failures.append((k, "no S2 / OpenAlex match and no landing URL"))
         time.sleep(0.2)
@@ -411,26 +411,34 @@ def main():
     # Every source has now run. Citations are complete unless some paper was
     # left uncovered by all of them. Papers OpenAlex resolved via the DOI batch
     # are covered even when their S2 chunk was throttled.
-    if UPDATE and s2_gap:
+    citation_verified = oa_matched | s2_matched | title_matched
+    citation_gaps = set(papers) - citation_verified
+    if UPDATE and citation_gaps:
         citation_complete = False
         print(
-            f"note: {len(s2_gap)} paper(s) were not refreshed by any source this "
+            f"note: {len(citation_gaps)} paper(s) were not refreshed by any source this "
             "run and kept their previous counts: "
-            + ", ".join(sorted(s2_gap)[:10])
-            + ("..." if len(s2_gap) > 10 else ""),
+            + ", ".join(sorted(citation_gaps)[:10])
+            + ("..." if len(citation_gaps) > 10 else ""),
             file=sys.stderr,
         )
 
     # Verify every configured GitHub code URL and refresh stars. Redirected or
     # transferred repositories are normalized to GitHub's canonical html_url.
+    github_checks = {}
+    github_records_verified = 0
     for k, p in papers.items():
         if not github_slug(p.get("code")):
             continue
-        repo = github_repo(p["code"])
+        slug = github_slug(p["code"]).lower()
+        if slug not in github_checks:
+            github_checks[slug] = github_repo(p["code"])
+        repo = github_checks[slug]
         if not repo:
             github_complete = False
             failures.append((k, "GitHub code repository is unavailable"))
             continue
+        github_records_verified += 1
         canonical = repo.get("html_url")
         if UPDATE and canonical:
             papers[k]["code"] = canonical
@@ -447,6 +455,26 @@ def main():
             metadata["citations_as_of"] = date.today().isoformat()
         if github_complete:
             metadata["github_stars_as_of"] = date.today().isoformat()
+        metadata["metrics_refresh"] = {
+            "checked_on": date.today().isoformat(),
+            "citation_records_checked": len(papers),
+            "citation_records_verified": len(citation_verified),
+            "citation_records_retained": sorted(
+                k for k in citation_gaps if papers[k].get("citations") is not None
+            ),
+            "citation_records_unindexed": sorted(
+                k for k in citation_gaps if papers[k].get("citations") is None
+            ),
+            "github_repositories_verified": sum(bool(repo) for repo in github_checks.values()),
+            "github_records_verified": github_records_verified,
+            "github_repositories_unavailable": sorted(
+                slug for slug, repo in github_checks.items() if not repo
+            ),
+            "note": "Title-verified OpenAlex DOI/title and Semantic Scholar checks. "
+                    "Unmatched or unavailable records retain prior counts or null. "
+                    "Rate-limited services are not repeatedly retried within a run; "
+                    "complete snapshot dates advance only with complete coverage.",
+        }
         with open(META, "w") as handle:
             json.dump(metadata, handle, indent=2, ensure_ascii=False)
             handle.write("\n")
@@ -460,8 +488,9 @@ def main():
         if RATE_LIMITED:
             print(
                 f"warning: {len(RATE_LIMITED)} request(s) were rate-limited (HTTP 429). "
-                "Citation counts for the affected papers were NOT refreshed and may "
-                "understate reality. Set SEMANTIC_SCHOLAR_API_KEY and re-run.",
+                "Coverage above combines successful checks from all sources; "
+                "uncovered records retain their previous counts. Check the affected "
+                "service's API credentials or quota before retrying.",
                 file=sys.stderr,
             )
 
