@@ -293,9 +293,10 @@ if metrics_refresh:
     )
     unavailable_repos = metrics_refresh.get("github_repositories_unavailable", [])
     if unavailable_repos:
+        repository_noun = "repository" if len(unavailable_repos) == 1 else "repositories"
         note += (
-            f'{len(unavailable_repos)} configured GitHub repository '
-            'could not be refreshed; its prior star count is retained. '
+            f'{len(unavailable_repos)} configured GitHub {repository_noun} '
+            'could not be refreshed; previous star counts are retained. '
         )
     note += 'Complete snapshot dates advance only when every relevant record is verified.'
     parts[-3:-3] = ["", note]
