@@ -1,8 +1,56 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-24",
   "cadence": "Weekly news picks, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
+    {
+      "date": "2026-11-20",
+      "kind": "Paper",
+      "source": "Xiao et al. · arXiv",
+      "title": "CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?",
+      "url": "https://arxiv.org/abs/2611.27116",
+      "why": "The authors release a five-domain benchmark in which AI researchers jointly revise a target model and its harness within 24 hours. Their strongest researcher closes over four fifths of the gap to an instruction-tuned reference, but repeated feedback rarely sustains progress on long-horizon coding."
+    },
+    {
+      "date": "2026-11-20",
+      "kind": "Paper",
+      "source": "Zhang et al. · arXiv",
+      "title": "Language Model Harnesses can be Compositional Generalizers",
+      "url": "https://arxiv.org/abs/2611.28298",
+      "why": "The authors train recursive harnesses on shorter and synthetic surrogate tasks, reporting generalization to tasks 2–64 times longer. In the same harness, RLM-27B raises an eight-task average from 46.1 to 58.5 with about half as many inference tokens; this does not establish lower wall-clock or training cost."
+    },
+    {
+      "date": "2026-11-20",
+      "kind": "Paper",
+      "source": "Zheng et al. · arXiv",
+      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+      "url": "https://arxiv.org/abs/2611.27962",
+      "why": "The authors jointly learn Transformer weights and sublayer gates, removing unused components during pretraining. Across 140M–2.7B models, they report lower validation loss than dense models trained with up to 1.7 times more compute, up to 34% fewer FLOPs per token and up to 1.6 times faster decoding."
+    },
+    {
+      "date": "2026-11-19",
+      "kind": "Paper",
+      "source": "Tang et al. · arXiv",
+      "title": "Sage-Evolve-Preview:Adaptive Observation for Post-Training Self-Improvement",
+      "url": "https://arxiv.org/abs/2611.26132",
+      "why": "The authors adapt diagnostic granularity, task difficulty and related observations while keeping each evaluation anchor fixed. Across eight separately optimized anchors, they report a mean increase from 66.4 to 73.7 under matched data budgets; broader domains and joint training remain untested."
+    },
+    {
+      "date": "2026-11-18",
+      "kind": "Paper",
+      "source": "Ling et al. · arXiv",
+      "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2611.24651",
+      "why": "The authors release 0.8B–27B decision models developed through agent-driven data curation and model experiments. They report a 75.59 Decision Index Vision Full score for Piccolo-27B, while showing that falling training loss and longer training on fixed data can hide cross-task regressions."
+    },
+    {
+      "date": "2026-11-17",
+      "kind": "Model release",
+      "source": "OpenAI",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "why": "OpenAI releases its new frontier and efficient models in ChatGPT Work, Codex and the API. It reports Astra gains of 5.2 points on Agents’ Last Exam and 9 points on Terminal-Bench-Science versus GPT-6 Astra, at less than one third of the benchmark task cost."
+    },
     {
       "date": "2026-11-16",
       "kind": "Model release",
@@ -12,36 +60,20 @@
       "why": "Alibaba releases its 2.4T-parameter multimodal flagship with a 1M-token context window. On its proprietary Work360 benchmark, Alibaba reports 35% fewer tokens and about 60% lower cost per task than Qwen3.8-Max at High effort."
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "kind": "Paper",
-      "source": "He et al. · arXiv",
-      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-      "url": "https://arxiv.org/abs/2611.18533",
-      "why": "The authors learn and evolve executable compression and steering programs alongside agentic RL, validating candidates by execution and trajectory replay. On CodeSearch, ALFWorld and BIRD SQL with 1.5B–8B models, they report better held-out performance than fixed harnesses in most settings."
-    },
-    {
-      "date": "2026-11-13",
-      "kind": "Paper",
-      "source": "Tang et al. · arXiv",
-      "title": "AutoRL: A Multi-Agent System towards Autonomous Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2611.17790",
-      "why": "The authors automate ongoing RL supervision with training-state perceptors, diagnostic proposers and an orchestrator that applies hot updates or resumes checkpoints. Experiments on Qwen3 and LongCat-Flash-Lite outperform static recipes and a general agent; unattended supervision is distinguished from discovering fundamental new methods."
+      "source": "Qu et al. · arXiv",
+      "title": "CompoundingKernel: Self-Improving from Zero to First",
+      "url": "https://arxiv.org/abs/2611.19230",
+      "why": "The authors report correct kernels for all 235 SOL-ExecBench problems and 4.40× reference speed on the 209 public-board problems on B200. A controller searches over external kernel archives; independent executable checks establish correctness, and reliable measurement throughput limits parallel scaling."
     },
     {
       "date": "2026-11-12",
-      "kind": "Paper",
-      "source": "Zhou et al. · arXiv",
-      "title": "Singularity-Bench: Can Agents Build Agents?",
-      "url": "https://arxiv.org/abs/2611.16591",
-      "why": "The authors benchmark six AI-development tasks from pre-training through cluster orchestration against human-built systems on identical hardware. Across 11 agents, their best configuration scores a 1.25 Singularity-Index; Breakwater blocks all reward-hacking attacks tested, without establishing that unrestricted recursive improvement has been achieved."
-    },
-    {
-      "date": "2026-11-12",
-      "kind": "Paper",
-      "source": "Ding et al. · arXiv",
-      "title": "Discovering Effective Agent Memory Designs through Program Evolution",
-      "url": "https://arxiv.org/abs/2611.17068",
-      "why": "The authors release MAPE, which evolves whole memory programs through diagnosis and proposal. On LoCoMo and LongMemEval they report up to 12 percentage points higher accuracy at 35% of baseline serving cost, and show that transplanting an evolved composition module improves five existing memory systems."
+      "kind": "Model release",
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "why": "Google introduces a fast execution model for coding and agentic workflows, reporting 57% on Terminal-Bench 4.1 and 2.5× faster task completion than Gemini 3.8 Flash at high thinking. It brings Gemini 4 to API, AI Studio, app and Search users; availability updates do not reset the launch date."
     },
     {
       "date": "2026-11-09",
@@ -50,38 +82,6 @@
       "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
       "why": "Anthropic reports 49.1% on FrontierCode 2.0 and 74.6% on Terminal-Bench-Science for Fable 5.2, plus a 30-hour formalization of Fermat’s Last Theorem. Fable is broadly available with cyber/bio safeguards; Mythos, the same underlying model with different safeguards, requires verified access."
-    },
-    {
-      "date": "2026-11-05",
-      "kind": "Model release",
-      "source": "OpenAI",
-      "title": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
-      "why": "OpenAI introduces a cyber-specialized GPT-6 Astra variant for approved Daybreak Red customers in the API and Codex. It reports 48.5% on ExploitGym versus 32.1% for GPT-5.6 Cyber, and 99.93% scope adherence without its deployment prompt."
-    },
-    {
-      "date": "2026-11-04",
-      "kind": "Paper",
-      "source": "Genoria AI Team et al. · arXiv",
-      "title": "EnzymeRSI: A dual-loop recursive self-improvement system for enzyme design",
-      "url": "https://arxiv.org/abs/2611.06321",
-      "why": "The authors evolve both harness assets and enzyme-design algorithms. They report 10 of 32 non-pre-specified luciferase candidates with at least twice wild-type activity, plus prospective A3A and polymerase tests; physical-loop results are distinguished from development-set optimization."
-    },
-    {
-      "date": "2026-10-29",
-      "kind": "Open-weight release",
-      "source": "Mistral AI",
-      "title": "Mistral Large 4 (Le Chonk) is now open weight",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "why": "Mistral releases the improved 1T-parameter multimodal flagship weights under its Ecosystem Open-Weight license. It reports 41% on Terminal-Bench 4.0 and 48% on the Coding Agent Index, with 47% fewer tokens than GLM-5.3 on the latter."
-    },
-    {
-      "date": "2026-10-28",
-      "kind": "Model release",
-      "source": "Google DeepMind",
-      "title": "Gemini 4 Carbon: our next frontier model",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "why": "Google reports 88.2% on SEC-bench Pro for its long-horizon engineering and cybersecurity model. After the October 28 preview, the official November 10 update confirms access for paying developers and enterprises via the API and a rollout to Google AI Ultra users; this item retains the original announcement date."
     }
   ]
 }
