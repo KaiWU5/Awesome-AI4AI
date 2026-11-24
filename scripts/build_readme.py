@@ -137,10 +137,10 @@ def sort_date(paper):
 
 def display_date(paper):
     if re.fullmatch(r"\d{4}", str(paper["date"])):
-        return f"<nobr>{paper['date']}</nobr>"
+        return str(paper["date"])
     value = sort_date(paper)
     value = value if value != "0000-00" else str(paper["date"])
-    return f"<nobr>{value}</nobr>"
+    return value
 
 
 def effective_year(paper):
@@ -176,8 +176,13 @@ def paper_table(papers, citations=True):
     ]
     for paper in papers:
         venue = str(paper["venue"]).replace("|", "\\|")
+        # arXiv is already identified by the paper link. Repeating its label
+        # and identifier across thousands of rows can truncate GitHub's README.
+        label = title_cell(paper)
+        if not venue.lower().startswith("arxiv"):
+            label += f"<br><sub>{venue}</sub>"
         cells = [
-            f"{title_cell(paper)}<br><sub>{venue}</sub>",
+            label,
             display_date(paper),
         ]
         if citations:

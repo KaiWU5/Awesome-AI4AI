@@ -291,6 +291,14 @@ if public_papers < 223:
     failures.append(f"public survey catalog fell below 223 unique papers: {public_papers}")
 
 readme = (ROOT / "README.md").read_text()
+# Keep a conservative source-size budget: GitHub truncated the growing
+# catalog mid-table even though local Markdown previews rendered every row.
+readme_bytes = len(readme.encode("utf-8"))
+if readme_bytes > 500_000:
+    failures.append(
+        f"README exceeds the GitHub rendering budget: {readme_bytes:,} > 500,000 bytes; "
+        "reduce redundant formatting and verify the live page through its footer"
+    )
 updates_section = re.search(
     r"## What's New\n(.*?)(?=<details\b|\n## |\Z)", readme, re.S
 )
