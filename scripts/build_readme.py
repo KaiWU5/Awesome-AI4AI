@@ -46,6 +46,8 @@ SECTION_ART = {
         "Model-side interventions across plan, execute, feedback, and repair",
     ),
 }
+COLLECTION_PREVIEW_LIMIT = 20
+CATALOG_DIR = ROOT / "catalog"
 VALID_SECTIONS = {
     "targets/data",
     "targets/weights",
@@ -344,6 +346,14 @@ for year in years[:4]:
     ]
 
 parts += [header_remainder.strip(), ""]
+CATALOG_DIR.mkdir(exist_ok=True)
+catalog_index = [
+    "# Complete AI4AI paper collections", "",
+    "[← Repository overview, news and rankings](../README.md)", "",
+    f"**{sum(bool(p.get('collections')) for p in PAPERS.values())} public papers**. "
+    "Collections overlap; each full list is newest first. "
+    "The repository overview previews the latest 20 papers per collection.", "",
+]
 
 for section_group, section_title, subsections in SECTION_LAYOUT:
     parts += [f"## {section_title}", ""]
@@ -360,13 +370,29 @@ for section_group, section_title, subsections in SECTION_LAYOUT:
             continue
         if subsection_title:
             parts += [f"### {subsection_title}", ""]
+        collection_path = f"catalog/{section}.md"
+        full_page = [
+            f"# {section_title}", "",
+            "[← All collections](README.md) · [News and rankings](../README.md)", "",
+            f"**{len(papers)} papers** · Complete collection, newest first. "
+            "Cross-collection papers appear once in each assigned collection.", "",
+            paper_table(papers, citations=True), "",
+            "[← All collections](README.md) · [Repository overview](../README.md)", "",
+        ]
+        (ROOT / collection_path).write_text("\n".join(full_page))
+        catalog_index += [f"- [{section_title} · {len(papers)} papers]({section}.md)"]
         parts += [
             f"> **{len(papers)} papers** · Survey-curated collection, newest first. "
             "Cross-collection papers may appear in more than one section.",
             "",
-            paper_table(papers, citations=True),
+            f"**[Browse all {len(papers)} papers →]({collection_path})** · "
+            f"Latest {min(COLLECTION_PREVIEW_LIMIT, len(papers))} shown below.",
+            "",
+            paper_table(papers[:COLLECTION_PREVIEW_LIMIT], citations=True),
             "",
         ]
+
+(CATALOG_DIR / "README.md").write_text("\n".join(catalog_index) + "\n")
 
 parts.append((ROOT / "scripts" / "footer.md").read_text().rstrip())
 readme = "\n".join(parts) + "\n"

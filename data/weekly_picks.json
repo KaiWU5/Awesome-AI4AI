@@ -1,15 +1,47 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-28",
   "cadence": "Weekly news picks, refreshed every Monday alongside citation rankings.",
   "selection": "The top stories from the trailing 30 days, scored on publisher authority, discussion volume, whether a concrete verifiable result is reported, whether it changes what agent builders do now, whether an artifact was released, and expected durability. Only primary sources are cited, and performance claims remain attributed to their publishers.",
   "items": [
     {
-      "date": "2026-11-20",
+      "date": "2026-11-25",
       "kind": "Paper",
-      "source": "Xiao et al. · arXiv",
-      "title": "CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?",
-      "url": "https://arxiv.org/abs/2611.27116",
-      "why": "The authors release a five-domain benchmark in which AI researchers jointly revise a target model and its harness within 24 hours. Their strongest researcher closes over four fifths of the gap to an instruction-tuned reference, but repeated feedback rarely sustains progress on long-horizon coding."
+      "source": "Liu et al. · arXiv",
+      "title": "RoboEvo2: Recursive Robot Self-Improvement via Harness–Policy Co-Evolution",
+      "url": "https://arxiv.org/abs/2611.34675",
+      "why": "The authors couple harness search with policy distillation, raising hybrid success from 30.4% to 90.5% on LIBERO-PRO without additional human demonstrations. On a real robot, the hybrid reaches 95% after training on 120 simulation-evolved demonstrations; the results do not imply data-free or unrestricted self-improvement."
+    },
+    {
+      "date": "2026-11-25",
+      "kind": "Paper",
+      "source": "Xia et al. · arXiv",
+      "title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+      "url": "https://arxiv.org/abs/2611.33757",
+      "why": "The authors evolve reusable harness policies from 300 out-of-test-distribution trajectories and transfer them across tasks. With GPT-6 Astra, they report 76.4% on DeepSWE v1.1 and 95.5% on Terminal-Bench 2.1, gains of 2.4 and 5.6 points over strong baselines; mature harnesses still win on some settings."
+    },
+    {
+      "date": "2026-11-23",
+      "kind": "Model release",
+      "source": "Z.ai",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://z.ai/blog/glm-5.4?lang=en",
+      "why": "Z.ai introduces a 750B flagship that loops 28 shared layers twice, with per-token update gates and reused attention caches. Its controlled 30B ablation reports gains with about 10% extra training compute and 10–14% fewer output tokens. Chat and coding products launch first; API access and open weights remain planned."
+    },
+    {
+      "date": "2026-11-23",
+      "kind": "Paper",
+      "source": "Pakhomov et al. · arXiv",
+      "title": "ComputeWise: Measuring and Fixing GPU Waste by AI Research Agents",
+      "url": "https://arxiv.org/abs/2611.31027",
+      "why": "The authors replay recorded training runs in a simulated-GPU benchmark, finding that only 52% of agent GPU time serves necessary work. Validating experiment plans removes over 80% of excess time-to-answer across five models. This measures avoidable workflow overhead in replay, rather than an 80% reduction in total real-world training cost."
+    },
+    {
+      "date": "2026-11-22",
+      "kind": "Paper",
+      "source": "Hou et al. · arXiv",
+      "title": "Weight Coding: Evolving Web-Scale Recommenders through Direct Weight Edits with LLM Agents",
+      "url": "https://arxiv.org/abs/2611.29613",
+      "why": "The authors let agents inspect and directly edit retrieval-model weights without backpropagation. On a 147M-parameter image-search model, they report up to 15 points more recall@10 using about one quarter of full fine-tuning GPU hours; production A/B tests show 8.4–10.7% more saves per user from the edited retrieval source."
     },
     {
       "date": "2026-11-20",
@@ -20,28 +52,12 @@
       "why": "The authors train recursive harnesses on shorter and synthetic surrogate tasks, reporting generalization to tasks 2–64 times longer. In the same harness, RLM-27B raises an eight-task average from 46.1 to 58.5 with about half as many inference tokens; this does not establish lower wall-clock or training cost."
     },
     {
-      "date": "2026-11-20",
-      "kind": "Paper",
-      "source": "Zheng et al. · arXiv",
-      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-      "url": "https://arxiv.org/abs/2611.27962",
-      "why": "The authors jointly learn Transformer weights and sublayer gates, removing unused components during pretraining. Across 140M–2.7B models, they report lower validation loss than dense models trained with up to 1.7 times more compute, up to 34% fewer FLOPs per token and up to 1.6 times faster decoding."
-    },
-    {
-      "date": "2026-11-19",
-      "kind": "Paper",
-      "source": "Tang et al. · arXiv",
-      "title": "Sage-Evolve-Preview:Adaptive Observation for Post-Training Self-Improvement",
-      "url": "https://arxiv.org/abs/2611.26132",
-      "why": "The authors adapt diagnostic granularity, task difficulty and related observations while keeping each evaluation anchor fixed. Across eight separately optimized anchors, they report a mean increase from 66.4 to 73.7 under matched data budgets; broader domains and joint training remain untested."
-    },
-    {
       "date": "2026-11-18",
-      "kind": "Paper",
-      "source": "Ling et al. · arXiv",
-      "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-      "url": "https://arxiv.org/abs/2611.24651",
-      "why": "The authors release 0.8B–27B decision models developed through agent-driven data curation and model experiments. They report a 75.59 Decision Index Vision Full score for Piccolo-27B, while showing that falling training loss and longer training on fixed data can hide cross-task regressions."
+      "kind": "Model release",
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "why": "Google reports 65.2% on Terminal-Bench 4.1, 75.8% on Agents’ Last Exam 1.1 and 70.5% on Terminal-Bench-Science. On SWE-sweep, it reports 12.8% with mini-SWE-agent versus 39% with Antigravity, underscoring the influence of the harness. The November 23 page update does not reset its November 18 launch date."
     },
     {
       "date": "2026-11-17",
@@ -58,22 +74,6 @@
       "title": "Qwen4-Max: Your new teammate has arrived",
       "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max",
       "why": "Alibaba releases its 2.4T-parameter multimodal flagship with a 1M-token context window. On its proprietary Work360 benchmark, Alibaba reports 35% fewer tokens and about 60% lower cost per task than Qwen3.8-Max at High effort."
-    },
-    {
-      "date": "2026-11-14",
-      "kind": "Paper",
-      "source": "Qu et al. · arXiv",
-      "title": "CompoundingKernel: Self-Improving from Zero to First",
-      "url": "https://arxiv.org/abs/2611.19230",
-      "why": "The authors report correct kernels for all 235 SOL-ExecBench problems and 4.40× reference speed on the 209 public-board problems on B200. A controller searches over external kernel archives; independent executable checks establish correctness, and reliable measurement throughput limits parallel scaling."
-    },
-    {
-      "date": "2026-11-12",
-      "kind": "Model release",
-      "source": "Google DeepMind",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-      "why": "Google introduces a fast execution model for coding and agentic workflows, reporting 57% on Terminal-Bench 4.1 and 2.5× faster task completion than Gemini 3.8 Flash at high thinking. It brings Gemini 4 to API, AI Studio, app and Search users; availability updates do not reset the launch date."
     },
     {
       "date": "2026-11-09",

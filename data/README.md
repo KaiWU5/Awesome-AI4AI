@@ -13,7 +13,7 @@ This directory contains the structured sources used to generate the public repos
 
 ## Important distinctions
 
-- `collections` drives the three public lists: Benchmarks, Harness Design, and Model Design.
+- `collections` drives the three complete public lists under [`catalog/`](../catalog/README.md): Benchmarks, Harness Design, and Model Design. The root README previews the latest 20 papers per collection.
 - `sections` preserves finer survey provenance and does not create extra README sections.
 - Records with an empty `collections` list are retained only for audit/support provenance.
 - One paper may belong to multiple public collections, but appears only once within each list.

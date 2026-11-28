@@ -45,7 +45,7 @@ python scripts/archive_weekly.py --check
 python scripts/check_repo.py
 ```
 
-3. Commit the regenerated `README.md` and open a pull request.
+3. Commit the regenerated `README.md` and `catalog/*.md` pages with the structured data, then open a pull request.
 
 Run these deterministic offline checks before submitting and confirm that
 generated files match the structured source. Maintainers can additionally run
@@ -101,4 +101,4 @@ publish an immutable edition under [`highlights/`](highlights/README.md).
 - No popularity claims presented as scientific quality.
 - No RSI label without distinguishing self-reference, fixed evaluators, and
   evidence across accepted successors.
-- Never hand-edit generated README tables.
+- Never hand-edit generated README or full collection tables under `catalog/`.

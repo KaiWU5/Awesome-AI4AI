@@ -17,6 +17,7 @@ MARKDOWN = [
     ROOT / "CONTRIBUTING.md",
     ROOT / "data" / "README.md",
     *sorted((ROOT / "highlights").glob("*.md")),
+    *sorted((ROOT / "catalog").glob("*.md")),
 ]
 REQUIRED_ASSETS = {
     "assets/benchmarks.png",
@@ -162,6 +163,8 @@ for relative in REQUIRED_ASSETS:
 
 for path in MARKDOWN:
     text = path.read_text()
+    if path.parent.name == "catalog" and len(text.encode("utf-8")) > 500_000:
+        failures.append(f"{path.relative_to(ROOT)} exceeds the GitHub rendering budget")
     if "<!--" in text and path.name == "README.md":
         failures.append("README.md still contains generator placeholders")
     for old in OLD_BRANDING:
@@ -338,6 +341,18 @@ else:
     ):
         failures.append("news items are not newest first")
 
+catalog_index_path = ROOT / "catalog" / "README.md"
+if not catalog_index_path.is_file():
+    failures.append("missing full collection index")
+else:
+    catalog_index = catalog_index_path.read_text()
+    if f"**{public_papers} public papers**" not in catalog_index:
+        failures.append("full collection index has a stale unique public count")
+    for collection in VALID_COLLECTIONS:
+        if f"]({collection}.md)" not in catalog_index:
+            failures.append(f"full collection index does not link to {collection}")
+
+collection_pages = []
 for index, (collection, heading) in enumerate(COLLECTION_HEADINGS):
     if heading not in readme:
         failures.append(f"README is missing collection heading: {heading}")
@@ -357,23 +372,40 @@ for index, (collection, heading) in enumerate(COLLECTION_HEADINGS):
     ]
     if f"**{len(mapped)} papers**" not in section:
         failures.append(f"README has a stale {collection} paper count")
+    full_path = ROOT / "catalog" / f"{collection}.md"
+    if not full_path.is_file():
+        failures.append(f"missing full collection page: {collection}")
+        continue
+    full_text = full_path.read_text()
+    collection_pages.append(full_text)
+    if f"**{len(mapped)} papers**" not in full_text:
+        failures.append(f"full {collection} page has a stale paper count")
+    if f"](catalog/{collection}.md)" not in section:
+        failures.append(f"README does not link to the full {collection} page")
+    expected_preview = sorted(mapped, key=paper_sort_date, reverse=True)[:20]
+    rendered_preview = re.findall(r"\[\*\*.*?\*\*\]\(([^)]+)\)", section)
+    if rendered_preview != [paper["url"] for paper in expected_preview]:
+        failures.append(f"README {collection} preview must show the latest 20 papers")
+    rendered_full = re.findall(r"\[\*\*.*?\*\*\]\(([^)]+)\)", full_text)
+    if len(rendered_full) != len(mapped):
+        failures.append(f"full {collection} page has extra or missing paper rows")
     positions = []
     for paper in mapped:
         title = str(paper["title"]).replace("|", "\\|")
         fragment = f"[**{title}**]({paper['url']})"
-        occurrences = section.count(fragment)
+        occurrences = full_text.count(fragment)
         if occurrences != 1:
             failures.append(
-                f"README renders {occurrences} copies of {collection} paper: "
+                f"full page renders {occurrences} copies of {collection} paper: "
                 f"{paper['title']}"
             )
         else:
-            positions.append((paper_sort_date(paper), section.index(fragment)))
+            positions.append((paper_sort_date(paper), full_text.index(fragment)))
     ordered_positions = [position for _, position in sorted(
         positions, key=lambda item: item[0], reverse=True
     )]
     if ordered_positions != sorted(ordered_positions):
-        failures.append(f"README {collection} collection is not newest first")
+        failures.append(f"full {collection} collection is not newest first")
 
 for key, paper in papers.items():
     if (
@@ -382,8 +414,8 @@ for key, paper in papers.items():
     ):
         continue
     expected = f"[GitHub]({paper['code']}) · ★ {paper['github_stars']:,}"
-    if expected not in readme:
-        failures.append(f"README is missing GitHub stars for: {key}")
+    if expected not in readme and not any(expected in page for page in collection_pages):
+        failures.append(f"published catalog is missing GitHub stars for: {key}")
 
 if failures:
     raise SystemExit("\n".join(failures))
